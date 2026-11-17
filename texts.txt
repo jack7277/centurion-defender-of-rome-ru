@@ -2669,7 +2669,7 @@ EGA не вкл.
 Перед вами лежат густые леса Германии, где живут бесчисленные варварские племена, чьи воины прославились своим неистовством в бою.
 [0810] src=ENEGO/SCOUT.LZW key=13 max=*
 ; Your scouts report that Dalmatia will not be an easy conquest.  Laced with forested mountain ranges, this rugged land seldom falls to invaders and is difficult to rule effectively.
-Ваши\Ваши разведчики сообщают, что Далмецию будет трудно завоевать.
+Ваши разведчики сообщают, что Далмацию будет трудно завоевать.
 [0811] src=ENEGO/SCOUT.LZW key=14 max=*
 ; Your troops cross into Dacia.  The warriors of Dacia are among the fiercest in the known world and the land is unfriendly to any intruder, especially the emissaries of Rome.
 Ваши войска перешли в Дакию.
@@ -2678,34 +2678,34 @@ EGA не вкл.
 Сухой и пыльный, регион, называемый Испания является частью Империи Карфагена и армии Карфагена готовы к бою.
 [0813] src=ENEGO/SCOUT.LZW key=16 max=*
 ; Your scouts report that Mauretania is a rocky, desert region.  The cities are confined to the coastal areas, and the leaders may not be friendly.
-Ваши\Ваши разведчики сообщают, что Мавретания является скалистым, пустынным регионом.
+Ваши разведчики сообщают, что Мавретания является скалистым, пустынным регионом.
 [0814] src=ENEGO/SCOUT.LZW key=17 max=*
 ; Your legion arrives in Cyrenaica, a desert region to the west of Aegyptus.  While it remains under the influence of the Aegyptian Empire, Cyrenaica may be hostile to Rome.
-Ваш\Ваш легион прибыл в Киренаику, пустынный район к западу от Египта.
+Ваш легион прибыл в Киренаику, пустынный район к западу от Египта.
 [0815] src=ENEGO/SCOUT.LZW key=18 max=*
 ; The deserts of Arabia stretch before you, dotted only occasionally with an oasis or waterhole.  This land has little to offer Romans save death and despair.
-Перед вами\вами простирнулись пустыни Аравии, с видимым лишь изредка оазисом или водопоем.
+Перед вами простирнулись пустыни Аравии, с видимым лишь изредка оазисом или водопоем.
 [0816] src=ENEGO/SCOUT.LZW key=19 max=*
 ; Before your troops spreads the ancient valley of the Tigris and Euphrates, twin rivers that embrace the cradle of civilization.
-Перед вашими\вашими войсками простирнулась древняя долина Тигра и Евфрата, две реки, которые охватывают колыбель цивилизации.
+Перед вашими войсками простирнулась древняя долина Тигра и Евфрата, две реки, которые охватывают колыбель цивилизации.
 [0817] src=ENEGO/SCOUT.LZW key=20 max=*
 ; Your scouts return from the rugged mountains of Armenia to report that the region is largely unpopulated.  But Armenian forces meet your troops soon after penetrating the border.
-Ваши\Ваши разведчики, вернувщись из скалистых гор Армении, сообщают, что регион заселен незначительно.
+Ваши разведчики, вернувшись из скалистых гор Армении, сообщают, что регион заселен незначительно.
 [0818] src=ENEGO/SCOUT.LZW key=21 max=*
 ; Your forces arrive in Sicilia, and the scouts report that the island will not be easily conquered.  Its natural defenses include rugged countryside and the surrounding ocean.
-Ваши\Ваши войска прибыли в Сицилию, а разведчики сообщают, что остров будет сложно завоевать.
+Ваши войска прибыли в Сицилию, а разведчики сообщают, что остров будет сложно завоевать.
 [0819] src=ENEGO/SCOUT.LZW key=22 max=*
 ; Your fleet approaches the maritime nation of Sardinia, a center of trade in Mare Nostrum.  Your aides tell you the island has great strategic importance.
-Ваш\Ваш флот приплыл к морскому государству Сардинии, центру торговли в Средиземном море.
+Ваш флот приплыл к морскому государству Сардинии, центру торговли в Средиземном море.
 [0820] src=ENEGO/SCOUT.LZW key=23 max=*
 ; You and your men cross the channel safely to Britannia, an island of green trees and fields, unpredictable weather and warlike barbarian tribes.
-Вы\Вы и ваши\ваши люди безопасно пересекли канал в Британию, остров зеленых деревьев и полей, непредсказуемой погоды и воинственных варварских племен.
+Вы и ваши люди безопасно пересекли канал в Британию, остров зеленых деревьев и полей, непредсказуемой погоды и воинственных варварских племен.
 [0821] src=ENEGO/SCOUT.LZW key=24 max=*
 ; Along the coast of Mare Nostrum, ten days' march from Rome, you enter the region known as Narbonensis.  Your soldiers are tense with anticipation and eager for a fight.
-Маршируя десять дней из Рима вдоль побережья Средиземного моря, вы\вы входишь\входите в регион, известный как Нарбоненсис. Ваши\Ваши солдаты напряжены и с нетерпением ожидают сражения\боя.
+Маршируя десять дней из Рима вдоль побережья Средиземного моря, вы входите в регион, известный как Нарбоненсис. Ваши солдаты напряжены и с нетерпением ожидают боя.
 [0822] src=ENEGO/SCOUT.LZW key=25 max=*
 ; Your troops march into Scythia.  In the wilds of Scythia are scattered tribes with warlike traditions and many courageous fighters.  The days ahead may be costly to Romans and Scythians alike.
-Ваши\Ваши войска пришли в Скифию.
+Ваши войска пришли в Скифию.
 [0823] src=ENEGO/SCOUT.LZW key=26 max=*
 ; The legions of Rome enter Sarmatia and the scouts return with descriptions of a vast region with many tribes and few leaders.  Still, a Sarmatian force soon gathers to meet your army.
 Легионы Рима вошли в Сарматию и разведчики возвращаются с описанием огромного региона со множеством племён и несколькими лидерами.
@@ -3350,7 +3350,7 @@ EGA не вкл.
 Говорите, но не испытывай наше терпение.
 [1037] src=ENEGO/TEXTP.LZW key=2 max=*
 ; We accept you as an ally.  The desert vastness is full of peril, we need your protection.~So is our alliance sealed.  Your might combined with ours assures our safety.~With your strength on our side, our enemies will fear us.  We agree to this alliance.
-Мы принимаем вас как союзника.  Пустыня полна опасностей, мы нуждаемся в вашей защите.~Итак наш союз\альянс закреплен.  Ваша мощь\сила объединенная с нами обеспечит\гарантирует нам безопасность.~С вашей силой на нашей стороне, наши враги будут бояться нас.  Мы согласны на этот союз.
+Мы принимаем вас как союзника.  Пустыня полна опасностей, мы нуждаемся в вашей защите.~Итак наш союз закреплен.  Ваша сила, объединённая с нашей, обеспечит нам безопасность.~С вашей силой на нашей стороне, наши враги будут бояться нас.  Мы согласны на этот союз.
 [1038] src=ENEGO/TEXTP.LZW key=3 max=*
 ; Extortion! We'd sooner die than pay!
 Вымогательство! Мы скорее умрём, чем заплатим!
@@ -3380,7 +3380,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Итак, вы используете обольстительный дипломатический тон. Продолжай.
 [1047] src=ENEGO/TEXTQ.LZW key=0 max=*
 ; The king of Cyrenaica does not make deals with lackeys.~Kings do not negotiate with peasants.~A king negotiate with a slave? Out of the question!
-Король Киреники не заключает сделок с лжецами\прислужниками.~Цари не ведут переговоров с крестьянами.~Царь ведёт переговоры с рабом? Об этом не может быть и речи!
+Король Киреники не заключает сделок с лжецами.~Цари не ведут переговоров с крестьянами.~Царь ведёт переговоры с рабом? Об этом не может быть и речи!
 [1048] src=ENEGO/TEXTQ.LZW key=1 max=*
 ; What are your true goals, noble Roman?
 Каковы ваши истинные цели, благородный римлянин?
@@ -3392,7 +3392,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Вы исходите из жадности.  Замечательно! (по-моему, значение у слова другое)
 [1051] src=ENEGO/TEXTQ.LZW key=4 max=*
 ; And when our back was turned, your sword would find it.  Why not fight us now?
-И когда наша спина будет повернута\обращена назад, ваш меч найдет её.  Почему бы не сразится с нами сейчас?
+И когда наша спина будет повернута, ваш меч найдет её.  Почему бы не сразится с нами сейчас?
 [1052] src=ENEGO/TEXTQ.LZW key=5 max=*
 ; We may be thieves, but at least we are brave, unlike Romans!
 Мы можем быть ворами, но мы по крайней мере смелы, в отличие от римлян!
@@ -3419,13 +3419,13 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Добро пожаловать, коллега разбойник.  Мы как братья.
 [1060] src=ENEGO/TEXTR.LZW key=0 max=*
 ; Foul intruder! We will paint the desert with your blood!~Your blood will seep into the desert sands ere sundown!~Swine! Vultures shall feast upon your bloated corpse!
-Грязный нарушитель! Мы раскрасим пустыню с вашей кровью!~Ваша кровь будет просматриваться в закате до песков пустыни!~нахал\Свинья! Стервятники должны насытиться вашим распухшым трупом!
+Грязный нарушитель! Мы раскрасим пустыню с вашей кровью!~Ваша кровь будет просматриваться в закате до песков пустыни!~Свинья! Стервятники должны насытиться вашим распухшим трупом!
 [1061] src=ENEGO/TEXTR.LZW key=1 max=*
 ; We will admit this envoy of Rome to our presence.  But only for a moment.
 Мы согласны принять у себя посланника Рима. Но ненадолго.
 [1062] src=ENEGO/TEXTR.LZW key=2 max=*
 ; We will grant this alliance, for our enemies are many and we are but few.~Our people are few and surrounded by foes.  An alliance is necessary.~We are a small nation encircled by jackals.  This alliance shall protect us.
-Мы согласны на этот союз, ибо враги наши многочисленны, а нас мало.~Наш народ мал и окружён врагами.  Союз необходим.~Мы маленькая нация\страна окруженная шакалами.  Этот альянс\союз защитит нас.
+Мы согласны на этот союз, ибо враги наши многочисленны, а нас мало.~Наш народ мал и окружён врагами.  Союз необходим.~Мы маленькая страна окруженная шакалами.  Этот союз защитит нас.
 [1063] src=ENEGO/TEXTR.LZW key=3 max=*
 ; Robbery! You will have to kill us first!
 Грабеж! Вам придётся сначала убить нас!
@@ -3440,7 +3440,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Ах, развлечение закончилось.  Дипломатия окончена.
 [1067] src=ENEGO/TEXTR.LZW key=7 max=*
 ; You are too weak to make such demands.  Leave Arabia, or your pitiful legion will be destroyed!
-Вы слишком слаб, чтобы предлагать\выдвигать такие требования.  Оставьте Аравию, или ваши жалкие легиона будут уничтожены!
+Вы слишком слаб, чтобы выдвигать такие требования.  Оставьте Аравию, или ваши жалкие легиона будут уничтожены!
 [1068] src=ENEGO/TEXTR.LZW key=8 max=*
 ; You take us for fools? Leave us, Roman!
 Вы принимаете нас за дураков? Оставьте нас, Римлянин.
@@ -3491,7 +3491,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Вы не столь искусный лжец, как думаете.
 [1084] src=ENEGO/TEXTS.LZW key=12 max=*
 ; We are an ancient race, victors in many wars.  We are about to win one more!~Primitive braggart! The heirs of Hammurabi shall slaughter you like sheep.~Fight, if you dare.  May the gods grant us strength to destroy you utterly.
-Мы древний народ, победители многих войн.  Мы собираемся, чтобы выиграть еще раз!~Примитивный хвастун! Наследники Хаммурапи должны забить\резать\избить\убить вас, как овцу.~Сражайтесь, если сможете.  Пусть боги даруют нам силы, чтобы полностью вас уничтожить.
+Мы древний народ, победители многих войн.  Мы собираемся, чтобы выиграть еще раз!~Примитивный хвастун! Наследники Хаммурапи должны убить вас, как овцу.~Сражайтесь, если сможете.  Пусть боги даруют нам силы, чтобы полностью вас уничтожить.
 [1085] src=ENEGO/TEXTT.LZW key=0 max=*
 ; Leave Armenia while you may!~Be gone or feel the sting of our blades!~Retreat or face certain defeat and death!
 Оставьте Армению как только вы сможете!~Исчезни или почувствуй остроту наших лезвий!~Отступите или столкнись с поражением и смертью!
