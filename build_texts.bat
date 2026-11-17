@@ -1,4 +1,5 @@
 @echo off
 chcp 65001 >nul
-python "%~dp0analysis\textool.py" build
+rem Полная пересборка RU: тексты + кириллица + EXE (textool build отдельно игру ломает)
+python "%~dp0analysis\build_ru.py"
 pause
