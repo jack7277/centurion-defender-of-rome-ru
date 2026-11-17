@@ -1672,19 +1672,19 @@ cent
 [0514] src=OVL0.OVL key=0x11852 max=64
 ; THE LEGENDS SAY Rome was planned by the gods themselves.  After
 ; 
-ЛЕГЕНДЫ ГЛАСЯТ: Рим был задуман самими богами.  После\n
+ЛЕГЕНДЫ ГЛАСЯТ: Рим был задуман самими богами.\n
 [0515] src=OVL0.OVL key=0x11893 max=64
 ; the fall of Troy it was the gods who led a band of Trojans to a
 ; 
-падения Трои боги привели отряд троянцев в\n
+После падения Трои боги привели отряд троянцев\n
 [0516] src=OVL0.OVL key=0x118D4 max=63
 ; promised land in the West.  There, Romulus and Remus were born
 ; 
-обетованную землю на Западе.  Там родились Ромул и Рем\n
+в обетованную землю на Западе. Там родились\n
 [0517] src=OVL0.OVL key=0x11914 max=54
 ; to a Vestal Virgin and nursed by a friendly she-wolf.
 ; 
-у весталки и вскормлены доброй волчицей.\n
+Ромул и Рем, их выкормила добрая волчица.\n
 [0518] src=OVL0.OVL key=0x1194B max=63
 ;     Upon reaching manhood, the twins founded Rome on the banks
 ; 
@@ -1692,14 +1692,14 @@ cent
 [0519] src=OVL0.OVL key=0x1198B max=67
 ; of the Tiber River.  The city prospered and grew until one day the
 ; 
-реки Тибр.  Город процветал и рос, пока однажды\n
+Тибра. Город процветал, пока однажды римляне\n
 [0520] src=OVL0.OVL key=0x119CF max=64
 ; Romans reached out from their tiny domain with a great dream of
 ; 
-римляне вышли из своей малой земли с великой мечтой о\n
+не вышли из малой земли с великой мечтой о\n
 [0521] src=OVL0.OVL key=0x11A10 max=8
 ; glory...
-славы...
+славе...
 [0522] src=OVL0.OVL key=0x11A19 max=147
 ; It is 400 years after the
 ; Founding, and a young Roman
