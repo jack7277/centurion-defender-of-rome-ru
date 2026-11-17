@@ -202,7 +202,7 @@ ovl0.ovl
 [0057] src=OVL0.OVL key=0xBB04 max=44
 ; Storms rage across Mare Nostrum!!  The
 ; navy 
-Штормы бушуют в Нашем море!!  \nфлот 
+Штормы бушуют в Средиземном море!!  \nфлот 
 [0058] src=OVL0.OVL key=0xBB31 max=16
 ;  ships are lost.
  судов потеряно.
@@ -1184,7 +1184,7 @@ O"O%O'O*O.O3O6O7O9O<O@OCOEOHOLOQO
 Чёрное море
 [0358] src=OVL0.OVL key=0x10614 max=12
 ; Mare Nostrum
-Наше море
+Сред. море
 [0359] src=OVL0.OVL key=0x109CC max=10
 ; Rebellious
 Мятежный
@@ -1308,11 +1308,11 @@ sky0.cbm
 [0396] src=OVL0.OVL key=0x10CF6 max=4
 ; 
 ; in 
-\nв
+\nв 
 [0397] src=OVL0.OVL key=0x10CFB max=4
 ; 
 ; in 
-\nв
+\nв 
 [0398] src=OVL0.OVL key=0x10D00 max=7
 ; Officer
 Офицер
@@ -2696,13 +2696,13 @@ EGA не вкл.
 Ваши\Ваши войска прибыли в Сицилию, а разведчики сообщают, что остров будет сложно завоевать.
 [0819] src=ENEGO/SCOUT.LZW key=22 max=*
 ; Your fleet approaches the maritime nation of Sardinia, a center of trade in Mare Nostrum.  Your aides tell you the island has great strategic importance.
-Ваш\Ваш флот приплыл к морскому государству Сардинии, центру торговли в Нашем Море.
+Ваш\Ваш флот приплыл к морскому государству Сардинии, центру торговли в Средиземном море.
 [0820] src=ENEGO/SCOUT.LZW key=23 max=*
 ; You and your men cross the channel safely to Britannia, an island of green trees and fields, unpredictable weather and warlike barbarian tribes.
 Вы\Вы и ваши\ваши люди безопасно пересекли канал в Британию, остров зеленых деревьев и полей, непредсказуемой погоды и воинственных варварских племен.
 [0821] src=ENEGO/SCOUT.LZW key=24 max=*
 ; Along the coast of Mare Nostrum, ten days' march from Rome, you enter the region known as Narbonensis.  Your soldiers are tense with anticipation and eager for a fight.
-Маршируя десять дней из Рима вдоль побережья Нашего Моря, вы\вы входишь\входите в регион, известный как Нарбоненсис. Ваши\Ваши солдаты напряжены и с нетерпением ожидают сражения\боя.
+Маршируя десять дней из Рима вдоль побережья Средиземного моря, вы\вы входишь\входите в регион, известный как Нарбоненсис. Ваши\Ваши солдаты напряжены и с нетерпением ожидают сражения\боя.
 [0822] src=ENEGO/SCOUT.LZW key=25 max=*
 ; Your troops march into Scythia.  In the wilds of Scythia are scattered tribes with warlike traditions and many courageous fighters.  The days ahead may be costly to Romans and Scythians alike.
 Ваши\Ваши войска пришли в Скифию.
