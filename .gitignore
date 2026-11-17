@@ -20,3 +20,6 @@ __pycache__/
 *.pyc
 *.i64
 *.asm
+.centurion_translate_thread/
+centurion_translate_thread/
+analysis/merge_base_report.txt
