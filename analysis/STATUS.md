@@ -114,3 +114,5 @@
 
 ## 2026-11-17
 - Проект причесан под GitHub: удалены IDA-базы/.asm/логи/кэш; добавлены .gitignore, .gitattributes, README.md; git init + первый коммит (40 файлов). Игра, orig/, unpacked-бинарники, сейвы, decoded-картинки и dosbox-дистрибутив в репо НЕ входят.
+
+- cbm_encode.py: PNG -> TITLE.CBM в MINIT.DAT (квантование в палитру TITLE, LZSS, round-trip проверка); title_ru.py: генератор титула ЦЕНТУРИОН 313x51 в стиле оригинала (золото+экструзия)
