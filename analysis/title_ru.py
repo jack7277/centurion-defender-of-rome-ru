@@ -12,7 +12,7 @@ OUT = os.path.join(ROOT, 'decoded', 'cbm', 'MINIT_TITLE_RU.png')
 W, H = 313, 51
 BG = (113, 116, 93)
 FACE = (192, 141, 82)
-SHADES = [(67, 51, 52), (67, 40, 36), (63, 36, 23)]   # от грани вглубь
+SHADES = [(67, 40, 36)]                               # однотонная боковина
 DEPTH = 7                                               # глубина экструзии, px
 MARGIN = 1
 
