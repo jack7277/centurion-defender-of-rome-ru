@@ -210,7 +210,10 @@ def build_ov():
     return labels, POCKET + len(blk)
 
 def build_exe(labels, pocket_end):
-    img = bytearray(open(os.path.join(HERE, 'CENTURIO.unpacked.bin'), 'rb').read())
+    unp = os.path.join(HERE, 'CENTURIO.unpacked.bin')
+    if not os.path.exists(unp) or not os.path.exists(os.path.join(HERE, 'relocs.json')):
+        import unpack_exe; unpack_exe.main()
+    img = bytearray(open(unp, 'rb').read())
     # фильтры знакового сравнения: jl -> jb (пропуск байтов >= 0x80)
     for off in (0x8CA4, 0x8A8D):
         assert img[off] == 0x7C, hex(off)
