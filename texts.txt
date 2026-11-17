@@ -1,0 +1,3971 @@
+﻿# Centurion: Defender of Rome — ТЕКСТЫ ИГРЫ
+#
+# КАК РЕДАКТИРОВАТЬ:
+#   Под каждым заголовком [NNNN] сначала идут строки с ';' — это оригинал
+#   (не трогайте их, они только для справки), а ПОСЛЕДНЯЯ строка без ';' —
+#   редактируемый текст. Именно она попадёт в игру.
+#   \n внутри строки = перевод строки в игре. Реальный перенос строки тоже работает.
+#   max=NN  — текст НЕ ДЛИННЕЕ NN символов (место в файле фиксировано!).
+#   max=*   — длина свободная (ресурс пересобирается целиком).
+#   В строках ENEGO/TEXTx символ ~ разделяет варианты одной фразы —
+#   сохраняйте количество '~', иначе сместятся варианты ответов.
+#   Русский текст пишите обычными буквами — при сборке кодируется в cp866.
+#   tech=1 в заголовке — служебная строка (имя файла/модуля), сборка её
+#   ПРОПУСКАЕТ, даже если вы её изменили. Не переводите такие строки.
+#
+[0000] src=OVL0.OVL key=0xB4CA max=17
+; GGA Rebellion in 
+GGA Мятеж в 
+[0001] src=OVL0.OVL key=0xB4E0 max=45
+;  meets the rebel army
+; on the field of battle.
+ встречает мятежную армию\nна поле боя.
+[0002] src=OVL0.OVL key=0xB50E max=23
+; Rebellious citizens in 
+Мятежные граждане в 
+[0003] src=OVL0.OVL key=0xB526 max=52
+; 
+; throw off the Roman yoke!
+; You have lost a province.
+\nсбросили римское ярмо!\nВы потеряли провинцию.
+[0004] src=OVL0.OVL key=0xB55B max=14
+; The Revolt in
+; 
+Мятеж в\n
+[0005] src=OVL0.OVL key=0xB56A max=7
+;  Fails!
+ Провал
+[0006] src=OVL0.OVL key=0xB572 max=12
+; Really Quit?
+Точно выйти?
+[0007] src=OVL0.OVL key=0xB57F max=52
+; Sic Transit Gloria Mundi
+; The Roman Empire Has Fallen
+Sic Transit Gloria Mundi\nРимская империя пала
+[0008] src=OVL0.OVL key=0xB5CC max=7 tech=1
+; map.cbm
+map.cbm
+[0009] src=OVL0.OVL key=0xB5D4 max=7 tech=1
+; bb1.cbm
+bb1.cbm
+[0010] src=OVL0.OVL key=0xB5DC max=7 tech=1
+; bb2.cbm
+bb2.cbm
+[0011] src=OVL0.OVL key=0xB5E4 max=11 tech=1
+; raceest.cbm
+raceest.cbm
+[0012] src=OVL0.OVL key=0xB5F0 max=12 tech=1
+; arenabtm.cbm
+arenabtm.cbm
+[0013] src=OVL0.OVL key=0xB5FD max=7
+; Program
+Program
+[0014] src=OVL0.OVL key=0xB605 max=6
+; Data 1
+Data 1
+[0015] src=OVL0.OVL key=0xB60C max=6
+; Data 2
+Data 2
+[0016] src=OVL0.OVL key=0xB613 max=7 tech=1
+; batlvga
+batlvga
+[0017] src=OVL0.OVL key=0xB61B max=4 tech=1
+; navl
+navl
+[0018] src=OVL0.OVL key=0xB620 max=15
+; :No Data Memory
+:Мало памяти
+[0019] src=OVL0.OVL key=0xB630 max=14
+; :No DOS Memory
+:Мало пам. DOS
+[0020] src=OVL0.OVL key=0xB640 max=14
+; :No EGA Memory
+:Мало пам. EGA
+[0021] src=OVL0.OVL key=0xB678 max=4
+; .DAT
+.DAT
+[0022] src=OVL0.OVL key=0xB67E max=4
+; .DIR
+.DIR
+[0023] src=OVL0.OVL key=0xB684 max=7 tech=1
+; HDR.LZW
+HDR.LZW
+[0024] src=OVL0.OVL key=0xB68C max=7 tech=1
+; DAT.LZW
+DAT.LZW
+[0025] src=OVL0.OVL key=0xB6C6 max=14
+; Please Insert 
+Вставьте 
+[0026] src=OVL0.OVL key=0xB6D5 max=26
+;  Disk
+;  Into Drive A: or B:
+ Диск\n в диск A: или B:
+[0027] src=OVL0.OVL key=0xB6F0 max=37
+; Exiting Program
+; Cannot Find Data File
+Выход\nНе найден файл данных
+[0028] src=OVL0.OVL key=0xB716 max=18
+; :OpenConcat Failed
+:Сбой OpenConcat
+[0029] src=OVL0.OVL key=0xB729 max=19
+; :Header Scan failed
+:Ошибка индекса
+[0030] src=OVL0.OVL key=0xB73D max=10
+; :not found
+:не найден
+[0031] src=OVL0.OVL key=0xB748 max=12
+; Save Game...
+Сохранить...
+[0032] src=OVL0.OVL key=0xB755 max=12
+; Load Game...
+Загрузить...
+[0033] src=OVL0.OVL key=0xB762 max=8
+; New Game
+Заново
+[0034] src=OVL0.OVL key=0xB76B max=18
+; About Centurion...
+Об игре...
+[0035] src=OVL0.OVL key=0xB77E max=20
+; Difficulty Levels...
+Сложность...
+[0036] src=OVL0.OVL key=0xB793 max=11
+; Quit to DOS
+Выход в DOS
+[0037] src=OVL0.OVL key=0xB79F max=16
+; Continue Playing
+Продолжить
+[0038] src=OVL0.OVL key=0xB7B0 max=11
+; Land Battle
+Бой на суше
+[0039] src=OVL0.OVL key=0xB7BC max=15
+; Racing Chariots
+Гонки колесниц
+[0040] src=OVL0.OVL key=0xB7CC max=19
+; Gladiatorial Combat
+Бой гладиаторов
+[0041] src=OVL0.OVL key=0xB7E0 max=12
+; Naval Battle
+Морской бой
+[0042] src=OVL0.OVL key=0xB7ED max=17
+; Game Control Menu
+Меню управления
+[0043] src=OVL0.OVL key=0xB7FF max=21
+; Difficulty Level Menu
+Меню сложности
+[0044] src=OVL0.OVL key=0xB815 max=16
+; Fine Tuning Menu
+Меню настройки
+[0045] src=OVL0.OVL key=0xB826 max=16
+;  Difficulty Menu
+ Меню сложности
+[0046] src=OVL0.OVL key=0xB838 max=12
+; Galley Slave
+Галерный раб
+[0047] src=OVL0.OVL key=0xB846 max=11
+; Legionnaire
+Легионер
+[0048] src=OVL0.OVL key=0xB852 max=7
+; Senator
+Сенатор
+[0049] src=OVL0.OVL key=0xB85A max=7
+; Emperor
+Цезарь
+[0050] src=OVL0.OVL key=0xB862 max=11
+; Fine Tuning
+Настройка
+[0051] src=OVL0.OVL key=0xB86E max=21
+; Version 1.00B 5/29/90
+Version 1.00B 5/29/90
+[0052] src=OVL0.OVL key=0xB9EE max=131
+; CENTURION
+; Defender of Rome
+; by Kellyn Beck and Bits of Magic
+; 
+; Copyright @ 1990, Kellyn Beck and
+; Bits of Magic. All Rights Reserved.
+; 
+ЦЕНТУРИОН\nЗащитник Рима\nот Kellyn Beck и Bits of Magic\n\nCopyright @ 1990, Kellyn Beck и\nBits of Magic. Все права защищены.\n
+[0053] src=OVL0.OVL key=0xBA72 max=12
+; Really Quit?
+Точно выйти?
+[0054] src=OVL0.OVL key=0xBA8C max=8 tech=1
+; ovl0.ovl
+ovl0.ovl
+[0055] src=OVL0.OVL key=0xBAAC max=46
+; Please Insert Program Disk
+; Into Drive A: or B:
+Вставьте диск с программой\nВ диск A: или B:
+[0056] src=OVL0.OVL key=0xBADB max=40
+; Exiting Program
+; Cannot Find Overlay File
+Выход\nНе найден файл оверлея
+[0057] src=OVL0.OVL key=0xBB04 max=44
+; Storms rage across Mare Nostrum!!  The
+; navy 
+Штормы бушуют в Нашем море!!  \nфлот 
+[0058] src=OVL0.OVL key=0xBB31 max=16
+;  ships are lost.
+ судов потеряно.
+[0059] src=OVL0.OVL key=0xBB42 max=19
+; is caught at sea!  
+перехвачен в море! 
+[0060] src=OVL0.OVL key=0xBB56 max=20
+; rides at anchor but 
+стоит на якоре, но 
+[0061] src=OVL0.OVL key=0xBB6B max=46
+; A mysterious disease decimates your legion
+; in 
+Таинственная болезнь косит ваш легион\nв 
+[0062] src=OVL0.OVL key=0xBB9A max=28
+; .  You lose every tenth man.
+.  Теряешь каждого десятого.
+[0063] src=OVL0.OVL key=0xBBB7 max=104
+; You discover Nero's fiddle in a junk shop
+; and donate it to a museum.  The publicity
+; will help you reach 
+Вы находите скрипку Нерона в лавке\nстарьёвщика и дарите её музею.  Известность\nпоможет вам достичь 
+[0064] src=OVL0.OVL key=0xBC20 max=101
+; The senate approves a new road-building
+; program and the cost swallows up half of
+; this year's tribute.
+Сенат одобряет программу дорожного\nстроительства, и расходы пожирают половину\nдани за этот год.
+[0065] src=OVL0.OVL key=0xBC86 max=128
+; Cilician pirates are on the loose!!
+; The brigands plunder a tribute fleet returning
+; to Rome!  All of this year's tribute is lost!
+Киликийские пираты вышли на охоту!!\nРазбойники грабят флот с данью, идущий\nв Рим!  Вся дань за этот год потеряна!
+[0066] src=OVL0.OVL key=0xBD07 max=96
+; The senate passes a new tax on chariots
+; to rebuild the Circus Maximus.  You must
+; pay 20 talents.
+Сенат вводит новый налог на колесницы\nна ремонт Большого Цирка.  Вы должны\nплатите 20 талантов.
+[0067] src=OVL0.OVL key=0xBD68 max=79
+; Your chariot loses a wheel on the Appian
+; Way.  The repairs cost you 10 talents.
+У колесницы отлетело колесо на Аппиевой\nДороге.  Ремонт стоит 10 талантов.
+[0068] src=OVL0.OVL key=0xBDB8 max=141
+; You organize an excursion to Mt. Vesuvius on the
+; day of an eruption and the volcano swallows up a
+; guest.  Your next promotion may be delayed.
+Вы устроили экскурсию на Везувий\nв день извержения, и вулкан поглотил одного\nгостя.  Ваше повышение может отложиться.
+[0069] src=OVL0.OVL key=0xBE46 max=127
+; You take a senator's daughter to the catacombs
+; and get lost.  You are the laughingstock of Rome.
+; Your next rank may be delayed.
+Вы повели дочь сенатора в катакомбы\nи заблудились.  Вы стали посмешищем Рима.\nПовышение может задержаться.
+[0070] src=OVL0.OVL key=0xBEC6 max=127
+; A prophet parts the Red Sea and one of your
+; legations is caught in the backwash.  The
+; Senate delays considering your promotion.
+Пророк раздвинул Красное море, и ваша\nделегация попала в обратный поток.  Сенат\nоткладывает рассмотрение вашего повышения.
+[0071] src=OVL0.OVL key=0xBF46 max=102
+; A gladiator named Spartacus leads a slave
+; rebellion in Italia.  The Senate looks on
+; you with disfavor.
+Гладиатор по имени Спартак ведёт мятеж\nрабов в Италии.  Сенат смотрит на вас\nнеодобрительно.
+[0072] src=OVL0.OVL key=0xBFAD max=106
+; Romans burn the library at Alexandria
+; and Cleopatra demands restitution.
+; All citizens must pay 20 talents.
+Римляне сожгли библиотеку в Александрии,\nи Клеопатра требует возмещения.\nВсе граждане платят 20 талантов.
+[0073] src=OVL0.OVL key=0xC018 max=148
+; You find a large wooden horse on an
+; expedition to Asia Minor, but your
+; 'Buy a Piece of the Trojan Horse' idea
+; is a dismal failure.  Lose 20 talents.
+Вы нашли большого деревянного коня\nв экспедиции в Малую Азию, но ваша идея\n"Купи кусочек Троянского коня"\nпровалилась.  Теряешь 20 талантов.
+[0074] src=OVL0.OVL key=0xC0AD max=129
+; You find a wooden ship on an expedition to
+; Mt. Ararat and it resembles an ark.  Your
+; reputation swells and promotion is imminent.
+Вы находите деревянный корабль в экспедиции\nна гору Арарат, и он похож на ковчег.  Ваша\nрепутация растёт, повышение близко.
+[0075] src=OVL0.OVL key=0xC12F max=113
+; You support the winning candidate in this
+; year's consular elections.  He promises to
+; support your next promotion.
+Вы поддержали победившего кандидата на\nконсульских выборах этого года.  Он обещает\nподдержать ваше повышение.
+[0076] src=OVL0.OVL key=0xC1A1 max=101
+; You find a jeweled bird while on
+; vacation in Malta, and sell it to
+; an Egyptian trader for 35 talents.
+Вы находите украшенную птицу на отдыхе\nна Мальте и продаёте её\nегипетскому купцу за 35 талантов.
+[0077] src=OVL0.OVL key=0xC207 max=109
+; You sell your gladiator training school
+; to a wealthy publican.  The profit swells
+; your coffers by 25 talents.
+Вы продаёте свою школу гладиаторов\nбогатому откупщику.  Прибыль наполняет\nвашу казну на 25 талантов.
+[0078] src=OVL0.OVL key=0xC275 max=91
+; You sell a team of chariot ponies
+; to an Arab chieftain, and get 15
+; talents out of the deal.
+Вы продаёте упряжку гоночных пони\nарабскому вождю и получаете 15\nталантов со сделки.
+[0079] src=OVL0.OVL key=0xC36E max=67
+; The people of Rome are bored.
+; The citizens demand a gladiator show.
+Народ Рима скучает.\nГраждане требуют гладиаторских игр.
+[0080] src=OVL0.OVL key=0xC3B2 max=16
+; The governor of 
+Правитель 
+[0081] src=OVL0.OVL key=0xC3C3 max=103
+; 
+; requests that games be held to
+; entertain the populace.  Rome's
+; honor is at stake, and you must
+; comply.
+\nпросит устроить игры для\nразвлечения народа.  Честь Рима\nна кону, и вы должны\nсогласиться.
+[0082] src=OVL0.OVL key=0xC42C max=7
+; Fleet I
+Флот I
+[0083] src=OVL0.OVL key=0xC434 max=8
+; Fleet II
+Флот II
+[0084] src=OVL0.OVL key=0xC43D max=9
+; Fleet III
+Флот III
+[0085] src=OVL0.OVL key=0xC447 max=18
+; Carthaginian Fleet
+Карфагенский флот
+[0086] src=OVL0.OVL key=0xC45A max=15
+; Aegyptian Fleet
+Египетский флот
+[0087] src=OVL0.OVL key=0xC46A max=16
+; Macedonian Fleet
+Македонский флот
+[0088] src=OVL0.OVL key=0xC47B max=15
+; Marauding Fleet
+Пиратский флот
+[0089] src=OVL0.OVL key=0xC48B max=24
+; Triremes:
+;               
+Триремы:\n
+[0090] src=OVL0.OVL key=0xC4A4 max=24
+; Quinqueremes:
+;  999 ships
+Квинкверемы:\n 999 судов
+[0091] src=OVL0.OVL key=0xC4BD max=24
+; Galleons:
+;               
+Галеоны:\n
+[0092] src=OVL0.OVL key=0xC4D6 max=8
+; Continue
+Далее
+[0093] src=OVL0.OVL key=0xC4E2 max=6
+; Cancel
+Отмена
+[0094] src=OVL0.OVL key=0xC4EC max=19
+; What type of ships?
+Какие корабли?
+[0095] src=OVL0.OVL key=0xC562 max=6
+;  ships
+ судов
+[0096] src=OVL0.OVL key=0xC5EE max=8
+; Triremes
+Триремы
+[0097] src=OVL0.OVL key=0xC5FC max=12
+; Quinquiremes
+Квинкверемы
+[0098] src=OVL0.OVL key=0xC609 max=9
+; 
+; Galleons
+\nГалеоны
+[0099] src=OVL0.OVL key=0xC618 max=42
+; You cannot command any
+; fleets at this rank
+Нельзя командовать\nфлотами на этом ранге
+[0100] src=OVL0.OVL key=0xC644 max=47
+; You cannot command any more
+; fleets at this rank
+Больше нельзя командовать\nфлотами на этом ранге
+[0101] src=OVL0.OVL key=0xC674 max=22
+; There is no ocean here
+Здесь нет моря
+[0102] src=OVL0.OVL key=0xC68C max=41
+; The enemy fleet
+; prevents any shipbuilding
+Вражеский флот\nмешает строить корабли
+[0103] src=OVL0.OVL key=0xC6B6 max=26
+; All fleets have been built
+Все флоты построены
+[0104] src=OVL0.OVL key=0xC6DA max=5
+; Cost:
+Цена:
+[0105] src=OVL0.OVL key=0xC6E0 max=18
+; Available talents:
+Есть талантов:
+[0106] src=OVL0.OVL key=0xC6F3 max=31
+; Enter to Buy      ESC to Cancel
+Enter купить    ESC отмена
+[0107] src=OVL0.OVL key=0xC714 max=50
+; Triremes  Quinqueremes  Galleons   Legion   Status
+Триремы   Квинкверемы   Галеоны   Легион  Статус
+[0108] src=OVL0.OVL key=0xC748 max=33
+; Fleet has already
+; acted this turn
+Флот уже\nдействовал в этом ходу
+[0109] src=OVL0.OVL key=0xC76A max=36
+; All fleets here have
+; acted this turn
+Все флоты здесь уже\nдействовали
+[0110] src=OVL0.OVL key=0xC790 max=12
+; Select Fleet
+Выбор флота
+[0111] src=OVL0.OVL key=0xC79E max=4
+; None
+Нет
+[0112] src=OVL0.OVL key=0xC7A3 max=23
+; Complete Fleet List -- 
+Список всех флотов -- 
+[0113] src=OVL0.OVL key=0xC7BC max=22
+; Bestiarii (15 Talents)
+Бестиарии (15 тал.)
+[0114] src=OVL0.OVL key=0xC7D3 max=27
+; Gladiator Show (30 Talents)
+Гладиаторы (30 талантов)
+[0115] src=OVL0.OVL key=0xC7EF max=28
+; Racing Chariots (40 Talents)
+Гонки колесниц (40 тал.)
+[0116] src=OVL0.OVL key=0xC80C max=25
+; Extravaganza (50 Talents)
+Празднество (50 талантов)
+[0117] src=OVL0.OVL key=0xC826 max=15
+; Racing Chariots
+Гонки колесниц
+[0118] src=OVL0.OVL key=0xC836 max=14
+; Gladiator Show
+Гладиаторы
+[0119] src=OVL0.OVL key=0xC845 max=15
+; Provincal Games
+Игры провинции
+[0120] src=OVL0.OVL key=0xC855 max=19
+; What Kind of Games?
+Какие игры?
+[0121] src=OVL0.OVL key=0xC869 max=50
+; You don't have enough Talents
+; for such a spectacle
+У вас не хватает талантов\nна такое зрелище
+[0122] src=OVL0.OVL key=0xC89C max=172
+; The Roman governor stages a spectacle of
+; exceeding grandeur, thrilling the populace
+; with games of every description.  Morale
+; in the province rises in the weeks that
+; follow.
+Римский правитель устраивает зрелище\nнебывалого великолепия, восхищая народ\nиграми на любой вкус.  Мораль\nв провинции растёт в последующие\nнедели.
+[0123] src=OVL0.OVL key=0xC9DC max=22
+; Only One Race Per Turn
+Одна гонка за ход
+[0124] src=OVL0.OVL key=0xC9F3 max=42
+; You cannot afford to
+; enter a chariot race.
+Не по карману\nучаствовать в гонках.
+[0125] src=OVL0.OVL key=0xCA1E max=47
+; You need an amphitheatre
+; and cannot afford one.
+Нужен амфитеатр,\nно он не по карману.
+[0126] src=OVL0.OVL key=0xCA4E max=43
+; You need an amphitheatre.
+; Spend 50 Talents?
+Нужен амфитеатр.\nПотратить 50 талантов?
+[0127] src=OVL0.OVL key=0xCA7A max=22
+; Only One Show Per Turn
+Одно зрелище за ход
+[0128] src=OVL0.OVL key=0xCA92 max=6
+; Rank: 
+Ранг: 
+[0129] src=OVL0.OVL key=0xCA99 max=10
+; 
+; Talents: 
+\nТаланты:
+[0130] src=OVL0.OVL key=0xCAA4 max=16
+; Scipio Africanus
+Сципион Афр.
+[0131] src=OVL0.OVL key=0xCAB5 max=11
+; Mark Antony
+М. Антоний
+[0132] src=OVL0.OVL key=0xCAC1 max=16
+; Pompey the Great
+Помпей Великий
+[0133] src=OVL0.OVL key=0xCAD2 max=16
+; Cornelius Scipio
+Корнелий Сципион
+[0134] src=OVL0.OVL key=0xCAE3 max=7
+; Agrippa
+Агриппа
+[0135] src=OVL0.OVL key=0xCAEB max=5
+; Sulla
+Сулла
+[0136] src=OVL0.OVL key=0xCAF1 max=6
+; Marius
+Марий
+[0137] src=OVL0.OVL key=0xCAF8 max=7
+; Crassus
+Крассус
+[0138] src=OVL0.OVL key=0xCB00 max=8
+; Lucullus
+Лукуллус
+[0139] src=OVL0.OVL key=0xCB09 max=9
+; Flaminius
+Фламиний
+[0140] src=OVL0.OVL key=0xCB13 max=18
+; Fabius the Delayer
+Фабий Кунктатор
+[0141] src=OVL0.OVL key=0xCB26 max=15
+; Marcus the Meek
+Марк Кроткий
+[0142] src=OVL0.OVL key=0xCB36 max=13
+; Fabius Hirrus
+Фабий Гиррус
+[0143] src=OVL0.OVL key=0xCB44 max=7
+; Rebilus
+Ребилус
+[0144] src=OVL0.OVL key=0xCB4C max=13
+; Decimus Curio
+Децим Курион
+[0145] src=OVL0.OVL key=0xCB5A max=8
+; Labienus
+Лабиенус
+[0146] src=OVL0.OVL key=0xCB63 max=13
+; Marcus Pedius
+Марк Педий
+[0147] src=OVL0.OVL key=0xCB71 max=8
+; Lentulus
+Лентулус
+[0148] src=OVL0.OVL key=0xCB7A max=9
+; Trebonius
+Требоний
+[0149] src=OVL0.OVL key=0xCB84 max=8
+; Nasidius
+Насидий
+[0150] src=OVL0.OVL key=0xCB8D max=12
+; Lucius Cotta
+Луций Котта
+[0151] src=OVL0.OVL key=0xCB9A max=7
+; Sabinus
+Сабинус
+[0152] src=OVL0.OVL key=0xCBA2 max=20
+; Albertus Discreditus
+Альберт Бесчестный
+[0153] src=OVL0.OVL key=0xCBB7 max=13
+; Publius Rufus
+Публий Руфус
+[0154] src=OVL0.OVL key=0xCBC5 max=5
+; Ready
+Готов
+[0155] src=OVL0.OVL key=0xCBCB max=5
+; Moved
+Пошёл
+[0156] src=OVL0.OVL key=0xCBD1 max=7
+; Forming
+Сбор
+[0157] src=OVL0.OVL key=0xCBDD max=12
+; Raise Legion
+Новый легион
+[0158] src=OVL0.OVL key=0xCBEA max=17
+; Strengthen Legion
+Усилить легион
+[0159] src=OVL0.OVL key=0xCBFC max=11
+; Move Legion
+Ход легиона
+[0160] src=OVL0.OVL key=0xCC08 max=14
+; Upgrade Legion
+Рост легиона
+[0161] src=OVL0.OVL key=0xCC17 max=11
+; Legion List
+Легионы
+[0162] src=OVL0.OVL key=0xCC23 max=19
+; Infantry Legion: 20
+Пехотный легион: 20
+[0163] src=OVL0.OVL key=0xCC37 max=18
+; Cavalry Legion: 30
+Конный легион: 30
+[0164] src=OVL0.OVL key=0xCC4A max=17
+; Consular Army: 60
+Армия консула: 60
+[0165] src=OVL0.OVL key=0xCC5C max=4
+; None
+Нет
+[0166] src=OVL0.OVL key=0xCC61 max=20
+; What type of Legion?
+Какой легион?
+[0167] src=OVL0.OVL key=0xCC76 max=5
+;  Ital
+ Итал
+[0168] src=OVL0.OVL key=0xCC7C max=4
+;  Car
+ Кар
+[0169] src=OVL0.OVL key=0xCC81 max=4
+;  Aeg
+ Еги
+[0170] src=OVL0.OVL key=0xCC86 max=4
+;  Mac
+ Мак
+[0171] src=OVL0.OVL key=0xCC8B max=5
+;  Gaul
+ Галл
+[0172] src=OVL0.OVL key=0xCC91 max=4
+;  Par
+ Пар
+[0173] src=OVL0.OVL key=0xCC96 max=4
+;  Syr
+ Сир
+[0174] src=OVL0.OVL key=0xCC9B max=4
+;  Thr
+ Фра
+[0175] src=OVL0.OVL key=0xCCA0 max=5
+;  Pont
+ Понт
+[0176] src=OVL0.OVL key=0xCCA6 max=5
+;  Asia
+ Азия
+[0177] src=OVL0.OVL key=0xCCAC max=4
+;  Cil
+ Кил
+[0178] src=OVL0.OVL key=0xCCB1 max=4
+;  Alp
+ Аль
+[0179] src=OVL0.OVL key=0xCCB6 max=5
+;  Germ
+ Герм
+[0180] src=OVL0.OVL key=0xCCBC max=5
+;  Dalm
+ Далм
+[0181] src=OVL0.OVL key=0xCCC2 max=4
+;  Dac
+ Дак
+[0182] src=OVL0.OVL key=0xCCC7 max=5
+;  Hisp
+ Испа
+[0183] src=OVL0.OVL key=0xCCCD max=5
+;  Maur
+ Мавр
+[0184] src=OVL0.OVL key=0xCCD3 max=5
+;  Cyrn
+ Кирн
+[0185] src=OVL0.OVL key=0xCCD9 max=5
+;  Arab
+ Араб
+[0186] src=OVL0.OVL key=0xCCDF max=4
+;  Mes
+ Мес
+[0187] src=OVL0.OVL key=0xCCE4 max=4
+;  Arm
+ Арм
+[0188] src=OVL0.OVL key=0xCCE9 max=4
+;  Sic
+ Сиц
+[0189] src=OVL0.OVL key=0xCCEE max=5
+;  Sard
+ Сард
+[0190] src=OVL0.OVL key=0xCCF4 max=5
+;  Brit
+ Брит
+[0191] src=OVL0.OVL key=0xCCFA max=5
+;  Narb
+ Нарб
+[0192] src=OVL0.OVL key=0xCD00 max=4
+;  Scy
+ Ски
+[0193] src=OVL0.OVL key=0xCD05 max=4
+;  Sar
+ Сар
+[0194] src=OVL0.OVL key=0xCD12 max=4
+; Army
+Арм.
+[0195] src=OVL0.OVL key=0xCD18 max=5
+;  Ital
+ Итал
+[0196] src=OVL0.OVL key=0xCE08 max=4
+; Rome
+Рим
+[0197] src=OVL0.OVL key=0xD06A max=48
+; Your rank is not high enough
+; to wield that power
+Ваш ранг недостаточно высок\nдля такой власти
+[0198] src=OVL0.OVL key=0xD09C max=28
+; All legions have been raised
+Все легионы набраны
+[0199] src=OVL0.OVL key=0xD0BA max=48
+; You cannot command any more
+; legions at this rank
+Нельзя командовать\nлегионами на этом ранге
+[0200] src=OVL0.OVL key=0xD0EC max=33
+; There is no
+; available legion here
+Здесь нет\nсвободного легиона
+[0201] src=OVL0.OVL key=0xD10E max=34
+; Legion has already
+; acted this turn
+Легион уже\nдействовал в этом ходу
+[0202] src=OVL0.OVL key=0xD132 max=37
+; All legions here have
+; acted this turn
+Все легионы здесь уже\nдействовали
+[0203] src=OVL0.OVL key=0xD158 max=17
+; Local Legion List
+Местные легионы
+[0204] src=OVL0.OVL key=0xD16A max=51
+; You do not have enough
+; talents to raise that legion
+У вас не хватает\nталантов на этот легион
+[0205] src=OVL0.OVL key=0xD19E max=48
+; You cannot command a
+; Cavalry Legion at this rank
+Нельзя командовать\nконным легионом на ранге
+[0206] src=OVL0.OVL key=0xD1D0 max=48
+; You cannot command a 
+; Consular Army at this rank
+Нельзя командовать\nармией консула на ранге
+[0207] src=OVL0.OVL key=0xD202 max=35
+; Consular Armies
+; may not be upgraded
+Армии консула\nнельзя улучшить
+[0208] src=OVL0.OVL key=0xD226 max=37
+;  has been upgraded
+; to a Consular Army
+ улучшен\nдо армии консула
+[0209] src=OVL0.OVL key=0xD24C max=38
+;  has been upgraded
+; to a Cavalry Legion
+ улучшен\nдо конного легиона
+[0210] src=OVL0.OVL key=0xD274 max=34
+; Legion is already
+; at full strength
+Легион уже\nв полном составе
+[0211] src=OVL0.OVL key=0xD298 max=47
+; There are not enough
+; recruits to raise a legion
+Не хватает\nрекрутов на легион
+[0212] src=OVL0.OVL key=0xD2CC max=43
+; Infantry   Cavalry     Location      Status
+Пехота     Кавалерия   Расположение Статус
+[0213] src=OVL0.OVL key=0xD2FA max=42
+; Infantry   Cavalry     Courage      Status
+Пехота     Кавалерия   Доблесть     Статус
+[0214] src=OVL0.OVL key=0xD328 max=52
+;  Legionnaires must be left behind.
+; Board the Legion?
+ Легионеров придётся оставить.\nПосадить легион?
+[0215] src=OVL0.OVL key=0xD35E max=17
+;   Select Legion  
+  Выбор легиона  
+[0216] src=OVL0.OVL key=0xD370 max=24
+; Complete Legion List -- 
+Список всех легионов -- 
+[0217] src=OVL0.OVL key=0xD389 max=24
+;  is assigned
+; to command 
+ назначен\nкомандовать
+[0218] src=OVL0.OVL key=0xF0C6 max=8
+; End Turn
+Кон.хода
+[0219] src=OVL0.OVL key=0xF0D0 max=13
+; An army from 
+Армия из 
+[0220] src=OVL0.OVL key=0xF0DE max=9
+; 
+; invades 
+\nидёт в
+[0221] src=OVL0.OVL key=0xF0EA max=24
+;  meets the enemy on
+; the 
+ встречает врага на\n
+[0222] src=OVL0.OVL key=0xF103 max=16
+; field of battle.
+поле боя.
+[0223] src=OVL0.OVL key=0xF114 max=25
+; rolling waves of destiny.
+бурные волны судьбы.
+[0224] src=OVL0.OVL key=0xF19C max=23
+; 
+; The Marauding Army of 
+\nАрмия мародёров
+[0225] src=OVL0.OVL key=0xF1B4 max=25
+; 
+; Meets the Roman Garrison
+\nВстречает гарнизон Рима
+[0226] src=OVL0.OVL key=0xF1CE max=51
+; Your fleet has
+; nowhere to retreat
+; and is destroyed!
+Вашему флоту\nнекуда отступать,\nи он уничтожен!
+[0227] src=OVL0.OVL key=0xF204 max=8
+; Continue
+Далее
+[0228] src=OVL0.OVL key=0xF216 max=23
+; Hit any key to continue
+Нажмите любую клавишу
+[0229] src=OVL0.OVL key=0xF22E max=17
+; Click to continue
+Щёлкните мышью
+[0230] src=OVL0.OVL key=0xF284 max=4 tech=1
+; cn3a
+cn3a
+[0231] src=OVL0.OVL key=0xF289 max=4 tech=1
+; cn3b
+cn3b
+[0232] src=OVL0.OVL key=0xF28E max=4 tech=1
+; cn4a
+cn4a
+[0233] src=OVL0.OVL key=0xF293 max=4 tech=1
+; cn4b
+cn4b
+[0234] src=OVL0.OVL key=0xF298 max=4 tech=1
+; cn4c
+cn4c
+[0235] src=OVL0.OVL key=0xF29D max=4 tech=1
+; cn4d
+cn4d
+[0236] src=OVL0.OVL key=0xF2A6 max=4 tech=1
+; cn7a
+cn7a
+[0237] src=OVL0.OVL key=0xF2AB max=4 tech=1
+; cn7b
+cn7b
+[0238] src=OVL0.OVL key=0xF2B0 max=4 tech=1
+; cn8a
+cn8a
+[0239] src=OVL0.OVL key=0xF2B5 max=4 tech=1
+; cn8b
+cn8b
+[0240] src=OVL0.OVL key=0xF2BA max=4 tech=1
+; cn9a
+cn9a
+[0241] src=OVL0.OVL key=0xF2BF max=4 tech=1
+; cn9b
+cn9b
+[0242] src=OVL0.OVL key=0xF2C4 max=4 tech=1
+; cn9c
+cn9c
+[0243] src=OVL0.OVL key=0xF2C9 max=4 tech=1
+; cn9d
+cn9d
+[0244] src=OVL0.OVL key=0xF2CE max=7 tech=1
+; speaker
+speaker
+[0245] src=OVL0.OVL key=0xF2D6 max=5 tech=1
+; adlib
+adlib
+[0246] src=OVL0.OVL key=0xF2DC max=6 tech=1
+; roland
+roland
+[0247] src=OVL0.OVL key=0xF2E3 max=5 tech=1
+; tandy
+tandy
+[0248] src=OVL0.OVL key=0xF344 max=4
+; .lzw
+.lzw
+[0249] src=OVL0.OVL key=0xF34A max=8
+; Withdraw
+Отойти
+[0250] src=OVL0.OVL key=0xF353 max=9
+; Go to War
+К войне
+[0251] src=OVL0.OVL key=0xF35D max=9
+; Ultimatum
+Ультимат.
+[0252] src=OVL0.OVL key=0xF367 max=14
+; Offer Alliance
+Союз
+[0253] src=OVL0.OVL key=0xF376 max=10
+; Aggressive
+Агрессивно
+[0254] src=OVL0.OVL key=0xF381 max=8
+; Friendly
+Дружески
+[0255] src=OVL0.OVL key=0xF38A max=10
+; Diplomatic
+Дипломатия
+[0256] src=OVL0.OVL key=0xF395 max=4
+; Warm
+Тепл
+[0257] src=OVL0.OVL key=0xF39A max=9
+; Sarcastic
+Сарказм
+[0258] src=OVL0.OVL key=0xF3A4 max=6
+; Gentle
+Мягко
+[0259] src=OVL0.OVL key=0xF3AB max=5
+; Pushy
+Напор
+[0260] src=OVL0.OVL key=0xF3B1 max=4
+; Rude
+Груб
+[0261] src=OVL0.OVL key=0xF3B6 max=8
+; Approach
+Подход
+[0262] src=OVL0.OVL key=0xF3BF max=5
+; Leave
+Уйти
+[0263] src=OVL0.OVL key=0xF3C9 max=6
+; Medium
+Средне
+[0264] src=OVL0.OVL key=0xF3D0 max=4
+; High
+Выс.
+[0265] src=OVL0.OVL key=0xF3D5 max=12
+;  arrives in 
+ прибыл в 
+[0266] src=OVL0.OVL key=0xF3E2 max=69
+; 
+; to quell the rebellion, and meets
+; the rebel army on the battlefield.
+\nподавить мятеж и встречает\nмятежную армию на поле боя.
+[0267] src=OVL0.OVL key=0xF449 max=18
+; ?WGUOAFDWSGPRALLMH
+?WGUOAFDWSGPRALLMH
+[0268] src=OVL0.OVL key=0xF98D max=20
+; C.DSurrender or die!
+C.DСдайся или умри!
+[0269] src=OVL0.OVL key=0xF9A2 max=22
+; We come in friendship.
+Мы пришли с миром.
+[0270] src=OVL0.OVL key=0xF9BA max=38
+; Your courage and wisdom are legendary.
+Ваша храбрость и мудрость легендарны.
+[0271] src=OVL0.OVL key=0xF9E2 max=19
+; Then we are at war.
+Тогда война.
+[0272] src=OVL0.OVL key=0xF9F6 max=22
+; We leave you in peace.
+Мы уходим с миром.
+[0273] src=OVL0.OVL key=0xFA0E max=21
+; We offer an alliance.
+Мы предлагаем союз.
+[0274] src=OVL0.OVL key=0xFA24 max=28
+; Submit to the power of Rome!
+Покоритесь власти Рима!
+[0275] src=OVL0.OVL key=0xFA42 max=38
+; We should trust each other, my friend.
+Нам надо доверять друг другу, друг.
+[0276] src=OVL0.OVL key=0xFA6A max=33
+; Our terms are extremely generous.
+Наши условия очень щедры.
+[0277] src=OVL0.OVL key=0xFA8C max=22
+; We want you as allies.
+Мы хотим союза с вами.
+[0278] src=OVL0.OVL key=0xFAA4 max=22
+; Lay down your weapons.
+Сложите оружие.
+[0279] src=OVL0.OVL key=0xFABC max=19
+; Die, barbarian pig!
+Сдохни, варвар!
+[0280] src=OVL0.OVL key=0xFAD0 max=30
+; We seek to negotiate with you.
+Мы ищем переговоров с вами.
+[0281] src=OVL0.OVL key=0xFAF0 max=27
+; The lowest in the Republic.
+Низший в Республике.
+[0282] src=OVL0.OVL key=0xFB0C max=37
+; Our demands will not be unreasonable.
+Наши требования будут разумны.
+[0283] src=OVL0.OVL key=0xFB32 max=50
+; We require tribute befitting the grandeur of Rome.
+Мы требуем дань, достойную величия Рима.
+[0284] src=OVL0.OVL key=0xFB66 max=34
+; We come in peace and seek an ally.
+Мы пришли с миром и ищем союзника.
+[0285] src=OVL0.OVL key=0xFB8A max=38
+; Hear me, wise and honorable chieftain.
+Выслушай, мудрый и благородный вождь.
+[0286] src=OVL0.OVL key=0xFBB2 max=63
+; Your choice is simple. Surrender with honor or die in disgrace.
+Выбор прост: сдайся с честью или умри с позором.
+[0287] src=OVL0.OVL key=0xFBF2 max=24
+; I am here to make peace.
+Я здесь ради мира.
+[0288] src=OVL0.OVL key=0xFC0C max=43
+; Forgive our arrogance, honorable chieftain.
+Прости нашу надменность, благородный вождь.
+[0289] src=OVL0.OVL key=0xFC38 max=48
+; Join us and the armies of Rome will protect you.
+Присоединяйтесь, и армии Рима защитят вас.
+[0290] src=OVL0.OVL key=0xFC6A max=31
+; We will try to earn your trust.
+Мы заслужим ваше доверие.
+[0291] src=OVL0.OVL key=0xFC8A max=59
+; That is the choice we offer, and we will not make it again.
+Таков наш выбор, и мы не повторим его.
+[0292] src=OVL0.OVL key=0xFCC6 max=57
+; Then we offer an alliance, and the promise of protection.
+Тогда мы предлагаем союз и обещание защиты.
+[0293] src=OVL0.OVL key=0xFD00 max=28
+; Submit now, or be destroyed.
+Покорись или будь уничтожен.
+[0294] src=OVL0.OVL key=0xFD1E max=30
+; Rome can be a powerful friend.
+Рим может быть могучим другом.
+[0295] src=OVL0.OVL key=0xFD3E max=41
+; Great queen, we merely wish to negotiate.
+Великая царица, мы хотим переговоров.
+[0296] src=OVL0.OVL key=0xFD68 max=47
+; Capitulate now, and there will be no bloodshed.
+Капитулируйте сейчас, и не будет крови.
+[0297] src=OVL0.OVL key=0xFD98 max=67
+; Protection, great queen.  Aegyptus has weakened, and Rome is great.
+Защита, великая царица.  Египет ослаб, а Рим велик.
+[0298] src=OVL0.OVL key=0xFDDC max=50
+; Rome desires only peace between our great nations.
+Рим хочет лишь мира между нашими народами.
+[0299] src=OVL0.OVL key=0xFE10 max=46
+; Take care! Arrogant queens are easily crushed!
+Осторожно! Надменных цариц легко сокрушить!
+[0300] src=OVL0.OVL key=0xFE40 max=40
+; Indeed, we are humbled by your presence.
+Мы смирены вашим присутствием.
+[0301] src=OVL0.OVL key=0xFE6A max=38
+; I can offer you an alliance with Rome.
+Я могу предложить союз с Римом.
+[0302] src=OVL0.OVL key=0xFE92 max=69
+; We offer an alliance, and promise protection in exchange for tribute.
+Мы предлагаем союз и защиту в обмен на дань.
+[0303] src=OVL0.OVL key=0xFED8 max=40
+; We should trust each other, great queen.
+Надо доверять друг другу, царица.
+[0304] src=OVL0.OVL key=0xFF02 max=94
+; My feelings for you are genuine.  Your beauty, Cleopatra, is unsurpassed throughout the world.
+Мои чувства искренни.  Твоя красота, Клеопатра, не имеет равных во всём мире.
+[0305] src=OVL0.OVL key=0xFF62 max=38
+; How you flatter yourself, great Queen.
+Как ты себе льстишь, великая царица.
+[0306] src=OVL0.OVL key=0xFF8A max=60
+; You are the only conquest I seek, and I never lose a battle.
+Ты — единственная победа, что я ищу; я не проигрываю.
+[0307] src=OVL0.OVL key=0xFFC8 max=62
+; My queen, hunger is a simple need, while love is a great gift.
+Царица, голод — простая нужда, а любовь — великий дар.
+[0308] src=OVL0.OVL key=0x10008 max=47
+; Romans take what is theirs.  It is that simple.
+Римляне берут своё.  Всё просто.
+[0309] src=OVL0.OVL key=0x10038 max=37
+; I grow impatient with you, Cleopatra.
+Я теряю терпение, Клеопатра.
+[0310] src=OVL0.OVL key=0x1005E max=29
+; Then I offer you this gift...
+Тогда прими этот дар...
+[0311] src=OVL0.OVL key=0x1007C max=20
+; My queen, I must go.
+Царица, мне пора.
+[0312] src=OVL0.OVL key=0x10105 max=206
+; L8L^L|LCleopatra calls the guards, and you quickly turn to leave, wishing to avoid the humiliation of being escorted to the door.  The audience has not turned out very well, but the alliance remains intact.
+L8L^L|LКлеопатра зовёт стражу, и вы быстро уходите, желая избежать унижения быть выведенным к дверям.  Аудиенция не удалась, но союз остался нетронут.
+[0313] src=OVL0.OVL key=0x101D4 max=83
+; Cleopatra entertains the Romans in her palace, and the celebration lasts five days.
+Клеопатра угощает римлян во дворце, и празднество длится пять дней.
+[0314] src=OVL0.OVL key=0x10228 max=163
+; Infatuated with the Aegyptian queen, you tarry in Alexandria until finally you gain entrance to her bedchamber on her barge. Cleopatra is as sharp-tongued as ever.
+Очарованный египетской царицей, вы задерживаетесь в Александрии, пока наконец не попадаете в её опочивальню на барке. Клеопатра всё так же остра на язык.
+[0315] src=OVL0.OVL key=0x102D3 max=6 tech=1
+; ?love1
+?love1
+[0316] src=OVL0.OVL key=0x102DA max=5 tech=1
+; love2
+love2
+[0317] src=OVL0.OVL key=0x102E4 max=9 tech=1
+; textA.lzw
+textA.lzw
+[0318] src=OVL0.OVL key=0x102EE max=11 tech=1
+; leaderA.cbm
+leaderA.cbm
+[0319] src=OVL0.OVL key=0x10310 max=4
+; VIII
+VIII
+[0320] src=OVL0.OVL key=0x1032E max=4
+; LXXX
+LXXX
+[0321] src=OVL0.OVL key=0x1034C max=4
+; DCCC
+DCCC
+[0322] src=OVL0.OVL key=0x10354 max=4
+; OOPS
+OOPS
+[0323] src=OVL0.OVL key=0x10375 max=33
+; O"O%O'O*O.O3O6O7O9O<O@OCOEOHOLOQO
+O"O%O'O*O.O3O6O7O9O<O@OCOEOHOLOQO
+[0324] src=OVL0.OVL key=0x103A0 max=6
+; Italia
+Италия
+[0325] src=OVL0.OVL key=0x103A7 max=8
+; Carthago
+Карфаген
+[0326] src=OVL0.OVL key=0x103B0 max=8
+; Aegyptus
+Египет
+[0327] src=OVL0.OVL key=0x103B9 max=9
+; Macedonia
+Македония
+[0328] src=OVL0.OVL key=0x103C3 max=4
+; Gaul
+Галл
+[0329] src=OVL0.OVL key=0x103C8 max=7
+; Parthia
+Парфия
+[0330] src=OVL0.OVL key=0x103D0 max=5
+; Syria
+Сирия
+[0331] src=OVL0.OVL key=0x103D6 max=7
+; Thracia
+Фракия
+[0332] src=OVL0.OVL key=0x103DE max=6
+; Pontus
+Понт
+[0333] src=OVL0.OVL key=0x103E5 max=4
+; Asia
+Азия
+[0334] src=OVL0.OVL key=0x103EA max=7
+; Cilicia
+Киликия
+[0335] src=OVL0.OVL key=0x103F2 max=5
+; Alpes
+Альпы
+[0336] src=OVL0.OVL key=0x103F8 max=8
+; Germania
+Германия
+[0337] src=OVL0.OVL key=0x10401 max=8
+; Dalmatia
+Далмация
+[0338] src=OVL0.OVL key=0x1040A max=5
+; Dacia
+Дакия
+[0339] src=OVL0.OVL key=0x10410 max=8
+; Hispania
+Испания
+[0340] src=OVL0.OVL key=0x10419 max=10
+; Mauretania
+Мавретания
+[0341] src=OVL0.OVL key=0x10424 max=9
+; Cyrenaica
+Киренаика
+[0342] src=OVL0.OVL key=0x1042E max=6
+; Arabia
+Аравия
+[0343] src=OVL0.OVL key=0x10435 max=11
+; Mesopotamia
+Месопотамия
+[0344] src=OVL0.OVL key=0x10441 max=7
+; Armenia
+Армения
+[0345] src=OVL0.OVL key=0x10449 max=7
+; Sicilia
+Сицилия
+[0346] src=OVL0.OVL key=0x10451 max=8
+; Sardinia
+Сардиния
+[0347] src=OVL0.OVL key=0x1045A max=9
+; Britannia
+Британия
+[0348] src=OVL0.OVL key=0x10464 max=11
+; Narbonensis
+Нарбонская
+[0349] src=OVL0.OVL key=0x10470 max=7
+; Scythia
+Скифия
+[0350] src=OVL0.OVL key=0x10478 max=8
+; Sarmatia
+Сарматия
+[0351] src=OVL0.OVL key=0x10481 max=13
+; Mare Aegyptus
+Египетское м.
+[0352] src=OVL0.OVL key=0x1048F max=11
+; Mare Aegean
+Эгейское м.
+[0353] src=OVL0.OVL key=0x1049B max=15
+; Mare Adriaticum
+Адриатика
+[0354] src=OVL0.OVL key=0x104AB max=14
+; Mare Tyrrhenum
+Тирренское м.
+[0355] src=OVL0.OVL key=0x104BA max=18
+; Oceanus Atlanticus
+Атлантика
+[0356] src=OVL0.OVL key=0x104CD max=15
+; Mare Germanicum
+Северное море
+[0357] src=OVL0.OVL key=0x104DD max=14
+; Pontus Euxinus
+Чёрное море
+[0358] src=OVL0.OVL key=0x10614 max=12
+; Mare Nostrum
+Наше море
+[0359] src=OVL0.OVL key=0x109CC max=10
+; Rebellious
+Мятежный
+[0360] src=OVL0.OVL key=0x109D7 max=5
+; Angry
+Злой
+[0361] src=OVL0.OVL key=0x109DD max=8
+; Restless
+Смутный
+[0362] src=OVL0.OVL key=0x109E6 max=7
+; Content
+Доволен
+[0363] src=OVL0.OVL key=0x109EE max=7
+; Legions
+Легионы
+[0364] src=OVL0.OVL key=0x109F6 max=7
+; Plunder
+Грабёж
+[0365] src=OVL0.OVL key=0x109FE max=7
+; Tribute
+Дань
+[0366] src=OVL0.OVL key=0x10A06 max=10
+; Hold Games
+Дать игры
+[0367] src=OVL0.OVL key=0x10A11 max=11
+; Build Fleet
+Новый флот
+[0368] src=OVL0.OVL key=0x10A1D max=17
+; See Province List
+Список провинций
+[0369] src=OVL0.OVL key=0x10A2F max=8
+; Continue
+Далее
+[0370] src=OVL0.OVL key=0x10A38 max=6
+; Status
+Статус
+[0371] src=OVL0.OVL key=0x10A3F max=6
+; Morale
+Мораль
+[0372] src=OVL0.OVL key=0x10A46 max=8
+; Manpower
+Люди
+[0373] src=OVL0.OVL key=0x10A4F max=8
+; Last Tax
+Налог
+[0374] src=OVL0.OVL key=0x10A58 max=8
+; Occupied
+Занята
+[0375] src=OVL0.OVL key=0x10A61 max=4
+; Ally
+Союз
+[0376] src=OVL0.OVL key=0x10A66 max=6
+; Colony
+Колон.
+[0377] src=OVL0.OVL key=0x10A6D max=8
+; Citizens
+Граждане
+[0378] src=OVL0.OVL key=0x10A76 max=120
+; Gaul was divided into three parts...
+; No, four parts.  One indomitable village
+; still held out against the Roman invaders.
+Галлия была разделена на три части...\nНет, на четыре.  Одна непокорная деревня\nещё держалась против римлян.
+[0379] src=OVL0.OVL key=0x10AEF max=13
+; Province List
+Провинции
+[0380] src=OVL0.OVL key=0x10B02 max=21
+; What is your command?
+Ваши приказы?
+[0381] src=OVL0.OVL key=0x10BB4 max=23
+; XVaVfVmVvVAre you sure?
+XVaVfVmVvVВы уверены?
+[0382] src=OVL0.OVL key=0x10BCC max=39
+; You must have a legion
+; there to plunder
+Для грабежа нужен\nлегион в провинции
+[0383] src=OVL0.OVL key=0x10BF4 max=29
+; You plunder the province for 
+Вы грабите провинцию на 
+[0384] src=OVL0.OVL key=0x10C12 max=33
+; 
+; talents.  The natives are upset.
+\nталантов.  Жители недовольны.
+[0385] src=OVL0.OVL key=0x10C34 max=26
+; There's nothing
+; to plunder
+Здесь нечего\nграбить
+[0386] src=OVL0.OVL key=0x10C4F max=8
+; Status: 
+Статус: 
+[0387] src=OVL0.OVL key=0x10C58 max=10
+; 
+; Tribute: 
+\nДань:
+[0388] src=OVL0.OVL key=0x10C63 max=11
+; 
+; Manpower: 
+\nЛюди:
+[0389] src=OVL0.OVL key=0x10C6F max=10
+; 
+; Courage: 
+\nДоблесть:
+[0390] src=OVL0.OVL key=0x10C7A max=6
+;  level
+ уров.
+[0391] src=OVL0.OVL key=0x10C81 max=8 tech=1
+; rome.cbm
+rome.cbm
+[0392] src=OVL0.OVL key=0x10CC2 max=10 tech=1
+; negfgA.cbm
+negfgA.cbm
+[0393] src=OVL0.OVL key=0x10CCE max=10 tech=1
+; negbgA.cbm
+negbgA.cbm
+[0394] src=OVL0.OVL key=0x10CDA max=8 tech=1
+; sky0.cbm
+sky0.cbm
+[0395] src=OVL0.OVL key=0x10CE3 max=18
+; Marauding Army
+; of 
+Армия мародёров\nиз
+[0396] src=OVL0.OVL key=0x10CF6 max=4
+; 
+; in 
+\nв
+[0397] src=OVL0.OVL key=0x10CFB max=4
+; 
+; in 
+\nв
+[0398] src=OVL0.OVL key=0x10D00 max=7
+; Officer
+Офицер
+[0399] src=OVL0.OVL key=0x10D08 max=9
+; Centurion
+Центурион
+[0400] src=OVL0.OVL key=0x10D12 max=7
+; Tribune
+Трибун
+[0401] src=OVL0.OVL key=0x10D1A max=7
+; Legatus
+Легат
+[0402] src=OVL0.OVL key=0x10D22 max=7
+; General
+Генерал
+[0403] src=OVL0.OVL key=0x10D2A max=7
+; Praetor
+Претор
+[0404] src=OVL0.OVL key=0x10D32 max=6
+; Consul
+Консул
+[0405] src=OVL0.OVL key=0x10D39 max=9
+; Proconsul
+Проконсул
+[0406] src=OVL0.OVL key=0x10D43 max=6
+; Caesar
+Цезарь
+[0407] src=OVL0.OVL key=0x10D79 max=18
+; Y"Y*Y2Y9YCYLegions
+Y"Y*Y2Y9YCYЛегионы
+[0408] src=OVL0.OVL key=0x10D8C max=7
+; Tribute
+Дань
+[0409] src=OVL0.OVL key=0x10D94 max=10
+; Hold Games
+Дать игры
+[0410] src=OVL0.OVL key=0x10D9F max=11
+; Build Fleet
+Новый флот
+[0411] src=OVL0.OVL key=0x10DAB max=14
+; Tribute Policy
+Политика дани
+[0412] src=OVL0.OVL key=0x10DBA max=17
+; See Province List
+Список провинций
+[0413] src=OVL0.OVL key=0x10DCC max=15
+; The people are 
+Народ 
+[0414] src=OVL0.OVL key=0x10E42 max=4
+; ROME
+РИМ
+[0415] src=OVL0.OVL key=0x10E48 max=6
+; malloc
+malloc
+[0416] src=OVL0.OVL key=0x10E4F max=6
+; calloc
+calloc
+[0417] src=OVL0.OVL key=0x10E56 max=24
+; free passed NULL pointer
+free passed NULL pointer
+[0418] src=OVL0.OVL key=0x10E6F max=8
+;  failed
+; 
+ сбой\n
+[0419] src=OVL0.OVL key=0x10E78 max=16
+;  bytes attempted
+ байт запрошено
+[0420] src=OVL0.OVL key=0x10EAF max=47
+; Please Insert Your Save Game
+; Diskette In Drive 
+Вставьте дискету с сохранением\nВ диске 
+[0421] src=OVL0.OVL key=0x10EDF max=34
+; Please Replace Game Disk
+; In Drive 
+Верните игровой диск\nВ диск 
+[0422] src=OVL0.OVL key=0x10F02 max=11 tech=1
+; newgame.lzw
+newgame.lzw
+[0423] src=OVL0.OVL key=0x10F12 max=5
+; 0.csv
+0.csv
+[0424] src=OVL0.OVL key=0x10F18 max=22
+; Select a Save Position
+Выберите позицию
+[0425] src=OVL0.OVL key=0x10F30 max=24
+; Enter a Game Description
+Введите описание игры
+[0426] src=OVL0.OVL key=0x10F4A max=21
+; Select a Game to Load
+Выберите сохранение
+[0427] src=OVL0.OVL key=0x11051 max=32
+; Save Failed
+; Could not write file
+Сбой записи\nНе удалось записать
+[0428] src=OVL0.OVL key=0x11072 max=33
+; Save Failed
+; Could not create file
+Сбой записи\nНе удалось создать
+[0429] src=OVL0.OVL key=0x11095 max=30
+; No saved game
+; at that position
+Нет сохранения\nв этой позиции
+[0430] src=OVL0.OVL key=0x110B4 max=31
+; Load Failed
+; Could not open file
+Сбой чтения\nНе удалось открыть
+[0431] src=OVL0.OVL key=0x110DB max=8
+; Untitled
+Пусто
+[0432] src=OVL0.OVL key=0x110EC max=5
+; Cinna
+Цинна
+[0433] src=OVL0.OVL key=0x110F2 max=8
+; Hannibal
+Ганнибал
+[0434] src=OVL0.OVL key=0x110FB max=9
+; Cleopatra
+Клеопатра
+[0435] src=OVL0.OVL key=0x11105 max=17
+; Philip of Macedon
+Филипп Македонец
+[0436] src=OVL0.OVL key=0x11117 max=13
+; Vercingetorix
+Верцингеториг
+[0437] src=OVL0.OVL key=0x11125 max=16
+; Darius the Great
+Дарий Великий
+[0438] src=OVL0.OVL key=0x11136 max=9
+; Antiochus
+Антиох
+[0439] src=OVL0.OVL key=0x11140 max=16
+; Thorax of Thrace
+Торакс Фракиец
+[0440] src=OVL0.OVL key=0x11151 max=11
+; Mithridates
+Митридат
+[0441] src=OVL0.OVL key=0x1115D max=7
+; Attalus
+Атталус
+[0442] src=OVL0.OVL key=0x11165 max=18
+; Absolna the Rotten
+Абсольна Гнилой
+[0443] src=OVL0.OVL key=0x11178 max=8
+; Vindelic
+Винделик
+[0444] src=OVL0.OVL key=0x11181 max=8
+; Arminius
+Арминий
+[0445] src=OVL0.OVL key=0x1118A max=4
+; Bato
+Бато
+[0446] src=OVL0.OVL key=0x1118F max=9
+; Decebalus
+Децебал
+[0447] src=OVL0.OVL key=0x11199 max=9
+; Hasdrubal
+Гасдрубал
+[0448] src=OVL0.OVL key=0x111A3 max=9
+; King Juba
+Царь Юба
+[0449] src=OVL0.OVL key=0x111AD max=7
+; Bocchus
+Бокхус
+[0450] src=OVL0.OVL key=0x111B5 max=18
+; Mamud the Terrible
+Мамуд Грозный
+[0451] src=OVL0.OVL key=0x111C8 max=7
+; Horaxus
+Горакс
+[0452] src=OVL0.OVL key=0x111D0 max=8
+; Bertonus
+Бертонус
+[0453] src=OVL0.OVL key=0x111D9 max=8
+; Hamilcar
+Амилькар
+[0454] src=OVL0.OVL key=0x111E2 max=8
+; Darminus
+Дарминус
+[0455] src=OVL0.OVL key=0x111EB max=9
+; Caswallon
+Касваллон
+[0456] src=OVL0.OVL key=0x111F5 max=5
+; Galba
+Галба
+[0457] src=OVL0.OVL key=0x111FB max=11
+; Chrysogones
+Хрисогон
+[0458] src=OVL0.OVL key=0x11207 max=19
+; Malodor the Impaler
+Малодор Жестокий
+[0459] src=OVL0.OVL key=0x1121B max=5
+; small
+малое
+[0460] src=OVL0.OVL key=0x11221 max=12
+; unremarkable
+неприметное
+[0461] src=OVL0.OVL key=0x1122E max=7
+; immense
+большое
+[0462] src=OVL0.OVL key=0x11236 max=9
+; legendary
+сказочное
+[0463] src=OVL0.OVL key=0x11240 max=13
+; insignificant
+ничтожное
+[0464] src=OVL0.OVL key=0x1124E max=8
+; ordinary
+обычное
+[0465] src=OVL0.OVL key=0x11257 max=6
+; strong
+сильна
+[0466] src=OVL0.OVL key=0x1125E max=4
+; huge
+вел.
+[0467] src=OVL0.OVL key=0x11263 max=18
+; tendency to panic.
+паникёрством.
+[0468] src=OVL0.OVL key=0x11276 max=16
+; lack of courage.
+трусостью.
+[0469] src=OVL0.OVL key=0x11287 max=9
+; tenacity.
+упорством
+[0470] src=OVL0.OVL key=0x11291 max=15
+; fierce courage.
+бесстрашием.
+[0471] src=OVL0.OVL key=0x112A1 max=9 tech=1
+; scout.lzw
+scout.lzw
+[0472] src=OVL0.OVL key=0x112AB max=14
+; The wealth of 
+Богатство 
+[0473] src=OVL0.OVL key=0x112BA max=4
+;  is 
+ 
+[0474] src=OVL0.OVL key=0x112BF max=14
+; , the army is 
+, армия 
+[0475] src=OVL0.OVL key=0x112CE max=38
+;  and the soldiers are known for their 
+ и солдаты известны своим 
+[0476] src=OVL0.OVL key=0x112F5 max=16
+; , the leader of 
+, вождь 
+[0477] src=OVL0.OVL key=0x11306 max=20
+; , offers a greeting:
+, приветствует вас:
+[0478] src=OVL0.OVL key=0x11369 max=21
+; ^Exempt this province
+^Освободить провинцию
+[0479] src=OVL0.OVL key=0x1137F max=22
+; What level of tribute?
+Какой размер дани?
+[0480] src=OVL0.OVL key=0x11396 max=20
+; Exempt all provinces
+Освободить всех
+[0481] src=OVL0.OVL key=0x113AB max=20
+; What tribute policy?
+Какая политика дани?
+[0482] src=OVL0.OVL key=0x113C2 max=17
+; Tolerable Tribute
+Умеренная дань
+[0483] src=OVL0.OVL key=0x113D4 max=18
+; Irritating Tribute
+Досадная дань
+[0484] src=OVL0.OVL key=0x113E8 max=18
+; Oppressive Tribute
+Гнетущая дань
+[0485] src=OVL0.OVL key=0x113FC max=14
+; Bleed Them Dry
+Выжать всё
+[0486] src=OVL0.OVL key=0x11512 max=14
+; CDEFGHIJ&KL+MN
+CDEFGHIJ&KL+MN
+[0487] src=OVL0.OVL key=0x11521 max=15
+; OPQR-S"TUVWXYZ[
+OPQR-S"TUVWXYZ[
+[0488] src=OVL0.OVL key=0x1153E max=9
+; defg]h^i4
+defg]h^i4
+[0489] src=OVL0.OVL key=0x11566 max=10
+; hjopqrstui
+hjopqrstui
+[0490] src=OVL0.OVL key=0x11573 max=13
+; mvwhjopqrstui
+mvwhjopqrstui
+[0491] src=OVL0.OVL key=0x116D6 max=5 tech=1
+; tandy
+tandy
+[0492] src=OVL0.OVL key=0x116DE max=5 tech=1
+; nosnd
+nosnd
+[0493] src=OVL0.OVL key=0x116EA max=6 tech=1
+; roland
+roland
+[0494] src=OVL0.OVL key=0x116F4 max=4 tech=1
+; lapc
+lapc
+[0495] src=OVL0.OVL key=0x116F9 max=5 tech=1
+; adlib
+adlib
+[0496] src=OVL0.OVL key=0x11730 max=8 tech=1
+; cmap.bin
+cmap.bin
+[0497] src=OVL0.OVL key=0x11739 max=4 tech=1
+; init
+init
+[0498] src=OVL0.OVL key=0x1173E max=5 tech=1
+; init2
+init2
+[0499] src=OVL0.OVL key=0x1176C max=5 tech=1
+; xmenu
+xmenu
+[0500] src=OVL0.OVL key=0x11772 max=9
+; Northern 
+Северная 
+[0501] src=OVL0.OVL key=0x1177C max=9
+; Southern 
+Южная 
+[0502] src=OVL0.OVL key=0x11786 max=8
+; Eastern 
+Восточ. 
+[0503] src=OVL0.OVL key=0x1178F max=8
+; Western 
+Западн. 
+[0504] src=OVL0.OVL key=0x11798 max=5
+; Land 
+Сух. 
+[0505] src=OVL0.OVL key=0x1179E max=6
+; Naval 
+Мор. 
+[0506] src=OVL0.OVL key=0x117A6 max=7
+; Capital
+Столица
+[0507] src=OVL0.OVL key=0x117AE max=4
+; City
+Гор.
+[0508] src=OVL0.OVL key=0x117B3 max=4
+; Town
+Село
+[0509] src=OVL0.OVL key=0x117B8 max=6
+; Battle
+Битва
+[0510] src=OVL0.OVL key=0x117BF max=10 tech=1
+; places.lzw
+places.lzw
+[0511] src=OVL0.OVL key=0x117CA max=12
+; What is the 
+Что такое 
+[0512] src=OVL0.OVL key=0x117D7 max=20
+;  in the
+; province of 
+ в\nпровинции 
+[0513] src=OVL0.OVL key=0x1181A max=4 tech=1
+; cent
+cent
+[0514] src=OVL0.OVL key=0x11852 max=64
+; THE LEGENDS SAY Rome was planned by the gods themselves.  After
+; 
+ЛЕГЕНДЫ ГЛАСЯТ: Рим был задуман самими богами.  После\n
+[0515] src=OVL0.OVL key=0x11893 max=64
+; the fall of Troy it was the gods who led a band of Trojans to a
+; 
+падения Трои боги привели отряд троянцев в\n
+[0516] src=OVL0.OVL key=0x118D4 max=63
+; promised land in the West.  There, Romulus and Remus were born
+; 
+обетованную землю на Западе.  Там родились Ромул и Рем\n
+[0517] src=OVL0.OVL key=0x11914 max=54
+; to a Vestal Virgin and nursed by a friendly she-wolf.
+; 
+у весталки и вскормлены доброй волчицей.\n
+[0518] src=OVL0.OVL key=0x1194B max=63
+;     Upon reaching manhood, the twins founded Rome on the banks
+; 
+    Повзрослев, близнецы основали Рим на берегах\n
+[0519] src=OVL0.OVL key=0x1198B max=67
+; of the Tiber River.  The city prospered and grew until one day the
+; 
+реки Тибр.  Город процветал и рос, пока однажды\n
+[0520] src=OVL0.OVL key=0x119CF max=64
+; Romans reached out from their tiny domain with a great dream of
+; 
+римляне вышли из своей малой земли с великой мечтой о\n
+[0521] src=OVL0.OVL key=0x11A10 max=8
+; glory...
+славы...
+[0522] src=OVL0.OVL key=0x11A19 max=147
+; It is 400 years after the
+; Founding, and a young Roman
+; centurion is camped with his
+; legion on the banks of the
+; Tiber.
+; They are waiting for orders...
+400 лет спустя после\nОснования молодой римский\nцентурион стоит лагерем со\nсвоим легионом на берегах\nТибра.\nОни ждут приказов...
+[0523] src=OVL0.OVL key=0x11AAD max=11
+; Game Design
+Дизайн игры
+[0524] src=OVL0.OVL key=0x11AB9 max=40
+; Kellyn Beck
+; Evan Robinson
+; Nicky Robinson
+Kellyn Beck\nEvan Robinson\nNicky Robinson
+[0525] src=OVL0.OVL key=0x11AE2 max=11
+; Programming
+Программа
+[0526] src=OVL0.OVL key=0x11AEE max=40
+; Evan Robinson
+; Nicky Robinson
+; Ken Zarifes
+Evan Robinson\nNicky Robinson\nKen Zarifes
+[0527] src=OVL0.OVL key=0x11B17 max=15
+; Graphic Artists
+Художники
+[0528] src=OVL0.OVL key=0x11B27 max=54
+; Jim Sachs
+; Scott Wallin
+; Dennis Clevenger
+; Michael Kosaka
+Jim Sachs\nScott Wallin\nDennis Clevenger\nMichael Kosaka
+[0529] src=OVL0.OVL key=0x11B5E max=17
+; Music Composition
+Композитор
+[0530] src=OVL0.OVL key=0x11B70 max=23
+; Jon Newton
+; Michael Bard
+Jon Newton\nMichael Bard
+[0531] src=OVL0.OVL key=0x11B88 max=17
+; Music Programming
+Муз. программа
+[0532] src=OVL0.OVL key=0x11B9A max=11
+; Rob Hubbard
+Rob Hubbard
+[0533] src=OVL0.OVL key=0x11BA6 max=9
+; Producers
+Продюсеры
+[0534] src=OVL0.OVL key=0x11BB0 max=24
+; Chris Wilson
+; Dave Albert
+Chris Wilson\nDave Albert
+[0535] src=OVL0.OVL key=0x11BC9 max=18
+; Associate Producer
+Сопродюсер
+[0536] src=OVL0.OVL key=0x11BDC max=16
+; Roland Kippenhan
+Roland Kippenhan
+[0537] src=OVL0.OVL key=0x11BED max=18
+; Assistant Producer
+Ассист. продюсера
+[0538] src=OVL0.OVL key=0x11C00 max=15
+; James R. Bailey
+James R. Bailey
+[0539] src=OVL0.OVL key=0x11C10 max=5
+; Tools
+Инстр
+[0540] src=OVL0.OVL key=0x11C16 max=96
+; Soft-ICE & MagicCV
+; by Nu-Mega
+; 
+; Plink-86plus by Polytron
+; 
+; MSC v5.1, v6.0 & MASM v5.1
+; by Microsoft
+Soft-ICE & MagicCV\nby Nu-Mega\n\nPlink-86plus by Polytron\n\nMSC v5.1, v6.0 & MASM v5.1\nby Microsoft
+[0541] src=OVL0.OVL key=0x11C77 max=5
+; Tools
+Инстр
+[0542] src=OVL0.OVL key=0x11C7D max=85
+; Deluxe Paint II for IBM and
+; Deluxe Paint II & III
+; for Amiga
+; by Dan Silva & Steve Shaw
+Deluxe Paint II for IBM and\nDeluxe Paint II & III\nfor Amiga\nby Dan Silva & Steve Shaw
+[0543] src=OVL0.OVL key=0x11CD3 max=16
+; Project Director
+Директор проекта
+[0544] src=OVL0.OVL key=0x11CE4 max=11
+; Kellyn Beck
+Kellyn Beck
+[0545] src=OVL0.OVL key=0x11CF0 max=18
+; Technical Director
+Техн. директор
+[0546] src=OVL0.OVL key=0x11D03 max=12
+; Jesse Taylor
+Jesse Taylor
+[0547] src=OVL0.OVL key=0x11D10 max=15
+; Product Manager
+Менеджер
+[0548] src=OVL0.OVL key=0x11D20 max=14
+; Chris Thompson
+Chris Thompson
+[0549] src=OVL0.OVL key=0x11D2F max=29
+; Package Design
+; & Illustration
+Упаковка\nи иллюстрация
+[0550] src=OVL0.OVL key=0x11D4D max=26
+; Lance Anderson
+; Robert Hunt
+Lance Anderson\nRobert Hunt
+[0551] src=OVL0.OVL key=0x11D68 max=13
+; Documentation
+Документация
+[0552] src=OVL0.OVL key=0x11D76 max=11
+; David Luoto
+David Luoto
+[0553] src=OVL0.OVL key=0x11D82 max=10
+; Map Design
+Карта
+[0554] src=OVL0.OVL key=0x11D8D max=34
+; Kid Blast Graphics
+; Jennie Maruyama
+Kid Blast Graphics\nJennie Maruyama
+[0555] src=OVL0.OVL key=0x11DB0 max=7
+; Testers
+Тестеры
+[0556] src=OVL0.OVL key=0x11DB8 max=37
+; Karyn Taylor
+; Mike Meischeid
+; Jack Falk
+Karyn Taylor\nMike Meischeid\nJack Falk
+[0557] src=OVL0.OVL key=0x11DDE max=12
+; Artist Photo
+Художник
+[0558] src=OVL0.OVL key=0x11DEB max=15
+; Bill Fiesterman
+Bill Fiesterman
+[0559] src=OVL0.OVL key=0x11DFC max=26
+; "Beware the ides of March"
+"Бойся мартовских ид"
+[0560] src=OVL0.OVL key=0x11E17 max=11 tech=1
+; romulus.cbm
+romulus.cbm
+[0561] src=OVL0.OVL key=0x11E23 max=9 tech=1
+; title.cbm
+title.cbm
+[0562] src=OVL0.OVL key=0x11E2D max=9 tech=1
+; world.lzw
+world.lzw
+[0563] src=OVL0.OVL key=0x11E37 max=9 tech=1
+; world.cbm
+world.cbm
+[0564] src=OVL0.OVL key=0x11E41 max=25
+; Could Not Open Data File.
+Could Not Open Data File.
+[0565] src=OVL0.OVL key=0x12028 max=4
+; @ABC
+@ABC
+[0566] src=OVL0.OVL key=0x120D5 max=4
+; DEFG
+DEFG
+[0567] src=OVL0.OVL key=0x12167 max=5
+; ABCDE
+ABCDE
+[0568] src=OVL0.OVL key=0x12187 max=5
+; KLMNO
+KLMNO
+[0569] src=OVL0.OVL key=0x126C4 max=10 tech=1
+; desert.cbm
+desert.cbm
+[0570] src=OVL0.OVL key=0x126CF max=12 tech=1
+; battlenw.cbm
+battlenw.cbm
+[0571] src=OVL0.OVL key=0x126DC max=9 tech=1
+; water.cbm
+water.cbm
+[0572] src=OVL0.OVL key=0x126E6 max=13
+; Balanced Army
+Баланс армии
+[0573] src=OVL0.OVL key=0x126F4 max=5
+; Wedge
+Клин
+[0574] src=OVL0.OVL key=0x126FA max=12
+; Strong Right
+Упор вправо
+[0575] src=OVL0.OVL key=0x12707 max=11
+; Strong Left
+Упор влево
+[0576] src=OVL0.OVL key=0x12713 max=10
+; Stand Fast
+Держаться
+[0577] src=OVL0.OVL key=0x1271E max=16
+; Choose Formation
+Выбор построения
+[0578] src=OVL0.OVL key=0x1272F max=13
+; Choose Tactic
+Выбор тактики
+[0579] src=OVL0.OVL key=0x1273D max=11 tech=1
+; tactics.lzw
+tactics.lzw
+[0580] src=OVL0.OVL key=0x1282A max=7
+; Panicky
+Паника
+[0581] src=OVL0.OVL key=0x12832 max=4
+; Weak
+Слаб
+[0582] src=OVL0.OVL key=0x12837 max=4
+; Good
+Норм
+[0583] src=OVL0.OVL key=0x1283C max=6
+; Fierce
+Ярость
+[0584] src=OVL0.OVL key=0x12843 max=17
+; Select Roman Unit
+Выбор рим. отряда
+[0585] src=OVL0.OVL key=0x12855 max=4
+; Done
+ОК
+[0586] src=OVL0.OVL key=0x1285A max=5
+; Melee
+Рубка
+[0587] src=OVL0.OVL key=0x12860 max=7
+; Retreat
+Отход
+[0588] src=OVL0.OVL key=0x12868 max=7
+; Release
+Отпуск
+[0589] src=OVL0.OVL key=0x12870 max=12
+;  The Legion!
+ Легион!
+[0590] src=OVL0.OVL key=0x1287D max=7
+;  Cohort
+ Когорт
+[0591] src=OVL0.OVL key=0x128D4 max=19
+; Run Away!
+; Run Away!
+Бежим!\nБежим!
+[0592] src=OVL0.OVL key=0x128E8 max=9
+; Run Away!
+Бежим!
+[0593] src=OVL0.OVL key=0x128F4 max=8
+;  Cavalry
+ Конница
+[0594] src=OVL0.OVL key=0x128FD max=10
+;  Elephants
+ Слоны
+[0595] src=OVL0.OVL key=0x12908 max=9
+;  Infantry
+ Пехота
+[0596] src=OVL0.OVL key=0x12912 max=7
+; General
+Генерал
+[0597] src=OVL0.OVL key=0x1291A max=5
+;  Unit
+ Отр.
+[0598] src=OVL0.OVL key=0x12920 max=8
+; Panicked
+Паникуют
+[0599] src=OVL0.OVL key=0x12929 max=10
+; 
+; Charisma:
+\nХаризма:
+[0600] src=OVL0.OVL key=0x1294C max=8
+; Standard
+Стандарт
+[0601] src=OVL0.OVL key=0x12955 max=5
+; Wedge
+Клин
+[0602] src=OVL0.OVL key=0x1295B max=12
+; Strong Right
+Упор вправо
+[0603] src=OVL0.OVL key=0x12968 max=11
+; Strong Left
+Упор влево
+[0604] src=OVL0.OVL key=0x12974 max=11
+; Massed Army
+Масса армии
+[0605] src=OVL0.OVL key=0x12A5C max=15
+; Frontal Assault
+Лобовая атака
+[0606] src=OVL0.OVL key=0x12A6C max=16
+; Scipio's Defense
+Защита Сципиона
+[0607] src=OVL0.OVL key=0x12A7E max=13
+; Drive a Wedge
+Вбить клин
+[0608] src=OVL0.OVL key=0x12A8C max=8
+; Outflank
+Обход
+[0609] src=OVL0.OVL key=0x12A96 max=10
+; Stand Fast
+Держаться
+[0610] src=OVL0.OVL key=0x12AA2 max=11
+; Form a Line
+В линию
+[0611] src=OVL0.OVL key=0x12AAE max=11
+; Mass Troops
+Сбор войск
+[0612] src=OVL0.OVL key=0x12ABA max=11
+; Sweep Right
+Веер вправо
+[0613] src=OVL0.OVL key=0x12AC6 max=10
+; Sweep Left
+Веер влево
+[0614] src=OVL0.OVL key=0x12AD2 max=13
+; Cannae Tactic
+Тактика Канн
+[0615] src=OVL0.OVL key=0x12AE0 max=8
+; Encircle
+Окружить
+[0616] src=OVL0.OVL key=0x12AF3 max=5
+; v0v\\v
+v0v\\v
+[0617] src=OVL0.OVL key=0x12D99 max=5
+; y8yRy
+y8yRy
+[0618] src=OVL0.OVL key=0x12DC1 max=33
+; xan
+; ignominious defeat for Rome
+; 
+; 
+xan\nпозорное поражение Рима\n\n
+[0619] src=OVL0.OVL key=0x12DE3 max=30
+; a
+; glorious victory for Rome!
+; 
+; 
+a\nславная победа Рима!\n\n
+[0620] src=OVL0.OVL key=0x12E02 max=19
+; A Glorious Victory!
+Славная победа!
+[0621] src=OVL0.OVL key=0x12E16 max=21
+; An Ignominious Defeat
+Позорное поражение
+[0622] src=OVL0.OVL key=0x12E2C max=22
+; 
+; 
+; The legionnaires of 
+\n\nЛегионеры
+[0623] src=OVL0.OVL key=0x12E43 max=22
+;  have met the army of 
+ встретили армию 
+[0624] src=OVL0.OVL key=0x12E5A max=26
+; 
+; on the field of battle.  
+\nна поле боя.
+[0625] src=OVL0.OVL key=0x12E75 max=17
+; 's army used the
+; 
+ армия применила\n
+[0626] src=OVL0.OVL key=0x12E87 max=20
+;  tactic against the 
+ против 
+[0627] src=OVL0.OVL key=0x12E9C max=4
+;  of
+; 
+ из\n
+[0628] src=OVL0.OVL key=0x12EA1 max=21
+;  and the outcome was 
+ и итог: 
+[0629] src=OVL0.OVL key=0x12EB7 max=6
+;   vs  
+  —  
+[0630] src=OVL0.OVL key=0x12EBE max=21
+; 
+; Casualties
+; Survivors
+\nПотери\nВыжившие
+[0631] src=OVL0.OVL key=0x12F05 max=5 tech=1
+; zrman
+zrman
+[0632] src=OVL0.OVL key=0x12F0B max=5 tech=1
+; rwimp
+rwimp
+[0633] src=OVL0.OVL key=0x12F11 max=4 tech=1
+; lman
+lman
+[0634] src=OVL0.OVL key=0x12F16 max=5 tech=1
+; lwimp
+lwimp
+[0635] src=OVL0.OVL key=0x12F1C max=5 tech=1
+; lcat0
+lcat0
+[0636] src=OVL0.OVL key=0x12F22 max=5 tech=1
+; lcat1
+lcat1
+[0637] src=OVL0.OVL key=0x12F28 max=5 tech=1
+; lcat2
+lcat2
+[0638] src=OVL0.OVL key=0x12F2E max=7
+; Trainee
+Новичок
+[0639] src=OVL0.OVL key=0x12F36 max=5
+; Slave
+Раб
+[0640] src=OVL0.OVL key=0x12F3C max=7
+; Veteran
+Ветеран
+[0641] src=OVL0.OVL key=0x12F44 max=6
+; Master
+Мастер
+[0642] src=OVL0.OVL key=0x12F4F max=8
+; Well-Fed
+Сытый
+[0643] src=OVL0.OVL key=0x12F58 max=6
+; Hungry
+Голод.
+[0644] src=OVL0.OVL key=0x12F5F max=8
+; Ravenous
+Голодный
+[0645] src=OVL0.OVL key=0x12F68 max=13
+;  (20 Talents)
+ (20 тал.)
+[0646] src=OVL0.OVL key=0x12F76 max=18
+; How Much Training?
+Сколько обучения?
+[0647] src=OVL0.OVL key=0x12F89 max=12 tech=1
+; coloseum.cbm
+coloseum.cbm
+[0648] src=OVL0.OVL key=0x12F96 max=4 tech=1
+; show
+show
+[0649] src=OVL0.OVL key=0x12F9B max=5 tech=1
+; arena
+arena
+[0650] src=OVL0.OVL key=0x12FA1 max=29
+; Can't Load Gladiator Graphics
+Нет графики гладиаторов
+[0651] src=OVL0.OVL key=0x12FBF max=6
+; VERSUS
+ПРОТИВ
+[0652] src=OVL0.OVL key=0x130C2 max=33
+; You Cannot Afford
+; Two Gladiators.
+Не по карману\nдва гладиатора.
+[0653] src=OVL0.OVL key=0x130E4 max=37
+; Select a Gladiator
+; for You to Control
+Выберите гладиатора\nдля управления
+[0654] src=OVL0.OVL key=0x1310A max=78
+; You Cannot Afford a Second Gladiator.
+; Your Talents for the First are Refunded.
+Второй гладиатор вам не по карману.\nТаланты за первого возвращены.
+[0655] src=OVL0.OVL key=0x13159 max=35
+; Select a Gladiator
+; To Fight Against
+Выберите гладиатора\nдля боя против
+[0656] src=OVL0.OVL key=0x1317D max=47
+; You Cannot Afford Such
+; a Well-Trained Gladiator
+Вам не по карману\nопытный гладиатор
+[0657] src=OVL0.OVL key=0x131AD max=9
+; Bouts Won
+Победы
+[0658] src=OVL0.OVL key=0x131B8 max=8
+; Flavius 
+Флавий 
+[0659] src=OVL0.OVL key=0x131C1 max=7
+; Marcus 
+Марк 
+[0660] src=OVL0.OVL key=0x131C9 max=7
+; Brutus 
+Брут 
+[0661] src=OVL0.OVL key=0x131D1 max=7
+; Marius 
+Марий 
+[0662] src=OVL0.OVL key=0x131D9 max=8
+; Tillius 
+Тиллий 
+[0663] src=OVL0.OVL key=0x131E2 max=8
+; Cassius 
+Кассий 
+[0664] src=OVL0.OVL key=0x131EB max=10
+; Flaminius 
+Фламиний 
+[0665] src=OVL0.OVL key=0x131F6 max=10
+; Spartacus 
+Спартак 
+[0666] src=OVL0.OVL key=0x13201 max=7
+; Julius 
+Юлий 
+[0667] src=OVL0.OVL key=0x13209 max=8
+; Publius 
+Публий 
+[0668] src=OVL0.OVL key=0x13212 max=14
+; Black Panther 
+Чёрная пантера
+[0669] src=OVL0.OVL key=0x13221 max=13
+; Wild Lioness 
+Дикая львица 
+[0670] src=OVL0.OVL key=0x1322F max=13
+; Snow Leopard 
+Снежный барс 
+[0671] src=OVL0.OVL key=0x1340E max=18
+; Thumbs Up or Down?
+Жизнь или смерть?
+[0672] src=OVL0.OVL key=0x137EC max=4 tech=1
+; race
+race
+[0673] src=OVL0.OVL key=0x137F1 max=4 tech=1
+; laps
+laps
+[0674] src=OVL0.OVL key=0x137FA max=12 tech=1
+; gallery1.cbm
+gallery1.cbm
+[0675] src=OVL0.OVL key=0x13807 max=5 tech=1
+; race2
+race2
+[0676] src=OVL0.OVL key=0x1381A max=13
+; Light Chariot
+Лёгкая
+[0677] src=OVL0.OVL key=0x13828 max=14
+; Medium Chariot
+Средняя
+[0678] src=OVL0.OVL key=0x13837 max=13
+; Heavy Chariot
+Тяжёлая
+[0679] src=OVL0.OVL key=0x13845 max=10
+; Aggressive
+Агрессивно
+[0680] src=OVL0.OVL key=0x13850 max=6
+; Steady
+Ровно
+[0681] src=OVL0.OVL key=0x13857 max=8
+; Cautious
+Осторожн
+[0682] src=OVL0.OVL key=0x13860 max=29
+; You don't have enough Talents
+У вас не хватает талантов
+[0683] src=OVL0.OVL key=0x1387E max=17
+; You Win The Race!
+Победа в гонке!
+[0684] src=OVL0.OVL key=0x13890 max=19
+; A Creditable Second
+Достойное 2-е место
+[0685] src=OVL0.OVL key=0x138A4 max=14
+; A Poor Showing
+Плохой итог
+[0686] src=OVL0.OVL key=0x138B3 max=26
+; Utter, Ignominious Failure
+Полный, позорный провал
+[0687] src=OVL0.OVL key=0x138CE max=36
+; Are You Sure
+; You Don't Want To Race?
+Вы уверены,\nчто не хотите гоняться?
+[0688] src=OVL0.OVL key=0x138F3 max=20
+; You Failed To Finish
+Вы не финишировали
+[0689] src=OVL0.OVL key=0x1390C max=5
+; Green
+Зел.
+[0690] src=OVL0.OVL key=0x13912 max=4
+; Blue
+Син.
+[0691] src=OVL0.OVL key=0x13917 max=48
+;  driver has been paid
+; 10 talents to let you win.
+ водитель получил\n10 талантов за вашу победу.
+[0692] src=OVL0.OVL key=0x13948 max=152
+; A physician from the far East supplies
+; exotic herbs 'guaranteed' to make your
+; horses win.  You doubt that this will
+; work but pay the 30 talents he asks.
+Лекарь с Дальнего Востока предлагает\nэкзотические травы, "гарантированно"\nчтобы лошади победили.  Вы сомневаетесь,\nно платите 30 талантов.
+[0693] src=OVL0.OVL key=0x139E1 max=158
+; You send an emissary to the Temple of
+; the Vestal Virgins where a squinty-eyed
+; attendant promises the gods' favor in
+; return for a small donation of 50 talents.
+Вы посылаете гонца в храм\nвесталок, где косоглазый\nслужитель обещает благосклонность богов\nв обмен на скромное пожертвование 50 талантов.
+[0694] src=OVL0.OVL key=0x13A80 max=25
+; You can only do that once
+Это можно только раз
+[0695] src=OVL0.OVL key=0x13A9A max=16
+; Light Chariot: 5
+Лёгкая: 5
+[0696] src=OVL0.OVL key=0x13AAB max=18
+; Medium Chariot: 10
+Средняя: 10
+[0697] src=OVL0.OVL key=0x13ABE max=17
+; Heavy Chariot: 20
+Тяжёлая: 20
+[0698] src=OVL0.OVL key=0x13AD0 max=4
+; Exit
+Уйти
+[0699] src=OVL0.OVL key=0x13AD5 max=8
+; Race Now
+В гонку
+[0700] src=OVL0.OVL key=0x13ADE max=11
+; Skulduggery
+Махинации
+[0701] src=OVL0.OVL key=0x13AEE max=4
+; Exit
+Уйти
+[0702] src=OVL0.OVL key=0x13AF3 max=11
+; Bet 10 More
+Ставка +10
+[0703] src=OVL0.OVL key=0x13AFF max=11
+; Bet 10 Less
+Ставка -10
+[0704] src=OVL0.OVL key=0x13B0B max=13
+; Bet The Limit
+Ставка макс.
+[0705] src=OVL0.OVL key=0x13B19 max=4
+; Done
+ОК
+[0706] src=OVL0.OVL key=0x13B1E max=18
+; Bribe Opponent: 10
+Подкуп: 10
+[0707] src=OVL0.OVL key=0x13B31 max=18
+; Hire Physician: 30
+Нанять врача: 30
+[0708] src=OVL0.OVL key=0x13B44 max=15
+; Invoke Gods: 50
+Молитва: 50
+[0709] src=OVL0.OVL key=0x13B54 max=4
+; Done
+ОК
+[0710] src=OVL0.OVL key=0x13B59 max=26
+; Race what type of Chariot?
+Какая колесница?
+[0711] src=OVL0.OVL key=0x13B74 max=21
+; How Shall We Prepare?
+Как готовиться?
+[0712] src=OVL0.OVL key=0x13B8A max=18
+; What Will You Bet?
+Какая ставка?
+[0713] src=OVL0.OVL key=0x13B9D max=17
+; What Skulduggery?
+Какие махинации?
+[0714] src=OVL0.OVL key=0x13BAF max=10 tech=1
+; circus.cbm
+circus.cbm
+[0715] src=OVL0.OVL key=0x13BBA max=29
+; You Have Not Bet
+; Race Anyway?
+Ставка не сделана\nГоняться?
+[0716] src=OVL0.OVL key=0x13D30 max=20
+; All Opponents Bribed
+Все подкуплены
+[0717] src=OVL0.OVL key=0x13D45 max=10
+; Your Bet: 
+Ставка: 
+[0718] src=OVL0.OVL key=0x13D50 max=15
+;  Talents
+; Odds: 
+ Талантов\nШанс:
+[0719] src=OVL0.OVL key=0x13D60 max=5
+;  to 1
+ к 1
+[0720] src=OVL0.OVL key=0x13FD8 max=245
+; The known world lies at your feet.  Your deeds,
+; like those of Alexander, will be remembered for
+; generations and recited by children whose parents
+; are not yet born.  Remember, though, that empires
+; rise and fall like tides, and nothing is forever.
+Известный мир лежит у ваших ног.  Ваши деяния,\nкак деяния Александра, будут помнить\nпоколения и повторять дети, чьи родители\nещё не родились.  Но помните: империи\nвзлетают и падают, как приливы, и ничто не вечно.
+[0721] src=OVL0.OVL key=0x140D0 max=50
+; THE MAKING OF A CONQUEROR
+; In becoming Caesar, you 
+СТАНОВЛЕНИЕ ЗАВОЕВАТЕЛЯ\nСтав Цезарем, вы
+[0722] src=OVL0.OVL key=0x14103 max=24
+; successfully negotiated 
+успешно заключили 
+[0723] src=OVL0.OVL key=0x1411C max=9
+;  alliance
+ союзов
+[0724] src=OVL0.OVL key=0x1412B max=4
+; won 
+поб.
+[0725] src=OVL0.OVL key=0x14130 max=18
+;  battles and lost 
+ битв и проиграли 
+[0726] src=OVL0.OVL key=0x14143 max=19
+;  battles,
+; in which 
+ битв,\nв которых
+[0727] src=OVL0.OVL key=0x14157 max=30
+;  legionnaires were killed and 
+ легионеров погибло и 
+[0728] src=OVL0.OVL key=0x14176 max=29
+;  enemy soldiers
+; were slain.  
+ вражеских солдат\nубито.
+[0729] src=OVL0.OVL key=0x14194 max=4
+; You 
+Вы 
+[0730] src=OVL0.OVL key=0x14199 max=4
+; won 
+поб.
+[0731] src=OVL0.OVL key=0x1419E max=19
+;  fleet battles
+; and 
+ морских боях\nи
+[0732] src=OVL0.OVL key=0x141B2 max=5
+; lost 
+пор.
+[0733] src=OVL0.OVL key=0x141B8 max=16
+; one fleet battle
+один морской бой
+[0734] src=OVL0.OVL key=0x141CC max=14
+;  fleet battles
+ морских боёв
+[0735] src=OVL0.OVL key=0x141DB max=11
+; , in which 
+, в них 
+[0736] src=OVL0.OVL key=0x141E7 max=29
+; 
+; of your ships were sunk and 
+\nваших кораблей потоплено и
+[0737] src=OVL0.OVL key=0x14205 max=25
+;  enemy ships were sunk.
+; 
+; 
+ судов врага на дно.\n\n
+[0738] src=OVL0.OVL key=0x1421F max=14
+; You sponsored 
+Вы устроили 
+[0739] src=OVL0.OVL key=0x1422E max=16
+;  games, entered 
+ игр, в гонках 
+[0740] src=OVL0.OVL key=0x14242 max=16
+;  races,
+; winning 
+ гонках,\nвыиграв
+[0741] src=OVL0.OVL key=0x14253 max=4
+; none
+ноль
+[0742] src=OVL0.OVL key=0x1425C max=14
+; You collected 
+Вы собрали 
+[0743] src=OVL0.OVL key=0x1426B max=21
+;  talents in tribute, 
+ талантов данью, 
+[0744] src=OVL0.OVL key=0x14281 max=22
+;  talents in bets,
+; and 
+ талантов в ставках,\nи
+[0745] src=OVL0.OVL key=0x14298 max=20
+;  talents in plunder.
+ талантов грабежом.
+[0746] src=OVL0.OVL key=0x142AE max=9
+;  met the 
+ повидал 
+[0747] src=OVL0.OVL key=0x142B8 max=32
+;  on the gently
+; rolling waves of 
+ на мягких\nволнах
+[0748] src=OVL0.OVL key=0x142EE max=74
+; The tides of battle sweep
+; your flag ships apart.
+; Do you wish to re-engage?
+Волны битвы разносят\nваши флагманы в стороны.\nПродолжить бой?
+[0749] src=OVL0.OVL key=0x1433A max=98
+; Neptune and Mars smile, and you destroy the enemy
+; flagship, sending your foes to a watery death.
+; 
+; 
+Нептун и Марс улыбаются, и вы уничтожаете\nфлагман врага, отправляя врагов на водяную смерть.\n\n
+[0750] src=OVL0.OVL key=0x1439E max=66
+; The Sea and War Gods frown, and your
+; flagship sinks beneath you.
+; 
+; 
+Морские и воинские боги хмурятся, и ваш\nфлагман тонет под вами.\n\n
+[0751] src=OVL0.OVL key=0x143E2 max=90
+; Such commanders lead these fleets, that Neptune calls
+; them both to his underwater realm.
+; 
+; 
+Таковы командиры этих флотов, что Нептун\nзовёт их обоих в своё подводное царство.\n\n
+[0752] src=OVL0.OVL key=0x1443E max=89
+; The enemy admiral, recognizing your superiority,
+; flees for the safety of his home port.
+; 
+; 
+Вражеский адмирал, видя ваше превосходство,\nбежит в свой домашний порт.\n\n
+[0753] src=OVL0.OVL key=0x14498 max=98
+; Their leader's flight from battle disheartens
+; the enemy, and your brave crews destroy them easily.
+Бегство их адмирала с битвы удручает\nврага, и ваши храбрые команды легко уничтожают его.
+[0754] src=OVL0.OVL key=0x144FC max=83
+; In spite of their admiral's cowardly flight,
+; the enemy fleet overwhelms your ships.
+Несмотря на трусливое бегство их адмирала,\nфлот врага сокрушает ваши корабли.
+[0755] src=OVL0.OVL key=0x14550 max=54
+; In spite of their admiral's bath,
+; your fleet prevails.
+Несмотря на купание их адмирала,\nваш флот побеждает.
+[0756] src=OVL0.OVL key=0x14588 max=90
+; With the sinking of the flagship, your sailors lose
+; heart and the Roman fleet is defeated.
+С гибелью флагмана ваши моряки падают духом,\nи римский флот разгромлен.
+[0757] src=OVL0.OVL key=0x145E4 max=134
+; The enemy force is disheartened when their leader
+; is sent to Neptune's locker without a sword, and
+; your ships make quick work of them.
+Вражеское войско удручено, когда их вождь\nотправлен к Нептуну без меча, и\nваши корабли быстро их уничтожают.
+[0758] src=OVL0.OVL key=0x1466C max=144
+; Alas, your ship duel was with the witless commander
+; of the enemy fleet, and his more competent mates
+; have swept the seas clean of Roman vessels.
+Увы, ваш корабельный поединок был с безмозглым\nкомандиром вражеского флота, а его более умелые\nтоварищи очистили моря от римских кораблей.
+[0759] src=OVL0.OVL key=0x146FE max=100
+; The fleets fight until sunset, when the last two
+; vessels sink, together forever in a deadly embrace.
+Флоты сражаются до заката, когда последние два\nкорабля тонут в смертельных объятиях.
+[0760] src=OVL0.OVL key=0x14764 max=48
+; You retreat to safety with your remaining ships.
+Вы отступаете с оставшимися кораблями.
+[0761] src=OVL0.OVL key=0x14806 max=78
+; Your sailors cheer lustily as they swing
+; across and board the enemy flagship.
+; 
+Ваши моряки ликуют, перепрыгивая\nи берут вражеский флагман на абордаж.\n
+[0762] src=OVL0.OVL key=0x14855 max=40
+; The enemy swarms across the gangplanks.
+; 
+Враги толпой лезут по сходням.\n
+[0763] src=OVL0.OVL key=0x1487E max=91
+; the last of your men are thrown overboard,
+; and the scurrilous enemy scuttles your flagship.
+последние из ваших людей сброшены за борт,\nи подлый враг топит ваш флагман.
+[0764] src=OVL0.OVL key=0x148DA max=86
+; your axemen chop gaping holes in the enemy
+; vessel, allowing Neptune to claim the hulk.
+ваши секироносцы рубят дыры\nв корабле врага, и Нептун забирает остов.
+[0765] src=OVL0.OVL key=0x14931 max=119
+; they are each too damaged to stay afloat,
+; and the two flagships sink together, bound
+; eternally in Neptune's playground.
+они оба слишком повреждены, чтобы держаться,\nи два флагмана тонут вместе, навеки\nво владениях Нептуна.
+[0766] src=OVL0.OVL key=0x149A9 max=39
+; After fierce combat aboard both ships,
+; 
+После яростного боя на обоих кораблях,\n
+[0767] src=OVL0.OVL key=0x14AD4 max=7
+; Trireme
+Трирема
+[0768] src=OVL0.OVL key=0x14ADC max=11
+; Quinquereme
+Квинкверема
+[0769] src=OVL0.OVL key=0x14AE8 max=7
+; Galleon
+Галеон
+[0770] src=OVL0.OVL key=0x14AF0 max=19
+; Choose a flag ship:
+Выберите флагман:
+[0771] src=OVL0.OVL key=0x14BBA max=5
+; SHIPS
+СУДА
+[0772] src=OVL0.OVL key=0x14BCC max=11 tech=1
+; galleys.lzw
+galleys.lzw
+[0773] src=OVL0.OVL key=0x14BD8 max=5 tech=1
+; oars1
+oars1
+[0774] src=OVL0.OVL key=0x14BDE max=5 tech=1
+; oars2
+oars2
+[0775] src=OVL0.OVL key=0x14BE4 max=11 tech=1
+; galleys.cbm
+galleys.cbm
+[0776] src=OVL0.OVL key=0x14BF0 max=5 tech=1
+; bombs
+bombs
+[0777] src=OVL0.OVL key=0x14BF6 max=4 tech=1
+; smok
+smok
+[0778] src=OVL0.OVL key=0x14BFB max=11 tech=1
+; collide.lzw
+collide.lzw
+[0779] src=OVL0.OVL key=0x14C07 max=4 tech=1
+; flag
+flag
+[0780] src=OVL0.OVL key=0x14C30 max=7
+; STOPPED
+СТОИМ
+[0781] src=OVL0.OVL key=0x14C38 max=14
+; CRUISING SPEED
+КРЕЙСЕР
+[0782] src=OVL0.OVL key=0x14C47 max=12
+; BATTLE SPEED
+БОЕВОЙ ХОД
+[0783] src=OVL0.OVL key=0x14C54 max=12
+; ATTACK SPEED
+ХОД АТАКИ
+[0784] src=OVL0.OVL key=0x14C61 max=13
+; RAMMING SPEED
+ТАРАННЫЙ ХОД
+[0785] src=OVL0.OVL key=0x14D2C max=5 tech=1
+; xsink
+xsink
+[0786] src=OVL0.OVL key=0x14D78 max=28
+; Failed to Load Human Sinking
+Нет графики гибели игрока
+[0787] src=OVL0.OVL key=0x14D95 max=31
+; Failed to Load Computer Sinking
+Нет графики гибели врага
+[0788] src=OVL0.OVL key=0x14DB5 max=5 tech=1
+; shark
+shark
+[0789] src=OVL0.OVL key=0x14DD8 max=8
+; No error
+Норма
+[0790] src=OVL0.OVL key=0x14DE1 max=15
+; Unknown display
+Неизв. дисплей
+[0791] src=OVL0.OVL key=0x14DF1 max=23
+; Monochrome text display
+Монохромный дисплей
+[0792] src=OVL0.OVL key=0x14E09 max=33
+; EGA with less than 256K of memory
+EGA с памятью меньше 256K
+[0793] src=OVL0.OVL key=0x14E2F max=21
+; MCGA with RGB monitor
+MCGA с RGB-монитором
+[0794] src=OVL0.OVL key=0x14E45 max=12
+; Inactive EGA
+EGA не вкл.
+[0795] src=OVL0.OVL key=0x14E52 max=14
+;  not supported
+ не поддерж.
+[0796] src=OVL0.OVL key=0x159E4 max=15
+; run-time error 
+сбой программы 
+[0797] src=ENEGO/SCOUT.LZW key=0 max=*
+; 
+
+[0798] src=ENEGO/SCOUT.LZW key=1 max=*
+; You arrive in Carthago, the legendary capital of the powerful Carthaginian Empire and the greatest city west of Aegyptus.  A history-making confrontation is at hand.
+Вы прибываете в Карфаген, легендарную столицу могущественной Карфагенской империи и величайший город к западу от Египта.  Назревает историческое столкновение.
+[0799] src=ENEGO/SCOUT.LZW key=2 max=*
+; You arrive in Alexandria, the fabulous capital city of the Aegyptian Empire and home to the beautiful and legendary Queen Cleopatra.
+Вы прибываете в Александрию, сказочную столицу Египетской империи и дом прекрасной легендарной царицы Клеопатры.
+[0800] src=ENEGO/SCOUT.LZW key=3 max=*
+; Your forces enter the realm of the Greeks and Macedonians.  The Greek era has given way to the age of Rome, but Macedon remains a powerful nation.
+Ваши войска входят в земли греков и македонян.  Греческая эра уступила место веку Рима, но Македония остаётся могущественной державой.
+[0801] src=ENEGO/SCOUT.LZW key=4 max=*
+; Your legion enters the forbidding realm of the Gauls, fierce warriors known for their frenzied assaults that strike fear in the hearts of the most battle- hardened soldiers.
+Ваш легион входит в грозные земли галлов — свирепых воинов, известных яростными атаками, которые вселяют страх в сердца самых закалённых в боях солдат.
+[0802] src=ENEGO/SCOUT.LZW key=5 max=*
+; The easternmost reaches of your maps show the border of the vast Parthian Empire, a prize beyond compare.  As your troops cross into Parthia, an army intercepts them.
+На восточном краю ваших карт лежит граница обширной Парфянской империи — несравненной добычи.  Когда ваши войска входят в Парфию, армия встречает их.
+[0803] src=ENEGO/SCOUT.LZW key=6 max=*
+; Your scouts report that Syria is a land of wise merchants and seafarers.  In a desert valley along the coastal plain, your forces are confronted by the Syrian army.
+Ваши разведчики докладывают, что Сирия — земля мудрых купцов и мореплавателей.  В пустынной долине у прибрежной равнины ваши войска встречает сирийская армия.
+[0804] src=ENEGO/SCOUT.LZW key=7 max=*
+; Your scouts report Thracia is a mountainous province with fierce, intractable leaders and skilled warriors.  Invaders fare poorly here.
+Разведчики докладывают: Фракия — горная провинция со свирепыми, несговорчивыми вождями и искусными воинами.  Захватчикам здесь приходится плохо.
+[0805] src=ENEGO/SCOUT.LZW key=8 max=*
+; Pontus is a small region along the southern coast of the Black Sea.  A wealthy kingdom, Pontus can afford to field a well-supplied army.
+Понт — небольшая область на южном побережье Чёрного моря.  Богатое царство, Понт может позволить себе хорошо снабжённую армию.
+[0806] src=ENEGO/SCOUT.LZW key=9 max=*
+; As your legionnaires march into Asia, her armies assemble on a plain by the sea.  You stand at the gateway to the east, with the destiny of Rome in your hands.
+Когда ваши легионеры входят в Азию, её армии собираются на равнине у моря.  Вы стоите у ворот на восток, и судьба Рима в ваших руках.
+[0807] src=ENEGO/SCOUT.LZW key=10 max=*
+; You have reached Cilicia, home of the Cilician pirates.  They are salacious brigands, desperate scoundrels, and the scourge of Mare Nostrum.  The scouts' advice is simple: SQUASH THEM!
+Вы достигли Киликии, родины киликийских пиратов.  Они развратные разбойники, отчаянные негодяи и бич Нашего моря.  Совет разведчиков прост: РАЗДАВИТЕ ИХ!
+[0808] src=ENEGO/SCOUT.LZW key=11 max=*
+; You lead your legion into the mountainous Alpes north of Italia.  At the edge of the forest your scouts cry out the dreaded word: BARBARIANS!
+Вы ведёте легион в горные Альпы к северу от Италии.  На опушке леса ваши разведчики выкрикивают страшное слово: ВАРВАРЫ!
+[0809] src=ENEGO/SCOUT.LZW key=12 max=*
+; Before you stretches the dense forests of Germania, where live uncounted barbarian tribes who fight with reckless abandon.
+Перед вами простираются дремучие леса Германии, где живут бесчисленные варварские племена, сражающиеся с безрассудной отвагой.
+[0810] src=ENEGO/SCOUT.LZW key=13 max=*
+; Your scouts report that Dalmatia will not be an easy conquest.  Laced with forested mountain ranges, this rugged land seldom falls to invaders and is difficult to rule effectively.
+Разведчики докладывают, что Далмация не будет лёгкой добычей.  Изрезанная лесистыми горными хребтами, эта суровая земля редко падает перед захватчиками, и управлять ею трудно.
+[0811] src=ENEGO/SCOUT.LZW key=14 max=*
+; Your troops cross into Dacia.  The warriors of Dacia are among the fiercest in the known world and the land is unfriendly to any intruder, especially the emissaries of Rome.
+Ваши войска входят в Дакию.  Воины Дакии — одни из самых свирепых в известном мире, а земля недружелюбна к любому чужаку, особенно к посланникам Рима.
+[0812] src=ENEGO/SCOUT.LZW key=15 max=*
+; Dry and dusty, the region called Hispania is part of the Carthaginian Empire and the armies of Carthage stand ready for battle.  If it comes to a fight, your legionnaires truly will be tested here.
+Сухая и пыльная Испания — часть Карфагенской империи, и армии Карфагена готовы к бою.  Если дело дойдёт до сражения, ваши легионеры здесь по-настоящему будут испытаны.
+[0813] src=ENEGO/SCOUT.LZW key=16 max=*
+; Your scouts report that Mauretania is a rocky, desert region.  The cities are confined to the coastal areas, and the leaders may not be friendly.
+Разведчики докладывают, что Мавретания — скалистая пустынная область.  Города тянутся лишь вдоль побережья, а вожди вряд ли будут дружелюбны.
+[0814] src=ENEGO/SCOUT.LZW key=17 max=*
+; Your legion arrives in Cyrenaica, a desert region to the west of Aegyptus.  While it remains under the influence of the Aegyptian Empire, Cyrenaica may be hostile to Rome.
+Ваш легион прибывает в Киренаику, пустынную область к западу от Египта.  Пока она под влиянием Египетской империи, Киренаика может быть враждебна Риму.
+[0815] src=ENEGO/SCOUT.LZW key=18 max=*
+; The deserts of Arabia stretch before you, dotted only occasionally with an oasis or waterhole.  This land has little to offer Romans save death and despair.
+Перед вами простираются пустыни Аравии, лишь изредка отмеченные оазисом или водоёмом.  Эта земля может предложить римлянам только смерть и отчаяние.
+[0816] src=ENEGO/SCOUT.LZW key=19 max=*
+; Before your troops spreads the ancient valley of the Tigris and Euphrates, twin rivers that embrace the cradle of civilization.
+Перед вашими войсками раскинулась древняя долина Тигра и Евфрата — двух рек, обнимающих колыбель цивилизации.
+[0817] src=ENEGO/SCOUT.LZW key=20 max=*
+; Your scouts return from the rugged mountains of Armenia to report that the region is largely unpopulated.  But Armenian forces meet your troops soon after penetrating the border.
+Разведчики возвращаются из суровых гор Армении с докладом, что область почти не заселена.  Но армянские войска встречают ваши отряды вскоре после пересечения границы.
+[0818] src=ENEGO/SCOUT.LZW key=21 max=*
+; Your forces arrive in Sicilia, and the scouts report that the island will not be easily conquered.  Its natural defenses include rugged countryside and the surrounding ocean.
+Ваши войска прибывают на Сицилию, и разведчики докладывают, что остров не покорится легко.  Его природная защита — суровая местность и окружающий океан.
+[0819] src=ENEGO/SCOUT.LZW key=22 max=*
+; Your fleet approaches the maritime nation of Sardinia, a center of trade in Mare Nostrum.  Your aides tell you the island has great strategic importance.
+Ваш флот приближается к морской державе Сардинии, центру торговли в Нашем море.  Ваши помощники говорят, что остров имеет огромное стратегическое значение.
+[0820] src=ENEGO/SCOUT.LZW key=23 max=*
+; You and your men cross the channel safely to Britannia, an island of green trees and fields, unpredictable weather and warlike barbarian tribes.
+Вы и ваши люди благополучно пересекаете пролив в Британию — остров зелёных деревьев и полей, непредсказуемой погоды и воинственных варварских племён.
+[0821] src=ENEGO/SCOUT.LZW key=24 max=*
+; Along the coast of Mare Nostrum, ten days' march from Rome, you enter the region known as Narbonensis.  Your soldiers are tense with anticipation and eager for a fight.
+Вдоль побережья Нашего моря, в десяти днях марша от Рима, вы входите в Нарбонскую Галлию.  Ваши солдаты напряжены в ожидании и жаждут боя.
+[0822] src=ENEGO/SCOUT.LZW key=25 max=*
+; Your troops march into Scythia.  In the wilds of Scythia are scattered tribes with warlike traditions and many courageous fighters.  The days ahead may be costly to Romans and Scythians alike.
+Ваши войска входят в Скифию.  В дебрях Скифии рассеяны племена с воинственными традициями и множеством храбрых бойцов.  Грядущие дни могут дорого стоить и римлянам, и скифам.
+[0823] src=ENEGO/SCOUT.LZW key=26 max=*
+; The legions of Rome enter Sarmatia and the scouts return with descriptions of a vast region with many tribes and few leaders.  Still, a Sarmatian force soon gathers to meet your army.
+Легионы Рима входят в Сарматию, и разведчики возвращаются с описаниями обширной области с множеством племён и малым числом вождей.  Тем не менее сарматское войско скоро собирается навстречу вашей армии.
+[0824] src=ENEGO/TEXTA.LZW key=0 max=*
+; Hannibal does not parley with junior officers.  Prepare for battle!~The master of Carthage doesn't deal with underlings.  Prepare for battle!~I beat your best generals, and now I am sent a subaltern? The war resumes.
+Ганнибал не ведёт переговоров с младшими офицерами.  Готовьтесь к бою!~Хозяин Карфагена не разговаривает с подчинёнными.  Готовьтесь к бою!~Я побил ваших лучших генералов, а теперь мне прислали младшего офицера? Война возобновляется.
+[0825] src=ENEGO/TEXTA.LZW key=1 max=*
+; Hail, General! Do you seek a parley before the battle?
+Приветствую, генерал! Ищете переговоров перед битвой?
+[0826] src=ENEGO/TEXTA.LZW key=2 max=*
+; 
+
+[0827] src=ENEGO/TEXTA.LZW key=3 max=*
+; Ho! You intend this as a joke?
+Хо! Вы задумали это как шутку?
+[0828] src=ENEGO/TEXTA.LZW key=4 max=*
+; As long as your legions are in Carthage, there can be no peace.
+Пока ваши легионы в Карфагене, мира быть не может.
+[0829] src=ENEGO/TEXTA.LZW key=5 max=*
+; In the face of a weaker foe? Oh, I think not.
+Перед более слабым врагом? О, не думаю.
+[0830] src=ENEGO/TEXTA.LZW key=6 max=*
+; Hannibal does not surrender.  Not to Rome, not to anyone.
+Ганнибал не сдаётся.  Ни Риму, ни кому-либо.
+[0831] src=ENEGO/TEXTA.LZW key=7 max=*
+; Trust? Between Rome and Carthage?
+Доверие? Между Римом и Карфагеном?
+[0832] src=ENEGO/TEXTA.LZW key=8 max=*
+; I am no politician, but I assure you Carthage will not be Rome's willing servant.
+Я не политик, но уверяю: Карфаген не станет покорным слугой Рима.
+[0833] src=ENEGO/TEXTA.LZW key=9 max=*
+; Your bravado is most entertaining.
+Ваша бравада весьма занимательна.
+[0834] src=ENEGO/TEXTA.LZW key=10 max=*
+; Leave Carthage now, or fight us.
+Уходите из Карфагена сейчас, или сражайтесь с нами.
+[0835] src=ENEGO/TEXTA.LZW key=11 max=*
+; Impossible.  Sound the call for battle!~Farewell, Roman.  To arms!~A foul Roman dream.  On with the war!
+Невозможно.  Трубите сбор!~Прощай, римлянин.  К оружию!~Мерзкая римская мечта.  Война продолжается!
+[0836] src=ENEGO/TEXTA.LZW key=12 max=*
+; Oh, I hardly think so, Roman.
+О, я в этом сомневаюсь, римлянин.
+[0837] src=ENEGO/TEXTB.LZW key=0 max=*
+; Tell the Roman to take his tin soldiers elsewhere.  I do not have time for minor functionaries.
+Передайте римлянину, пусть уводит своих оловянных солдатиков.  У меня нет времени на мелких чиновников.
+[0838] src=ENEGO/TEXTB.LZW key=1 max=*
+; So the mighty conqueror hungers for the wealth of the pharaohs.
+Значит, могучий завоеватель жаждет богатств фараонов.
+[0839] src=ENEGO/TEXTB.LZW key=2 max=*
+; We are pleased with your offer.  You have an ally.  Dine with us tonight, and the gods will favor our alliance!
+Нам приятно ваше предложение.  У вас есть союзник.  Отобедайте с нами сегодня, и боги благословят наш союз!
+[0840] src=ENEGO/TEXTB.LZW key=3 max=*
+; You ask too much.  The audience is over.  Escort the Roman to his ship!
+Вы просите слишком многого.  Аудиенция окончена.  Проводите римлянина к его кораблю!
+[0841] src=ENEGO/TEXTB.LZW key=4 max=*
+; Ha! What does Rome offer that Cleopatra needs?
+Ха! Что Рим может предложить нужного Клеопатре?
+[0842] src=ENEGO/TEXTB.LZW key=5 max=*
+; Your deeds reveal the truth, Roman, and the truth is that you are a terrible liar.
+Ваши дела раскрывают правду, римлянин, а правда в том, что вы ужасный лжец.
+[0843] src=ENEGO/TEXTB.LZW key=6 max=*
+; Ha! To negotiate with Cleopatra requires more wits than you have, Roman!
+Ха! Для переговоров с Клеопатрой нужно больше ума, чем у вас есть, римлянин!
+[0844] src=ENEGO/TEXTB.LZW key=7 max=*
+; How presumptuous! The audience is over!
+Какая самонадеянность! Аудиенция окончена!
+[0845] src=ENEGO/TEXTB.LZW key=8 max=*
+; You presume a great deal, Roman.  But what is the price for such friendships?
+Вы многого домогаетесь, римлянин.  Но какова цена такой дружбы?
+[0846] src=ENEGO/TEXTB.LZW key=9 max=*
+; Then fight us, Roman pigs!
+Тогда сражайтесь с нами, римские свиньи!
+[0847] src=ENEGO/TEXTB.LZW key=10 max=*
+; Stop simpering, Roman, and leave Alexandria at once!
+Хватит лебезить, римлянин, и немедленно покиньте Александрию!
+[0848] src=ENEGO/TEXTB.LZW key=11 max=*
+; An empty alliance? Do you take me for a complete idiot? You may leave now, Roman.
+Пустой союз? Вы принимаете меня за полную дуру? Можете идти, римлянин.
+[0849] src=ENEGO/TEXTB.LZW key=12 max=*
+; Ha! Your pitiful legions protect Aegyptus? Leave before I lose my temper!
+Ха! Ваши жалкие легионы защищают Египет? Уходите, пока я не вышла из себя!
+[0850] src=ENEGO/TEXTB.LZW key=13 max=*
+; We will consider it.  What tribute do you ask of us?
+Мы это обдумаем.  Какую дань вы требуете?
+[0851] src=ENEGO/TEXTB.LZW key=14 max=*
+; You bore me Roman.  I grow weary of this empty chatter.  You may leave now.
+Вы мне наскучили, римлянин.  Я устала от этой пустой болтовни.  Можете идти.
+[0852] src=ENEGO/TEXTB.LZW key=15 max=*
+; Does the mighty conqueror seek another conquest? Is the land of the Pharaohs not enough to satisfy you?
+Могучий завоеватель ищет новых завоеваний? Земли фараонов вам недостаточно?
+[0853] src=ENEGO/TEXTB.LZW key=16 max=*
+; Then it is true.  The mighty conqueror hungers for the Queen of the Nile.
+Значит, это правда.  Могучий завоеватель жаждет царицу Нила.
+[0854] src=ENEGO/TEXTB.LZW key=17 max=*
+; Flattery is beneath me, Roman, and SO ARE YOU.  Now you have my permission to LEAVE.
+Лесть мне претит, римлянин, как и ВЫ.  Теперь у вас есть моё позволение УЙТИ.
+[0855] src=ENEGO/TEXTB.LZW key=18 max=*
+; Is that so?  Perhaps you are about to have a new experience, Roman.  GUARDS!!!
+Вот как?  Возможно, вас ждёт новое впечатление, римлянин.  СТРАЖА!!!
+[0856] src=ENEGO/TEXTB.LZW key=19 max=*
+; What IMPUDENCE.  This was a mistake.  GUARDS!!!
+Какая ДЕРЗОСТЬ.  Это была ошибка.  СТРАЖА!!!
+[0857] src=ENEGO/TEXTB.LZW key=20 max=*
+; If it were offered, it might be a gift that would interest me.
+Если бы это предложили, такой дар мог бы меня заинтересовать.
+[0858] src=ENEGO/TEXTC.LZW key=0 max=*
+; Invader! Withdraw or prepare to fight!~Retreat or do battle!~Intruder! Our armies await you!
+Захватчик! Уходите или готовьтесь к бою!~Отступайте или сражайтесь!~Чужак! Наши армии ждут вас!
+[0859] src=ENEGO/TEXTC.LZW key=1 max=*
+; Greetings, General! Would you negotiate with a Macedonian?
+Приветствую, генерал! Хотите переговоров с македонянином?
+[0860] src=ENEGO/TEXTC.LZW key=2 max=*
+; So be it.  From this day forward, Macedonia and Rome are allies.~It is settled.  The heirs of Romulus and of Alexander are now allies.~Let the world know that Rome and Macedonia stand together as allies.
+Да будет так.  С сего дня Македония и Рим — союзники.~Решено.  Наследники Ромула и Александра теперь союзники.~Пусть мир узнает: Рим и Македония стоят вместе как союзники.
+[0861] src=ENEGO/TEXTC.LZW key=3 max=*
+; Your demands are an insult.  Prepare for battle!
+Ваши требования — оскорбление.  Готовьтесь к бою!
+[0862] src=ENEGO/TEXTC.LZW key=4 max=*
+; We accept your compliment.
+Мы принимаем ваш комплимент.
+[0863] src=ENEGO/TEXTC.LZW key=5 max=*
+; Difficult, but perhaps possible.  What do you propose?
+Трудно, но, возможно, осуществимо.  Что вы предлагаете?
+[0864] src=ENEGO/TEXTC.LZW key=6 max=*
+; Your compliment was not THAT good, Roman.  Take your army and go.
+Ваш комплимент был не НАСТОЛЬКО хорош, римлянин.  Забирайте армию и уходите.
+[0865] src=ENEGO/TEXTC.LZW key=7 max=*
+; You are a barbarian, and there is but one way to deal with barbarians!
+Вы варвар, а с варварами есть лишь один способ обращения!
+[0866] src=ENEGO/TEXTC.LZW key=8 max=*
+; What level of tribute do you require?
+Какой размер дани вы требуете?
+[0867] src=ENEGO/TEXTC.LZW key=9 max=*
+; Your army is small.  Perhaps we should protect you.
+Ваша армия мала.  Пожалуй, это мы должны защищать вас.
+[0868] src=ENEGO/TEXTC.LZW key=10 max=*
+; Then fight us, Roman.  We are ready.
+Тогда сражайтесь с нами, римлянин.  Мы готовы.
+[0869] src=ENEGO/TEXTC.LZW key=11 max=*
+; Ridiculous! You can lie better than that, Roman!
+Смешно! Вы умеете лгать лучше, римлянин!
+[0870] src=ENEGO/TEXTC.LZW key=12 max=*
+; Euripides said a bad beginning makes a bad ending.  Prepare to die, Roman.
+Еврипид сказал: плохое начало ведёт к плохому концу.  Готовьтесь к смерти, римлянин.
+[0871] src=ENEGO/TEXTD.LZW key=0 max=*
+; I SPIT ON STINKING ROMAN DOGS.  PTOOEE!!
+ПЛЕВАЮ НА ВОНЮЧИХ РИМСКИХ ПСОВ.  ТФУ!!
+[0872] src=ENEGO/TEXTD.LZW key=1 max=*
+; WE HAVE NOT INVITED YOU HERE.  WHAT DO YOU SEEK, ROMAN?
+МЫ НЕ ЗВАЛИ ВАС СЮДА.  ЧТО ВАМ НУЖНО, РИМЛЯНИН?
+[0873] src=ENEGO/TEXTD.LZW key=2 max=*
+; THEN WE SUBMIT TO YOUR DEMANDS.  FROM THIS DAY FORWARD, WE OBEY THE WILL OF ROME.  YOU HAVE MY WORD.~WE ARE YOUR SUBJECTS.~THANK YOU, MIGHTY ONE.  WE OBEY THE WILL OF ROME.
+ТОГДА МЫ ПОКОРЯЕМСЯ ВАШИМ ТРЕБОВАНИЯМ.  С СЕГО ДНЯ МЫ ПОВИНУЕМСЯ ВОЛЕ РИМА.  ДАЮ СЛОВО.~МЫ ВАШИ ПОДДАННЫЕ.~СПАСИБО, МОГУЧИЙ.  МЫ ПОВИНУЕМСЯ ВОЛЕ РИМА.
+[0874] src=ENEGO/TEXTD.LZW key=3 max=*
+; I GROW TIRED OF YOU, ROMAN.  YOUR PITIFUL LEGIONS ARE NO MATCH FOR THE GAULS.~ROMAN, YOU FILL ME WITH DISGUST.  NOW YOU WILL DIE!!
+Я УСТАЛ ОТ ВАС, РИМЛЯНИН.  ВАШИМ ЖАЛКИМ ЛЕГИОНАМ НЕ СПРАВИТЬСЯ С ГАЛЛАМИ.~РИМЛЯНИН, ВЫ ВЫЗЫВАЕТЕ У МЕНЯ ОТВРАЩЕНИЕ.  ТЕПЕРЬ ВЫ УМРЁТЕ!!
+[0875] src=ENEGO/TEXTD.LZW key=4 max=*
+; THEN WE GREET YOU AS FRIENDS.
+ТОГДА МЫ ПРИВЕТСТВУЕМ ВАС КАК ДРУЗЕЙ.
+[0876] src=ENEGO/TEXTD.LZW key=5 max=*
+; ROMAN DOGS! WE SEE THROUGH YOUR LIES!
+РИМСКИЕ ПСЫ! МЫ ВИДИМ ВАШУ ЛОЖЬ НАСКВОЗЬ!
+[0877] src=ENEGO/TEXTD.LZW key=6 max=*
+; GAUL WILL NEVER JOIN YOUR EMPIRE.
+ГАЛЛИЯ НИКОГДА НЕ ВОЙДЁТ В ВАШУ ИМПЕРИЮ.
+[0878] src=ENEGO/TEXTD.LZW key=7 max=*
+; WE WILL NEVER SUBMIT! IF THAT IS YOUR WISH, TASTE THE FURY OF GAUL!
+МЫ НИКОГДА НЕ ПОКОРИМСЯ! ЕСЛИ ВЫ ЭТОГО ХОТИТЕ, ПОЗНАЙТЕ ЯРОСТЬ ГАЛЛОВ!
+[0879] src=ENEGO/TEXTD.LZW key=8 max=*
+; EMPTY PRAISE.  YOU TRY OUR PATIENCE, ROMAN.
+ПУСТАЯ ПОХВАЛА.  ВЫ ИСПЫТЫВАЕТЕ НАШЕ ТЕРПЕНИЕ, РИМЛЯНИН.
+[0880] src=ENEGO/TEXTD.LZW key=9 max=*
+; WHAT TERMS DO YOU OFFER?
+КАКИЕ УСЛОВИЯ ВЫ ПРЕДЛАГАЕТЕ?
+[0881] src=ENEGO/TEXTD.LZW key=10 max=*
+; ROMAN DOG! YOU WILL PAY FOR THIS INSULT WITH YOUR LIFE!~THEN DIE LIKE A ROMAN!
+РИМСКИЙ ПЁС! ТЫ ЗАПЛАТИШЬ ЗА ЭТО ОСКОРБЛЕНИЕ ЖИЗНЬЮ!~ТОГДА УМРИ КАК РИМЛЯНИН!
+[0882] src=ENEGO/TEXTD.LZW key=11 max=*
+; LET THE GODS OF WAR DECIDE!
+ПУСТЬ БОГИ ВОЙНЫ РЕШАТ!
+[0883] src=ENEGO/TEXTD.LZW key=12 max=*
+; YOUR LIES ARE TOO OBVIOUS, ROMAN.
+ВАША ЛОЖЬ СЛИШКОМ ОЧЕВИДНА, РИМЛЯНИН.
+[0884] src=ENEGO/TEXTD.LZW key=13 max=*
+; WHAT LEVEL OF TRIBUTE WILL YOU DEMAND?
+КАКОЙ РАЗМЕР ДАНИ ВЫ ПОТРЕБУЕТЕ?
+[0885] src=ENEGO/TEXTD.LZW key=14 max=*
+; GAUL SURRENDER TO ROMANS? NEVER!
+ГАЛЛЫ СДАДУТСЯ РИМЛЯНАМ? НИКОГДА!
+[0886] src=ENEGO/TEXTE.LZW key=0 max=*
+; Rome sends lackeys to the Parthian king? We are insulted.~Go, sluggard.  The king of Parthia has nothing to say to inferiors.~Sound the attack! Pray to your gods for mercy!
+Рим присылает лакеев к парфянскому царю? Мы оскорблены.~Уходи, лентяй.  Царю Парфии нечего сказать низшим.~Трубите атаку! Молите своих богов о пощаде!
+[0887] src=ENEGO/TEXTE.LZW key=1 max=*
+; Hail! Something to say before we destroy your legions?
+Приветствую! Хотите что-то сказать, прежде чем мы уничтожим ваши легионы?
+[0888] src=ENEGO/TEXTE.LZW key=2 max=*
+; 
+
+[0889] src=ENEGO/TEXTE.LZW key=3 max=*
+; I did not know Romans could jest!
+Я не знал, что римляне умеют шутить!
+[0890] src=ENEGO/TEXTE.LZW key=4 max=*
+; Withdraw your legions, and then there can be peace.
+Уведите свои легионы, и тогда будет мир.
+[0891] src=ENEGO/TEXTE.LZW key=5 max=*
+; When we are the stronger army? Oh, come now!
+Когда наша армия сильнее? О, полно вам!
+[0892] src=ENEGO/TEXTE.LZW key=6 max=*
+; Parthians never surrender, especially not to Rome!
+Парфяне никогда не сдаются, особенно Риму!
+[0893] src=ENEGO/TEXTE.LZW key=7 max=*
+; Trust Rome? Are you sober?
+Доверять Риму? Вы трезвы?
+[0894] src=ENEGO/TEXTE.LZW key=8 max=*
+; The lion of Parthia will never serve the jackal of Rome!
+Лев Парфии никогда не будет служить римскому шакалу!
+[0895] src=ENEGO/TEXTE.LZW key=9 max=*
+; Your posturing amuses us.
+Ваша поза нас забавляет.
+[0896] src=ENEGO/TEXTE.LZW key=10 max=*
+; Withdraw at once or the king will have your head on a pike!
+Уходите немедленно, или ваша голова окажется на колу!
+[0897] src=ENEGO/TEXTE.LZW key=11 max=*
+; You are mad! Begin the the attack!~Never, son of a pig! Attack them now!~Out of the question.  Prepare to die.
+Вы безумны! Начинайте атаку!~Никогда, сын свиньи! Атакуйте их сейчас!~Об этом не может быть речи.  Готовьтесь к смерти.
+[0898] src=ENEGO/TEXTE.LZW key=12 max=*
+; Oh, that hardly sounds likely.
+О, это вряд ли правдоподобно.
+[0899] src=ENEGO/TEXTF.LZW key=0 max=*
+; Be warned, Roman.  Withdraw or risk attack.~Be gone, intruder.  It is not too late to flee.~Syria will not suffer invaders! Go or fight!
+Предупреждаю, римлянин.  Уходи или рискуешь нападением.~Прочь, чужак.  Ещё не поздно бежать.~Сирия не потерпит захватчиков! Уходи или сражайся!
+[0900] src=ENEGO/TEXTF.LZW key=1 max=*
+; If you have something to say, be quick about it.
+Если вам есть что сказать — говорите быстро.
+[0901] src=ENEGO/TEXTF.LZW key=2 max=*
+; That is reasonable.  You have an ally.~A fair bargain.  Syria is your ally.~That we can accept.  From this day, we are allies.
+Это разумно.  У вас есть союзник.~Честная сделка.  Сирия — ваш союзник.~Это мы можем принять.  С сего дня мы союзники.
+[0902] src=ENEGO/TEXTF.LZW key=3 max=*
+; Our people would starve! The answer is no.
+Наш народ будет голодать! Ответ — нет.
+[0903] src=ENEGO/TEXTF.LZW key=4 max=*
+; What does Rome mean by this word friendship?
+Что Рим понимает под словом «дружба»?
+[0904] src=ENEGO/TEXTF.LZW key=5 max=*
+; I think not, Roman.  You seek slaves, not allies.
+Не думаю, римлянин.  Вы ищете рабов, а не союзников.
+[0905] src=ENEGO/TEXTF.LZW key=6 max=*
+; You speak in lofty terms, yet the words say nothing.  Leave us.
+Вы говорите высокими словами, но они ничего не значат.  Оставьте нас.
+[0906] src=ENEGO/TEXTF.LZW key=7 max=*
+; We are inclined to believe you.  What tribute will you demand?
+Мы склонны верить вам.  Какую дань вы потребуете?
+[0907] src=ENEGO/TEXTF.LZW key=8 max=*
+; Rome's idea of protection holds no interest for us.  Take your men and go!
+Римская защита нас не интересует.  Забирайте своих людей и уходите!
+[0908] src=ENEGO/TEXTF.LZW key=9 max=*
+; Flattery! Tell us what you want, Roman.
+Лесть! Говорите, что вам нужно, римлянин.
+[0909] src=ENEGO/TEXTF.LZW key=10 max=*
+; Syria never bows to aggressors! Withdraw or fight!
+Сирия никогда не склоняется перед агрессорами! Уходите или сражайтесь!
+[0910] src=ENEGO/TEXTF.LZW key=11 max=*
+; Syrians do not surrender.  If you attack us, we will fight.
+Сирийцы не сдаются.  Если вы нападёте, мы будем сражаться.
+[0911] src=ENEGO/TEXTF.LZW key=12 max=*
+; Forgive us but we do not believe you.
+Простите, но мы вам не верим.
+[0912] src=ENEGO/TEXTF.LZW key=13 max=*
+; We admire your courage.
+Мы восхищаемся вашей храбростью.
+[0913] src=ENEGO/TEXTG.LZW key=0 max=*
+; All of Thracia will rise to expel you!~Roman vermin! We shall crush you!~Accursed one! Your fate is upon you!
+Вся Фракия поднимется, чтобы изгнать вас!~Римская гадина! Мы сокрушим вас!~Проклятый! Ваша судьба настигла вас!
+[0914] src=ENEGO/TEXTG.LZW key=1 max=*
+; Hail, Roman.  What have you to offer Thracia?
+Приветствую, римлянин.  Что вы можете предложить Фракии?
+[0915] src=ENEGO/TEXTG.LZW key=2 max=*
+; Upon our honor, Thracia is your ally forever.~The bond is sealed; we are now the faithful ally of Rome.~We are your ally.  Your friends are our friends, your foes, our foes.
+Клянёмся честью, Фракия — ваш союзник навек.~Союз скреплён; мы теперь верный союзник Рима.~Мы ваши союзники.  Ваши друзья — наши друзья, ваши враги — наши враги.
+[0916] src=ENEGO/TEXTG.LZW key=3 max=*
+; Arrogant dog! Gather your pitiful legion to die.
+Надменный пёс! Собирай свой жалкий легион на смерть.
+[0917] src=ENEGO/TEXTG.LZW key=4 max=*
+; We accept your gracious words.
+Мы принимаем ваши любезные слова.
+[0918] src=ENEGO/TEXTG.LZW key=5 max=*
+; Hard, but possible.  How would you go about it?
+Трудно, но возможно.  Как вы это осуществите?
+[0919] src=ENEGO/TEXTG.LZW key=6 max=*
+; No words of praise will excuse that.  Your army must leave.
+Никакие похвалы этого не оправдают.  Ваша армия должна уйти.
+[0920] src=ENEGO/TEXTG.LZW key=7 max=*
+; You are little better than a savage.  Thracians meet savagery with savagery!
+Вы немногим лучше дикаря.  Фракийцы отвечают на дикость дикостью!
+[0921] src=ENEGO/TEXTG.LZW key=8 max=*
+; How much tribute do you want?
+Сколько дани вы хотите?
+[0922] src=ENEGO/TEXTG.LZW key=9 max=*
+; With so few soldiers? Perhaps WE should be the protectors.
+С таким малым войском? Пожалуй, защитниками должны быть МЫ.
+[0923] src=ENEGO/TEXTG.LZW key=10 max=*
+; Then draw your weapons!
+Тогда обнажайте оружие!
+[0924] src=ENEGO/TEXTG.LZW key=11 max=*
+; Absurd! Can you lie no better than that?
+Нелепо! Неужели вы не умеете лгать лучше?
+[0925] src=ENEGO/TEXTG.LZW key=12 max=*
+; We have beaten far better warriors than you.  Now you die!
+Мы побивали воинов куда лучше вас.  Теперь вы умрёте!
+[0926] src=ENEGO/TEXTH.LZW key=0 max=*
+; You are not welcome.  Flee while you may.~If you remain in Pontus, war is certain.~Retreat or fight us, but choose now!
+Вам здесь не рады.  Бегите, пока можете.~Если вы останетесь в Понте, война неизбежна.~Отступайте или сражайтесь, но выбирайте сейчас!
+[0927] src=ENEGO/TEXTH.LZW key=1 max=*
+; Say what you have come to say and be gone.
+Скажите, зачем пришли, и уходите.
+[0928] src=ENEGO/TEXTH.LZW key=2 max=*
+; Your terms are fair.  We are your ally.~Most agreeable terms.  We are allies.~Your generosity suprises us.  Agreed.
+Ваши условия справедливы.  Мы ваши союзники.~Весьма приемлемые условия.  Мы союзники.~Ваша щедрость удивляет нас.  Согласны.
+[0929] src=ENEGO/TEXTH.LZW key=3 max=*
+; Outrageous! We refuse.
+Возмутительно! Мы отказываемся.
+[0930] src=ENEGO/TEXTH.LZW key=4 max=*
+; Rome sometimes treats her friends bitterly.
+Рим порой горько обходится со своими друзьями.
+[0931] src=ENEGO/TEXTH.LZW key=5 max=*
+; Impossible.  Rome says 'ally' when she means 'slave'.
+Невозможно.  Рим говорит «союзник», когда имеет в виду «раб».
+[0932] src=ENEGO/TEXTH.LZW key=6 max=*
+; Your high-flown language is meaningless.  Be gone.
+Ваша высокопарная речь бессмысленна.  Уходите.
+[0933] src=ENEGO/TEXTH.LZW key=7 max=*
+; Your words ring true.  What tribute will suffice?
+Ваши слова звучат правдиво.  Какая дань устроит вас?
+[0934] src=ENEGO/TEXTH.LZW key=8 max=*
+; Rome would 'protect' us into chains and bondage.  Go now!
+Рим «защитит» нас до цепей и рабства.  Уходите!
+[0935] src=ENEGO/TEXTH.LZW key=9 max=*
+; Speak plainly, Roman, what do you want?
+Говорите прямо, римлянин, что вам нужно?
+[0936] src=ENEGO/TEXTH.LZW key=10 max=*
+; We laugh at your bluffs.  Go or die!
+Мы смеёмся над вашими угрозами.  Уходите или умрёте!
+[0937] src=ENEGO/TEXTH.LZW key=11 max=*
+; We will fight if you attack.  We are not cowards.
+Если вы нападёте, мы будем сражаться.  Мы не трусы.
+[0938] src=ENEGO/TEXTH.LZW key=12 max=*
+; Some of us think you lie.
+Некоторые из нас считают, что вы лжёте.
+[0939] src=ENEGO/TEXTH.LZW key=13 max=*
+; Your bravery is great.
+Ваша храбрость велика.
+[0940] src=ENEGO/TEXTI.LZW key=0 max=*
+; We won't warn you twice; go or fight us!~Rome is not welcome here.  Go or face war!~Asians are warriors.  Must we prove it?
+Мы не будем предупреждать дважды: уходите или сражайтесь!~Риму здесь не рады.  Уходите или ждите войну!~Азиаты — воины.  Нужно ли нам это доказывать?
+[0941] src=ENEGO/TEXTI.LZW key=1 max=*
+; Speak your speech and then leave us.
+Говорите свою речь и оставьте нас.
+[0942] src=ENEGO/TEXTI.LZW key=2 max=*
+; Fairer terms than we expected.  Agreed.~You are just, Roman.  We are allies.~That is acceptable.  Asia is your ally.
+Условия честнее, чем мы ожидали.  Согласны.~Вы справедливы, римлянин.  Мы союзники.~Это приемлемо.  Азия — ваш союзник.
+[0943] src=ENEGO/TEXTI.LZW key=3 max=*
+; Never! You would leave us with nothing!
+Никогда! Вы не оставите нам ничего!
+[0944] src=ENEGO/TEXTI.LZW key=4 max=*
+; What does friendship with Rome mean?
+Что означает дружба с Римом?
+[0945] src=ENEGO/TEXTI.LZW key=5 max=*
+; Never.  Your ally today, your slave tomorrow.
+Никогда.  Сегодня ваш союзник, завтра ваш раб.
+[0946] src=ENEGO/TEXTI.LZW key=6 max=*
+; Fair words, but empty ones.  Go!
+Красивые слова, но пустые.  Уходите!
+[0947] src=ENEGO/TEXTI.LZW key=7 max=*
+; We feel you are truthful.  What tribute do you wish?
+Мы чувствуем вашу правдивость.  Какую дань вы желаете?
+[0948] src=ENEGO/TEXTI.LZW key=8 max=*
+; But who would protect us from you? Withdraw your legions now!
+Но кто защитит нас от вас? Уведите свои легионы сейчас!
+[0949] src=ENEGO/TEXTI.LZW key=9 max=*
+; Just say what you want, Roman.
+Просто скажите, что вам нужно, римлянин.
+[0950] src=ENEGO/TEXTI.LZW key=10 max=*
+; Attack us at your peril! Asians fear no one!
+Нападайте на свой страх! Азиаты никого не боятся!
+[0951] src=ENEGO/TEXTI.LZW key=11 max=*
+; Threats do not impress us! We will resist your legions!
+Угрозы нас не впечатляют! Мы будем сопротивляться вашим легионам!
+[0952] src=ENEGO/TEXTI.LZW key=12 max=*
+; Pardon us if we think you are a liar.
+Простите, но мы считаем вас лжецом.
+[0953] src=ENEGO/TEXTI.LZW key=13 max=*
+; Your bravery is proven.
+Ваша храбрость доказана.
+[0954] src=ENEGO/TEXTJ.LZW key=0 max=*
+; The king of Cilicia will not parley with an underling.
+Царь Киликии не ведёт переговоров с подчинённым.
+[0955] src=ENEGO/TEXTJ.LZW key=1 max=*
+; Roman leader! What are your intentions?
+Римский предводитель! Каковы ваши намерения?
+[0956] src=ENEGO/TEXTJ.LZW key=2 max=*
+; Then let us be allies! Pirates and Romans belong together!
+Тогда будем союзниками! Пираты и римляне созданы друг для друга!
+[0957] src=ENEGO/TEXTJ.LZW key=3 max=*
+; Your greed exceeds even mine! Who is the true pirate here?
+Ваша жадность превосходит даже мою! Кто здесь настоящий пират?
+[0958] src=ENEGO/TEXTJ.LZW key=4 max=*
+; Of course, of course.  And THEN you will attack.  But why waste time? Fight us now!
+Конечно, конечно.  А ПОТОМ вы нападёте.  Но зачем терять время? Сражайтесь с нами сейчас!
+[0959] src=ENEGO/TEXTJ.LZW key=5 max=*
+; Before we fight? The pirates of Cilicia do not fear anyone.  Especially Romans!
+Перед боем? Пираты Киликии никого не боятся.  Особенно римлян!
+[0960] src=ENEGO/TEXTJ.LZW key=6 max=*
+; We trust no one.  Speak plainly and tell us what you want.
+Мы никому не верим.  Говорите прямо, что вам нужно.
+[0961] src=ENEGO/TEXTJ.LZW key=7 max=*
+; Blowhard! A Roman blowhard!
+Хвастун! Римский хвастун!
+[0962] src=ENEGO/TEXTJ.LZW key=8 max=*
+; Indeed! And what will it cost, my friend?
+Вправду! И сколько это будет стоить, мой друг?
+[0963] src=ENEGO/TEXTJ.LZW key=9 max=*
+; Talk, talk and more talk! Let us fight.  It would be more...  interesting.
+Разговоры, разговоры и ещё разговоры! Давайте сразимся.  Так будет...  интереснее.
+[0964] src=ENEGO/TEXTJ.LZW key=10 max=*
+; Enough talk.  You bore me, Roman.  If you want war, you may have it.
+Хватит разговоров.  Вы мне наскучили, римлянин.  Если хотите войны — вы её получите.
+[0965] src=ENEGO/TEXTJ.LZW key=11 max=*
+; Of course, of course.  EVERYONE wants to be friends with dishonorable pirates.
+Конечно, конечно.  ВСЕ хотят дружить с бесчестными пиратами.
+[0966] src=ENEGO/TEXTJ.LZW key=12 max=*
+; In that case, welcome.  You are among friends.
+В таком случае, добро пожаловать.  Вы среди друзей.
+[0967] src=ENEGO/TEXTK.LZW key=0 max=*
+; THE TRIBES OF THESE MOUNTAINS NEED YOU NOT.~GO AWAY, WARRIORS FROM THE SOUTH.~LEAVE THE WAY YOU CAME, FOR YOU ARE NOT WELCOME HERE.
+ПЛЕМЕНАМ ЭТИХ ГОР ВЫ НЕ НУЖНЫ.~УХОДИТЕ, ВОИНЫ С ЮГА.~УХОДИТЕ ТЕМ ЖЕ ПУТЁМ, ВАМ ЗДЕСЬ НЕ РАДЫ.
+[0968] src=ENEGO/TEXTK.LZW key=1 max=*
+; WELCOME TO THE MOUNTAINS, GREAT WARRIOR.
+ДОБРО ПОЖАЛОВАТЬ В ГОРЫ, ВЕЛИКИЙ ВОИН.
+[0969] src=ENEGO/TEXTK.LZW key=2 max=*
+; WE WILL AGREE TO THIS, AT LEAST FOR NOW.~YOU HONOR US, GREAT WARRIOR.  THE GODS WILL FAVOR THIS TREATY.~WE JOIN YOUR TRIBE IN HOPE THERE IS BOOTY TO WIN!
+МЫ СОГЛАСИМСЯ НА ЭТО, ПОКРАЙНЕЙ МЕРЕ ПОКА.~ТЫ ЧТИШЬ НАС, ВЕЛИКИЙ ВОИН.  БОГИ БЛАГОСЛОВЯТ ЭТОТ ДОГОВОР.~МЫ ПРИСОЕДИНЯЕМСЯ К ТВОЕМУ ПЛЕМЕНИ В НАДЕЖДЕ НА ДОБЫЧУ!
+[0970] src=ENEGO/TEXTK.LZW key=3 max=*
+; YOU ANGER ME, WARRIOR.  WOULD YOU FIGHT US?
+ТЫ ГНЕВАЕШЬ МЕНЯ, ВОИН.  ХОЧЕШЬ СРАЖАТЬСЯ С НАМИ?
+[0971] src=ENEGO/TEXTK.LZW key=4 max=*
+; GREAT WARRIOR, YOUR WORDS HAVE BEEN HEARD.
+ВЕЛИКИЙ ВОИН, ТВОИ СЛОВА УСЛЫШАНЫ.
+[0972] src=ENEGO/TEXTK.LZW key=5 max=*
+; TRUTH IS FLEETING, GREAT WARRIOR, AND WE KNOW YOU NOT.
+ПРАВДА НЕПОСТОЯННА, ВЕЛИКИЙ ВОИН, И МЫ ТЕБЯ НЕ ЗНАЕМ.
+[0973] src=ENEGO/TEXTK.LZW key=6 max=*
+; OUR MOUNTAINS HAVE MANY SECRET PLACES.
+В НАШИХ ГОРАХ МНОГО ТАЙНЫХ МЕСТ.
+[0974] src=ENEGO/TEXTK.LZW key=7 max=*
+; WE WOULD FIGHT YOU FIRST!
+МЫ СНАЧАЛА СРАЗИЛИСЬ БЫ С ВАМИ!
+[0975] src=ENEGO/TEXTK.LZW key=8 max=*
+; I MUST BE CAREFUL.  STILL, I WILL LISTEN.
+Я ДОЛЖЕН БЫТЬ ОСТОРОЖЕН.  НО ВСЁ ЖЕ Я ВЫСЛУШАЮ.
+[0976] src=ENEGO/TEXTK.LZW key=9 max=*
+; WHAT MUST WE GIVE UP?
+ЧТО МЫ ДОЛЖНЫ ОТДАТЬ?
+[0977] src=ENEGO/TEXTK.LZW key=10 max=*
+; FIGHT US, WARRIOR FROM THE SOUTH!
+СРАЖАЙСЯ С НАМИ, ВОИН С ЮГА!
+[0978] src=ENEGO/TEXTK.LZW key=11 max=*
+; OUR TRIBES ARE NOW AT WAR!
+НАШИ ПЛЕМЕНА ТЕПЕРЬ ВОЮЮТ!
+[0979] src=ENEGO/TEXTK.LZW key=12 max=*
+; YOU WOULD LIE TO US? ATTACK THEM!
+ТЫ ЛЖЁШЬ НАМ? АТАКУЙТЕ ИХ!
+[0980] src=ENEGO/TEXTK.LZW key=13 max=*
+; THEN YOU WANT TRIBUTE.  WILL IT BE HIGH?
+ЗНАЧИТ, ВЫ ХОТИТЕ ДАНЬ.  ОНА БУДЕТ ВЕЛИКА?
+[0981] src=ENEGO/TEXTK.LZW key=14 max=*
+; WE HAVE NOTHING MORE TO SAY TO YOU, WARRIOR.
+НАМ БОЛЬШЕ НЕЧЕГО СКАЗАТЬ ТЕБЕ, ВОИН.
+[0982] src=ENEGO/TEXTL.LZW key=0 max=*
+; THE TRIBES WILL NOT HEAR YOUR LIES.  TURN BACK OR PREPARE TO DIE.
+ПЛЕМЕНА НЕ СТАНУТ СЛУШАТЬ ВАШУ ЛОЖЬ.  ПОВОРАЧИВАЙТЕ ИЛИ ГОТОВЬТЕСЬ К СМЕРТИ.
+[0983] src=ENEGO/TEXTL.LZW key=1 max=*
+; GO HOME, ROMAN.  YOU ARE NOT WELCOME IN OUR LAND.
+ИДИ ДОМОЙ, РИМЛЯНИН.  В НАШЕЙ ЗЕМЛЕ ТЕБЕ НЕ РАДЫ.
+[0984] src=ENEGO/TEXTL.LZW key=2 max=*
+; YOU LEAVE US NO CHOICE.  WE ARE FORCED TO SURRENDER.~THE GODS DO NOT WISH US TO FIGHT THIS DAY.  WE OBEY YOUR WILL.~ROMAN LAW IS OUR LAW.  WE ARE NOW YOUR ALLIES.
+ВЫ НЕ ОСТАВИЛИ НАМ ВЫБОРА.  МЫ ВЫНУЖДЕНЫ СДАТЬСЯ.~БОГИ НЕ ЖЕЛАЮТ НАМ СРАЖАТЬСЯ В ЭТОТ ДЕНЬ.  МЫ ПОВИНУЕМСЯ ВАШЕЙ ВОЛЕ.~РИМСКИЙ ЗАКОН — НАШ ЗАКОН.  ТЕПЕРЬ МЫ ВАШИ СОЮЗНИКИ.
+[0985] src=ENEGO/TEXTL.LZW key=3 max=*
+; ROMAN SMELL LIKE ELEPHANT.~ROMAN LOOK LIKE WARTHOG.
+РИМЛЯНИН ПАХНЕТ КАК СЛОН.~РИМЛЯНИН ВЫГЛЯДИТ КАК БОРОДАВОЧНИК.
+[0986] src=ENEGO/TEXTL.LZW key=4 max=*
+; THAT REMAINS TO BE SEEN, ROMAN.
+ЭТО ЕЩЁ ПОСМОТРИМ, РИМЛЯНИН.
+[0987] src=ENEGO/TEXTL.LZW key=5 max=*
+; YOUR WORDS HAVE NOT THE RING OF TRUTH.
+В ТВОИХ СЛОВАХ НЕТ ЗВОНА ПРАВДЫ.
+[0988] src=ENEGO/TEXTL.LZW key=6 max=*
+; THE TRIBES ARE STRONG.  WE HAVE NO NEED OF ROME.
+ПЛЕМЕНА СИЛЬНЫ.  МЫ НЕ НУЖДАЕМСЯ В РИМЕ.
+[0989] src=ENEGO/TEXTL.LZW key=7 max=*
+; NEVER! THE TRIBES HAVE NEVER TASTED DEFEAT.  WE WILL FIGHT!
+НИКОГДА! ПЛЕМЕНА НИКОГДА НЕ ЗНАЛИ ПОРАЖЕНИЯ.  МЫ БУДЕМ СРАЖАТЬСЯ!
+[0990] src=ENEGO/TEXTL.LZW key=8 max=*
+; YOU HAVE TREATED OTHERS WELL.  WE WILL LISTEN.
+ТЫ ХОРОШО ОБХОДИЛСЯ С ДРУГИМИ.  МЫ ВЫСЛУШАЕМ.
+[0991] src=ENEGO/TEXTL.LZW key=9 max=*
+; WHAT ARE YOUR TERMS?
+КАКОВЫ ВАШИ УСЛОВИЯ?
+[0992] src=ENEGO/TEXTL.LZW key=10 max=*
+; THEN WE ARE AT WAR.  THIS BATTLE WILL BE YOUR LAST!~PREPARE TO DIE, ROMAN SCUM!
+ТОГДА МЫ ВОЮЕМ.  ЭТА БИТВА СТАНЕТ ДЛЯ ВАС ПОСЛЕДНЕЙ!~ГОТОВЬСЯ К СМЕРТИ, РИМСКАЯ ПАДАЛЬ!
+[0993] src=ENEGO/TEXTL.LZW key=11 max=*
+; YOU ARE ABOUT TO DIE! GATHER THE TRIBES.  SOUND THE CALL TO BATTLE!
+ТЫ СКОРО УМРЁШЬ! СОБИРАЙТЕ ПЛЕМЕНА.  ТРУБИТЕ СБОР НА БИТВУ!
+[0994] src=ENEGO/TEXTL.LZW key=12 max=*
+; LIES! YOU INSULT US WITH YOUR LIES!
+ЛОЖЬ! ВЫ ОСКОРБЛЯЕТЕ НАС СВОЕЙ ЛЖЕЙ!
+[0995] src=ENEGO/TEXTL.LZW key=13 max=*
+; YOU WILL DEMAND TRIBUTE.  HOW MUCH?
+ВЫ ПОТРЕБУЕТЕ ДАНЬ.  СКОЛЬКО?
+[0996] src=ENEGO/TEXTL.LZW key=14 max=*
+; YOU MAKE US LAUGH, ROMAN.
+ТЫ НАС СМЕШИШЬ, РИМЛЯНИН.
+[0997] src=ENEGO/TEXTM.LZW key=0 max=*
+; Be gone, intruder! Leave or know our wrath!~Are you here to die among strangers, or will you heed my warning and go?~Flee, unwelcome one, or die where you stand!
+Прочь, чужак! Уходи или познай наш гнев!~Ты здесь, чтобы умереть среди чужих, или вняешь моему предупреждению и уйдёшь?~Беги, нежеланный, или умри там, где стоишь!
+[0998] src=ENEGO/TEXTM.LZW key=1 max=*
+; Who is this fool who enters Dalmatia unbidden?
+Кто этот глупец, что входит в Далмацию без зова?
+[0999] src=ENEGO/TEXTM.LZW key=2 max=*
+; So let us be allies.  Perhaps it will even last beyond sundown.~We are allies, but I warn you.  Treat Dalmatia fairly.~In my eyes an alliance is good.  May all Dalmatians view Rome as a friend.
+Тогда будем союзниками.  Возможно, это продлится даже до заката.~Мы союзники, но предупреждаю: обходись с Далмацией честно.~По-моему, союз — это хорошо.  Пусть все далматинцы считают Рим другом.
+[1000] src=ENEGO/TEXTM.LZW key=3 max=*
+; Never! Let fate resolve this in blood!
+Никогда! Пусть судьба решит это кровью!
+[1001] src=ENEGO/TEXTM.LZW key=4 max=*
+; Allies? Explain, for all that I believe you.
+Союзники? Объясни, хотя я тебе и верю.
+[1002] src=ENEGO/TEXTM.LZW key=5 max=*
+; You wish to be our ally? When Romans smile, 'tis only to bare their fangs.
+Ты хочешь быть нашим союзником? Когда римляне улыбаются, то лишь чтобы оскалить клыки.
+[1003] src=ENEGO/TEXTM.LZW key=6 max=*
+; Are all Roman embassies armed?
+Все ли римские посольства вооружены?
+[1004] src=ENEGO/TEXTM.LZW key=7 max=*
+; You lie! Now be prey for our swords!
+Ты лжёшь! Теперь будь добычей наших мечей!
+[1005] src=ENEGO/TEXTM.LZW key=8 max=*
+; Words are dust.  Our swords stand firm, but our honor often bends.
+Слова — прах.  Наши мечи тверды, но наша честь часто гнётся.
+[1006] src=ENEGO/TEXTM.LZW key=9 max=*
+; We crave peace, but spurn slavery.  We draw swords only to fight, never to salute!
+Мы жаждем мира, но презираем рабство.  Мы обнажаем мечи только для боя, никогда для приветствия!
+[1007] src=ENEGO/TEXTM.LZW key=10 max=*
+; Are we dogs who need Roman protection? See instead how we bite!
+Разве мы псы, нуждающиеся в римской защите? Посмотри лучше, как мы кусаемся!
+[1008] src=ENEGO/TEXTM.LZW key=11 max=*
+; Enough talk, the fray is begun.  Men of Dalmatia can do no other.~Idle promises.  Take them and be gone!~I wait for a reply, yet the dog is silent.  Bow down, Roman!
+Хватит разговоров, схватка началась.  Люди Далмации не могут иначе.~Пустые обещания.  Забирай их и уходи!~Я жду ответа, а пёс молчит.  Склонись, римлянин!
+[1009] src=ENEGO/TEXTM.LZW key=12 max=*
+; What tribute do you require?
+Какую дань вы требуете?
+[1010] src=ENEGO/TEXTN.LZW key=0 max=*
+; We won't deal with women.  Go bid your menfolk farewell.~They send a eunuch to parlay with warriors.  Prepare to die!~Pray you're a better man than you appear.  Now we attack!
+Мы не ведём дел с женщинами.  Иди попрощайся со своими мужчинами.~К воинам прислали евнуха для переговоров.  Готовься к смерти!~Молись, чтобы ты был лучшим мужем, чем кажешься.  Теперь мы атакуем!
+[1011] src=ENEGO/TEXTN.LZW key=1 max=*
+; Hail, Roman.  You desire a meeting before you die?
+Приветствую, римлянин.  Желаешь встречи перед смертью?
+[1012] src=ENEGO/TEXTN.LZW key=2 max=*
+; 
+
+[1013] src=ENEGO/TEXTN.LZW key=3 max=*
+; You jest poorly.
+Ты плохо шутишь.
+[1014] src=ENEGO/TEXTN.LZW key=4 max=*
+; Peace will come when you are gone...  or dead!
+Мир наступит, когда ты уйдёшь...  или умрёшь!
+[1015] src=ENEGO/TEXTN.LZW key=5 max=*
+; Even though we could crush you? Ha!
+Хотя мы могли бы вас сокрушить? Ха!
+[1016] src=ENEGO/TEXTN.LZW key=6 max=*
+; Only weaklings surrender.  Dacians aren't weaklings!
+Только слабаки сдаются.  Даки не слабаки!
+[1017] src=ENEGO/TEXTN.LZW key=7 max=*
+; I'd sooner trust a wolf.
+Я скорее поверю волку.
+[1018] src=ENEGO/TEXTN.LZW key=8 max=*
+; We would rather boil in hell than serve you!
+Мы лучше будем кипеть в аду, чем служить вам!
+[1019] src=ENEGO/TEXTN.LZW key=9 max=*
+; Your bragging is stupid.
+Твоё хвастовство глупо.
+[1020] src=ENEGO/TEXTN.LZW key=10 max=*
+; I'll warn you no more.  Withdraw!
+Я больше не буду предупреждать.  Уходи!
+[1021] src=ENEGO/TEXTN.LZW key=11 max=*
+; Laughable! Today you die!~Make peace with your gods, dog!~War is my answer!
+Смешно! Сегодня ты умрёшь!~Помирись со своими богами, пёс!~Война — мой ответ!
+[1022] src=ENEGO/TEXTN.LZW key=12 max=*
+; That can never be, Roman!
+Такого не может быть, римлянин!
+[1023] src=ENEGO/TEXTO.LZW key=0 max=*
+; Dog of Rome! We shall rip out your lying tongue!~Invader! We shall cut out your black heart!~Pig! I'll have your head on a pike at my gate!
+Пёс Рима! Мы вырвем твой лживый язык!~Захватчик! Мы вырежем твоё чёрное сердце!~Свинья! Твоя голова будет на колу у моих ворот!
+[1024] src=ENEGO/TEXTO.LZW key=1 max=*
+; You may address us, envoy.  But be brief.
+Ты можешь обратиться к нам, посланник.  Но будь краток.
+[1025] src=ENEGO/TEXTO.LZW key=2 max=*
+; Our alliance is forged.  We are exposed on four coasts, and need your protection.~Then Hispania is Rome's ally.  May your power protect us from a host of foes.~This alliance is acceptable.  We had grown weary of Carthaginian rule.
+Наш союз скреплён.  Мы открыты с четырёх берегов и нуждаемся в вашей защите.~Тогда Испания — союзник Рима.  Пусть ваша мощь защитит нас от множества врагов.~Этот союз приемлем.  Мы устали от карфагенского владычества.
+[1026] src=ENEGO/TEXTO.LZW key=3 max=*
+; We will not suffer such thievery!
+Мы не потерпим такого воровства!
+[1027] src=ENEGO/TEXTO.LZW key=4 max=*
+; Leech! If you thirst for blood, drink your own as we spill it!
+Пиявка! Если ты жаждешь крови — пей свою, когда мы её прольём!
+[1028] src=ENEGO/TEXTO.LZW key=5 max=*
+; Your career as a diplomat has come to an end.  Leave us.
+Твоя карьера дипломата окончена.  Оставь нас.
+[1029] src=ENEGO/TEXTO.LZW key=6 max=*
+; Your diplomat's tongue turns to threats!
+Твой дипломатический язык перешёл на угрозы!
+[1030] src=ENEGO/TEXTO.LZW key=7 max=*
+; It is unwise to make such demands so far from home.  Return there or die.
+Неразумно выдвигать такие требования так далеко от дома.  Вернись туда или умри.
+[1031] src=ENEGO/TEXTO.LZW key=8 max=*
+; We are not idiots.  Be gone, Roman!
+Мы не идиоты.  Прочь, римлянин!
+[1032] src=ENEGO/TEXTO.LZW key=9 max=*
+; What tribute is required?
+Какая дань требуется?
+[1033] src=ENEGO/TEXTO.LZW key=10 max=*
+; You know that cannot be.  Put on yet another face.
+Ты знаешь, что такого быть не может.  Примерь другую личину.
+[1034] src=ENEGO/TEXTO.LZW key=11 max=*
+; Trying your hand at diplomacy? Ha! Go on, go on.
+Пробуешь себя в дипломатии? Ха! Продолжай, продолжай.
+[1035] src=ENEGO/TEXTP.LZW key=0 max=*
+; Serpent! Your bones shall bleach in the wilderness!~Your death shall come quickly as the cold of night!~Devil! The desert shall drink deeply of your blood!
+Змея! Твои кости побелеют в пустыне!~Твоя смерть придёт быстро, как ночной холод!~Дьявол! Пустыня вволю напьётся твоей крови!
+[1036] src=ENEGO/TEXTP.LZW key=1 max=*
+; Speak, but try not our patience.
+Говори, но не испытывай наше терпение.
+[1037] src=ENEGO/TEXTP.LZW key=2 max=*
+; We accept you as an ally.  The desert vastness is full of peril, we need your protection.~So is our alliance sealed.  Your might combined with ours assures our safety.~With your strength on our side, our enemies will fear us.  We agree to this alliance.
+Мы принимаем вас как союзника.  Пустынные просторы полны опасностей, нам нужна ваша защита.~Итак, наш союз скреплён.  Ваша мощь вместе с нашей обеспечит нам безопасность.~С вашей силой на нашей стороне враги будут бояться нас.  Мы согласны на этот союз.
+[1038] src=ENEGO/TEXTP.LZW key=3 max=*
+; Extortion! We'd sooner die than pay!
+Вымогательство! Мы скорее умрём, чем заплатим!
+[1039] src=ENEGO/TEXTP.LZW key=4 max=*
+; Honorless viper! Your yen to conquer us is plain.  Attack when ye will!
+Бесчестная гадюка! Твоё желание покорить нас очевидно.  Нападай, когда пожелаешь!
+[1040] src=ENEGO/TEXTP.LZW key=5 max=*
+; There is too much virtue in this tent for your seductions to work.  Be gone.
+В этом шатре слишком много добродетели, чтобы твои соблазны сработали.  Прочь.
+[1041] src=ENEGO/TEXTP.LZW key=6 max=*
+; The diplomat becomes a scorpion! But can you sting?
+Дипломат стал скорпионом! Но можешь ли ты жалить?
+[1042] src=ENEGO/TEXTP.LZW key=7 max=*
+; Bold demands from so small a force!
+Смелые требования для столь малого войска!
+[1043] src=ENEGO/TEXTP.LZW key=8 max=*
+; You take us too lightly, Roman.  Go!
+Ты слишком нас недооцениваешь, римлянин.  Уходи!
+[1044] src=ENEGO/TEXTP.LZW key=9 max=*
+; What tribute will suffice?
+Какая дань устроит?
+[1045] src=ENEGO/TEXTP.LZW key=10 max=*
+; Should we be insulted or amused? Pray continue.
+Нам оскорбиться или посмеяться? Пожалуйста, продолжай.
+[1046] src=ENEGO/TEXTP.LZW key=11 max=*
+; So, you use the diplomat's seductive tone.  Proceed.
+Итак, ты используешь соблазняющий тон дипломата.  Продолжай.
+[1047] src=ENEGO/TEXTQ.LZW key=0 max=*
+; The king of Cyrenaica does not make deals with lackeys.~Kings do not negotiate with peasants.~A king negotiate with a slave? Out of the question!
+Царь Киренаики не заключает сделок с лакеями.~Цари не ведут переговоров с крестьянами.~Царь ведёт переговоры с рабом? Об этом не может быть и речи!
+[1048] src=ENEGO/TEXTQ.LZW key=1 max=*
+; What are your true goals, noble Roman?
+Каковы твои истинные цели, благородный римлянин?
+[1049] src=ENEGO/TEXTQ.LZW key=2 max=*
+; We will join you, for wolves belong in packs.~Rome lives by greed and violence.  We are meant to be allies!~If we are to swim together, Roman shark, let it be as allies.
+Мы присоединимся к вам, волкам положено быть в стае.~Рим живёт жадностью и насилием.  Нам суждено быть союзниками!~Если нам плыть вместе, римская акула, пусть это будет как союзники.
+[1050] src=ENEGO/TEXTQ.LZW key=3 max=*
+; You radiate with greed.  Admirable!
+От тебя так и разит жадностью.  Восхитительно!
+[1051] src=ENEGO/TEXTQ.LZW key=4 max=*
+; And when our back was turned, your sword would find it.  Why not fight us now?
+А когда мы повернёмся спиной, твой меч найдёт её.  Почему бы не сразиться сейчас?
+[1052] src=ENEGO/TEXTQ.LZW key=5 max=*
+; We may be thieves, but at least we are brave, unlike Romans!
+Мы, может, и воры, но по крайней мере храбры, в отличие от римлян!
+[1053] src=ENEGO/TEXTQ.LZW key=6 max=*
+; Our distrust is mutual.  Just say what you want.
+Наше недоверие взаимно.  Просто скажи, что тебе нужно.
+[1054] src=ENEGO/TEXTQ.LZW key=7 max=*
+; You brag so very well.
+Ты так прекрасно хвастаешься.
+[1055] src=ENEGO/TEXTQ.LZW key=8 max=*
+; And what would the cost be?
+И какова будет цена?
+[1056] src=ENEGO/TEXTQ.LZW key=9 max=*
+; I weary of this chatter.  Wouldn't a good fight be more stimulating?
+Мне наскучила эта болтовня.  Не лучше ли хороший бой?
+[1057] src=ENEGO/TEXTQ.LZW key=10 max=*
+; You have grown tiresome, Roman.  If you want war, so be it.
+Ты стал надоедлив, римлянин.  Если хочешь войны — да будет так.
+[1058] src=ENEGO/TEXTQ.LZW key=11 max=*
+; Naturally.  Who wouldn't want rapacious pirates as allies?
+Естественно.  Кто не захочет алчных пиратов в союзники?
+[1059] src=ENEGO/TEXTQ.LZW key=12 max=*
+; Welcome then, fellow brigand.  We are as brothers.
+Тогда добро пожаловать, братец-разбойник.  Мы как братья.
+[1060] src=ENEGO/TEXTR.LZW key=0 max=*
+; Foul intruder! We will paint the desert with your blood!~Your blood will seep into the desert sands ere sundown!~Swine! Vultures shall feast upon your bloated corpse!
+Мерзкий чужак! Мы раскрасим пустыню твоей кровью!~Твоя кровь впитается в пески пустыни до заката!~Свинья! Стервятники будут пировать на твоём раздутом трупе!
+[1061] src=ENEGO/TEXTR.LZW key=1 max=*
+; We will admit this envoy of Rome to our presence.  But only for a moment.
+Мы допустим этого посланника Рима к себе.  Но лишь на миг.
+[1062] src=ENEGO/TEXTR.LZW key=2 max=*
+; We will grant this alliance, for our enemies are many and we are but few.~Our people are few and surrounded by foes.  An alliance is necessary.~We are a small nation encircled by jackals.  This alliance shall protect us.
+Мы даруем этот союз, ибо врагов у нас много, а нас мало.~Наш народ мал и окружён врагами.  Союз необходим.~Мы малая нация, окружённая шакалами.  Этот союз защитит нас.
+[1063] src=ENEGO/TEXTR.LZW key=3 max=*
+; Robbery! You will have to kill us first!
+Грабёж! Сначала тебе придётся нас убить!
+[1064] src=ENEGO/TEXTR.LZW key=4 max=*
+; You are a snake! If it is a fight you want, then you will have it!
+Ты змея! Если ты хочешь боя — ты его получишь!
+[1065] src=ENEGO/TEXTR.LZW key=5 max=*
+; Oh, most entertaining indeed! A pity the entertainment must end.  The audience is over.
+О, весьма занимательно! Жаль, что развлечение должно кончиться.  Аудиенция окончена.
+[1066] src=ENEGO/TEXTR.LZW key=6 max=*
+; Ah, the entertainment is over.  The diplomat has left.
+Ах, развлечение окончено.  Дипломат ушёл.
+[1067] src=ENEGO/TEXTR.LZW key=7 max=*
+; You are too weak to make such demands.  Leave Arabia, or your pitiful legion will be destroyed!
+Ты слишком слаб для таких требований.  Покинь Аравию, или твой жалкий легион будет уничтожен!
+[1068] src=ENEGO/TEXTR.LZW key=8 max=*
+; You take us for fools? Leave us, Roman!
+Ты принимаешь нас за дураков? Оставь нас, римлянин!
+[1069] src=ENEGO/TEXTR.LZW key=9 max=*
+; How much tribute will you require?
+Сколько дани ты потребуешь?
+[1070] src=ENEGO/TEXTR.LZW key=10 max=*
+; Most unlikely.  Try another approach.  Yes, this is most entertaining!
+Весьма маловероятно.  Попробуй другой подход.  Да, это весьма занимательно!
+[1071] src=ENEGO/TEXTR.LZW key=11 max=*
+; Ah, a diplomat! Most entertaining! Proceed, diplomat!
+Ах, дипломат! Весьма занимательно! Продолжай, дипломат!
+[1072] src=ENEGO/TEXTS.LZW key=0 max=*
+; Leave us, barbarian, or defend yourselves.~We don't admit savages.  I suggest you withdraw.~Mesopotamia has no need of you.
+Оставь нас, варвар, или защищайся.~Мы не принимаем дикарей.  Советую тебе отступить.~Месопотамия не нуждается в тебе.
+[1073] src=ENEGO/TEXTS.LZW key=1 max=*
+; Many greetings.  Now, why should you interest us?
+Многие приветствия.  Итак, чем ты можешь нас заинтересовать?
+[1074] src=ENEGO/TEXTS.LZW key=2 max=*
+; So let it be written.  Our mighty nations are now allies.~Your race is rustic, but vigorous.  You will make interesting allies.~Then we graciously consent to this alliance with the republic of Rome!
+Да будет записано.  Наши могучие нации теперь союзники.~Твой народ прост, но силён.  Из вас выйдут интересные союзники.~Тогда мы милостиво соглашаемся на этот союз с республикой Рим!
+[1075] src=ENEGO/TEXTS.LZW key=3 max=*
+; You demand booty? Have war instead!
+Ты требуешь добычу? Получай вместо неё войну!
+[1076] src=ENEGO/TEXTS.LZW key=4 max=*
+; You honor us, Roman.
+Ты чтишь нас, римлянин.
+[1077] src=ENEGO/TEXTS.LZW key=5 max=*
+; I see problems with this.  What course do you suggest?
+Я вижу здесь проблемы.  Какой путь ты предлагаешь?
+[1078] src=ENEGO/TEXTS.LZW key=6 max=*
+; You are insolent.  Take your barbaric rabble and go!
+Ты дерзок.  Забирай свою варварскую свору и уходи!
+[1079] src=ENEGO/TEXTS.LZW key=7 max=*
+; Others have spoken thus; we remain, but they are dust.  Go or suffer their fate!
+Другие говорили так же; мы остались, а они — прах.  Уходи или раздели их судьбу!
+[1080] src=ENEGO/TEXTS.LZW key=8 max=*
+; What tribute would satisfy?
+Какая дань удовлетворит тебя?
+[1081] src=ENEGO/TEXTS.LZW key=9 max=*
+; Your meagre force needs protection more than we.
+Твоё скудное войско нуждается в защите больше, чем мы.
+[1082] src=ENEGO/TEXTS.LZW key=10 max=*
+; Then we grant your wish for war!
+Тогда мы исполним твоё желание войны!
+[1083] src=ENEGO/TEXTS.LZW key=11 max=*
+; You are not so skilled a liar as you think.
+Ты не столь искусный лжец, как думаешь.
+[1084] src=ENEGO/TEXTS.LZW key=12 max=*
+; We are an ancient race, victors in many wars.  We are about to win one more!~Primitive braggart! The heirs of Hammurabi shall slaughter you like sheep.~Fight, if you dare.  May the gods grant us strength to destroy you utterly.
+Мы древний народ, победители многих войн.  Скоро мы выиграем ещё одну!~Примитивный хвастун! Наследники Хаммурапи зарежут вас как овец.~Сражайся, если посмеешь.  Пусть боги дадут нам силы уничтожить вас полностью.
+[1085] src=ENEGO/TEXTT.LZW key=0 max=*
+; Leave Armenia while you may!~Be gone or feel the sting of our blades!~Retreat or face certain defeat and death!
+Покидай Армению, пока можешь!~Прочь, или познаешь жало наших клинков!~Отступай или встреть неминуемое поражение и смерть!
+[1086] src=ENEGO/TEXTT.LZW key=1 max=*
+; Hail, commander.  You wish to have council?
+Приветствую, предводитель.  Ты желаешь совета?
+[1087] src=ENEGO/TEXTT.LZW key=2 max=*
+; So be it.  Make it known to all lesser races that we are allies.~You are a worthy ally.  Weaker nations shall tremble before us!~We are happy to be your allies.  Might Romans be part Armenian?
+Да будет так.  Пусть все низшие народы узнают, что мы союзники.~Ты достойный союзник.  Слабые нации будут трепетать перед нами!~Мы рады быть вашими союзниками.  Нет ли в римлянах армянской крови?
+[1088] src=ENEGO/TEXTT.LZW key=3 max=*
+; You extort like a Cilician.  Prepare to die!
+Ты вымогаешь, как киликиец.  Готовься к смерти!
+[1089] src=ENEGO/TEXTT.LZW key=4 max=*
+; Your words are gracious.
+Твои слова любезны.
+[1090] src=ENEGO/TEXTT.LZW key=5 max=*
+; That may be hard to achieve.  What are your ideas?
+Этого может быть трудно достичь.  Каковы твои мысли?
+[1091] src=ENEGO/TEXTT.LZW key=6 max=*
+; Your words turn graceless as a Syrian's.  Leave us!
+Твои слова стали грубы, как у сирийца.  Оставь нас!
+[1092] src=ENEGO/TEXTT.LZW key=7 max=*
+; You are worse than a Greek! We will seal your fate in blood!
+Ты хуже грека! Мы запечатаем твою судьбу кровью!
+[1093] src=ENEGO/TEXTT.LZW key=8 max=*
+; State the tribute you require.
+Назови дань, которую требуешь.
+[1094] src=ENEGO/TEXTT.LZW key=9 max=*
+; Or should we protect you? Parthians may be near.
+Или это нам защищать тебя? Парфяне могут быть близко.
+[1095] src=ENEGO/TEXTT.LZW key=10 max=*
+; If you crave battle, come have it!
+Если ты жаждешь битвы — иди и получи её!
+[1096] src=ENEGO/TEXTT.LZW key=11 max=*
+; You lie better than even a Parthian.
+Ты лжёшь лучше, чем даже парфянин.
+[1097] src=ENEGO/TEXTT.LZW key=12 max=*
+; A man does not find his death, his death finds him.  Count yourself found!~It is said a short life is a happy one.  We are glad to grant you such happiness!~Your lies sicken us.  A curse on Romans everywhere!
+Человек не находит свою смерть — смерть находит его.  Считай себя найденным!~Говорят, короткая жизнь — счастливая.  Мы рады даровать тебе такое счастье!~Твоя ложь нам отвратительна.  Проклятие на всех римлян!
+[1098] src=ENEGO/TEXTU.LZW key=0 max=*
+; Scabrous one! We will drive you into the sea!~Roman thief! You will sleep with the fishes!~Dog! Ravens shall peck at your eyes this day!
+Мерзкий! Мы сбросим вас в море!~Римский вор! Ты будешь спать с рыбами!~Пёс! Вороны будут клевать твои глаза сегодня!
+[1099] src=ENEGO/TEXTU.LZW key=1 max=*
+; Speak, Roman, but know this audience will be brief.
+Говори, римлянин, но знай: эта аудиенция будет краткой.
+[1100] src=ENEGO/TEXTU.LZW key=2 max=*
+; Truly, your offer is one we cannot refuse.  We have many foes who will fear your might.~Agreed.  An alliance with Rome will protect us from our enemies.~We are willing to pay for your protection.  The alliance is made
+Воистину, от твоего предложения нельзя отказаться.  У нас много врагов, которые убоятся вашей мощи.~Согласны.  Союз с Римом защитит нас от врагов.~Мы готовы платить за вашу защиту.  Союз заключён
+[1101] src=ENEGO/TEXTU.LZW key=3 max=*
+; And leave us naked? Unacceptable!
+И оставить нас беззащитными? Неприемлемо!
+[1102] src=ENEGO/TEXTU.LZW key=4 max=*
+; Accursed liar! You shall have the battle you seem to crave.
+Проклятый лжец! Ты получишь битву, которой, кажется, жаждешь.
+[1103] src=ENEGO/TEXTU.LZW key=5 max=*
+; You sing sweetly, but your concert is over.  Be gone!
+Ты сладко поёшь, но твой концерт окончен.  Прочь!
+[1104] src=ENEGO/TEXTU.LZW key=6 max=*
+; So you are a warrior after all.
+Значит, ты всё-таки воин.
+[1105] src=ENEGO/TEXTU.LZW key=7 max=*
+; You lead few men, yet make many demands.  Leave now, or die!
+Ты ведёшь мало людей, но требуешь много.  Уходи сейчас или умри!
+[1106] src=ENEGO/TEXTU.LZW key=8 max=*
+; We are not children.  Be gone!
+Мы не дети.  Прочь!
+[1107] src=ENEGO/TEXTU.LZW key=9 max=*
+; What would proper tribute be in the eyes of Rome?
+Какая дань была бы надлежащей в глазах Рима?
+[1108] src=ENEGO/TEXTU.LZW key=10 max=*
+; That can never be.  But we are still listening.
+Такого быть не может.  Но мы всё ещё слушаем.
+[1109] src=ENEGO/TEXTU.LZW key=11 max=*
+; A diplomat in warrior's garb.  Amazing! Go on.
+Дипломат в одежде воина.  Удивительно! Продолжай.
+[1110] src=ENEGO/TEXTV.LZW key=0 max=*
+; On your guard, invader.  We defy you!~We give you fair warning; go or fight!~This is no mere threat: Go or die!
+На страже, захватчик.  Мы бросаем тебе вызов!~Мы честно предупреждаем: уходи или сражайся!~Это не пустая угроза: Уходи или умри!
+[1111] src=ENEGO/TEXTV.LZW key=1 max=*
+; Speak, Roman, but be brief.
+Говори, римлянин, но будь краток.
+[1112] src=ENEGO/TEXTV.LZW key=2 max=*
+; Your terms are just.  We are allies.~We accept.  Let us be allies.~Acceptable.  Rome has an ally.
+Твои условия справедливы.  Мы союзники.~Мы принимаем.  Будем союзниками.~Приемлемо.  У Рима есть союзник.
+[1113] src=ENEGO/TEXTV.LZW key=3 max=*
+; Brigands, you would take everything!
+Разбойники, вы заберёте всё!
+[1114] src=ENEGO/TEXTV.LZW key=4 max=*
+; Does Rome distinguish between friends and slaves?
+Различает ли Рим друзей и рабов?
+[1115] src=ENEGO/TEXTV.LZW key=5 max=*
+; Never.  The badge of your ally is a slave's yoke.
+Никогда.  Знак вашего союзника — рабское ярмо.
+[1116] src=ENEGO/TEXTV.LZW key=6 max=*
+; Your words are luster without substance.  Be gone!
+Твои слова — блеск без содержания.  Прочь!
+[1117] src=ENEGO/TEXTV.LZW key=7 max=*
+; What you say rings true.  What tribute would be adequate?
+Твои слова звучат правдиво.  Какая дань будет достаточной?
+[1118] src=ENEGO/TEXTV.LZW key=8 max=*
+; Rome's protective embrace is a stranglehold.  Leave us!
+Защитные объятия Рима — это удушье.  Оставь нас!
+[1119] src=ENEGO/TEXTV.LZW key=9 max=*
+; Weasel words! Just say what you want.
+Уклончивые слова! Просто скажи, чего ты хочешь.
+[1120] src=ENEGO/TEXTV.LZW key=10 max=*
+; We spit at your bluster! Can you fight as well as you talk?
+Мы плюём на твою браваду! Сражаешься ли ты так же хорошо, как говоришь?
+[1121] src=ENEGO/TEXTV.LZW key=11 max=*
+; Do Romans think they alone know the arts of war?
+Римляне думают, что только они знают искусство войны?
+[1122] src=ENEGO/TEXTV.LZW key=12 max=*
+; Do Romans always lie so?
+Римляне всегда так лгут?
+[1123] src=ENEGO/TEXTV.LZW key=13 max=*
+; We honor your valor.
+Мы чтим вашу доблесть.
+[1124] src=ENEGO/TEXTW.LZW key=0 max=*
+; Away with you, outlander, unless you crave death.~Leave, interloper! Quit our lands or fight.~Leave our island, wretch, or meet your fate.
+Прочь, чужеземец, если не жаждешь смерти.~Уходи, пришелец! Покинь наши земли или сражайся.~Покинь наш остров, негодяй, или встреть свою судьбу.
+[1125] src=ENEGO/TEXTW.LZW key=1 max=*
+; Who violates our sacred soil?
+Кто попирает нашу священную землю?
+[1126] src=ENEGO/TEXTW.LZW key=2 max=*
+; I agree to an alliance.  But Roman rule will be hard to enforce on our island.~Then the alliance is made.  But I cannot say how my countrymen will react.~I'm convinced an alliance would be for the best.  But others may be more stubborn than I.
+Я согласен на союз.  Но римскую власть будет трудно провести на нашем острове.~Тогда союз заключён.  Но я не могу сказать, как отреагируют мои соплеменники.~Я убеждён, что союз — к лучшему.  Но другие могут быть упрямее меня.
+[1127] src=ENEGO/TEXTW.LZW key=3 max=*
+; Insolence! Let battle decide this!
+Дерзость! Пусть битва решит это!
+[1128] src=ENEGO/TEXTW.LZW key=4 max=*
+; An ally? Go on, but know we are not fools.
+Союзник? Продолжай, но знай: мы не дураки.
+[1129] src=ENEGO/TEXTW.LZW key=5 max=*
+; Allied with you? Some say Rome's ally at dawn is her slave by dusk.
+Союз с вами? Говорят, союзник Рима на заре — его раб к сумеркам.
+[1130] src=ENEGO/TEXTW.LZW key=6 max=*
+; You, a diplomat? Most odd for your breed.
+Ты — дипломат? Странно для твоей породы.
+[1131] src=ENEGO/TEXTW.LZW key=7 max=*
+; Your lies betray you.  Slay them, Britons!
+Твоя ложь выдаёт тебя.  Убейте их, бритты!
+[1132] src=ENEGO/TEXTW.LZW key=8 max=*
+; Speech is fleeting as dew.  A battle can endure longer than a man's promise.
+Речь мимолётна, как роса.  Битва может длиться дольше, чем обещание человека.
+[1133] src=ENEGO/TEXTW.LZW key=9 max=*
+; Peace is a sweet fruit, but surrender is a pit to choke on.  Expect it not from us.
+Мир — сладкий плод, но капитуляция — кость в горле.  Не ждите её от нас.
+[1134] src=ENEGO/TEXTW.LZW key=10 max=*
+; Protection? From who? Protect YOURSELF, Roman!
+Защита? От кого? Защити САМОГО СЕБЯ, римлянин!
+[1135] src=ENEGO/TEXTW.LZW key=11 max=*
+; Enough! The council ends, the battle begins.  It is the only way we know.~Old lies freshly told.  Retreat or fight!~We wait no longer.  Your silence insults us, your death is at hand!
+Довольно! Совет окончен, начинается битва.  Это единственный путь, который мы знаем.~Старая ложь по-новому.  Отступай или сражайся!~Мы больше не ждём.  Твоё молчание оскорбляет нас, твоя смерть близка!
+[1136] src=ENEGO/TEXTW.LZW key=12 max=*
+; What tribute would suffice?
+Какой дани будет достаточно?
+[1137] src=ENEGO/TEXTX.LZW key=0 max=*
+; I NOT TALK MEN FROM SOUTH!
+Я НЕ ГОВОРИТЬ С ЛЮДЬМИ С ЮГА!
+[1138] src=ENEGO/TEXTX.LZW key=1 max=*
+; YOU TRIBE WEAR CLOTHES.  NOT RIGHT!~TRIBE FROM SOUTH WANT TALK?~ATTACK HERE YOU TRIBE NOT SMART!
+ВАШЕ ПЛЕМЯ НОСИТЬ ОДЕЖДУ.  НЕ ПРАВИЛЬНО!~ПЛЕМЯ С ЮГА ХОТИТЬ ГОВОРИТЬ?~АТАКОВАТЬ ЗДЕСЬ ВАШЕ ПЛЕМЯ НЕ УМНО!
+[1139] src=ENEGO/TEXTX.LZW key=2 max=*
+; 
+
+[1140] src=ENEGO/TEXTX.LZW key=3 max=*
+; I NOT KNOW WORDS THESE.  YOU LAUGH HERE US?
+Я НЕ ЗНАТЬ ЭТИ СЛОВА.  ТЫ СМЕЯТЬСЯ НАД НАМИ?
+[1141] src=ENEGO/TEXTX.LZW key=4 max=*
+; MAYBE YOU SPEAK TRUTH.  MAYBE NOT.  NOT MATTER US.
+МОЖЕТ ТЫ ГОВОРИТЬ ПРАВДУ.  МОЖЕТ НЕТ.  НАМ НЕ ВАЖНО.
+[1142] src=ENEGO/TEXTX.LZW key=5 max=*
+; HA! YOU WEAK! US STRONG!
+ХА! ТЫ СЛАБЫЙ! МЫ СИЛЬНЫЕ!
+[1143] src=ENEGO/TEXTX.LZW key=6 max=*
+; NO! WEAPONS US KEEP.
+НЕТ! ОРУЖИЕ МЫ ОСТАВИТЬ.
+[1144] src=ENEGO/TEXTX.LZW key=7 max=*
+; FRIEND? YOU NOT FRIEND.
+ДРУГ? ТЫ НЕ ДРУГ.
+[1145] src=ENEGO/TEXTX.LZW key=8 max=*
+; UH-LIE-ANCE.  THIS WORD I NOT LIKE.
+СО-ЮЗ.  ЭТО СЛОВО Я НЕ ЛЮБИТЬ.
+[1146] src=ENEGO/TEXTX.LZW key=9 max=*
+; NO! US FIGHT NOW!
+НЕТ! МЫ СРАЖАТЬСЯ СЕЙЧАС!
+[1147] src=ENEGO/TEXTX.LZW key=10 max=*
+; TALK OVER! KILL NOW!!
+ГОВОРИТЬ КОНЕЦ! УБИВАТЬ СЕЙЧАС!!
+[1148] src=ENEGO/TEXTX.LZW key=11 max=*
+; NO! TALK DONE! KILL THEM!!!~LIES! FIGHT THEM!!~NO MORE TALK! ATTACK THEM!!
+НЕТ! ГОВОРИТЬ КОНЕЦ! УБИТЬ ИХ!!!~ЛОЖЬ! СРАЖАТЬСЯ С НИМИ!!~БОЛЬШЕ НЕ ГОВОРИТЬ! АТАКОВАТЬ ИХ!!
+[1149] src=ENEGO/TEXTX.LZW key=12 max=*
+; YOU NOT FRIEND.  YOU HERE FIGHT!
+ТЫ НЕ ДРУГ.  ТЫ ЗДЕСЬ СРАЖАТЬСЯ!
+[1150] src=ENEGO/TEXTY.LZW key=0 max=*
+; Leave us, invader.  Withdraw or prepare to fight.~Leave Scythia, foreign dog, or gird for battle!~Go back from whence you came, or we attack!
+Оставь нас, захватчик.  Отступи или готовься к бою.~Покинь Скифию, чужой пёс, или готовься к битве!~Вернись туда, откуда пришёл, или мы атакуем!
+[1151] src=ENEGO/TEXTY.LZW key=1 max=*
+; Who dares trespass in the domain of the Scythians?
+Кто посмел вторгнуться во владения скифов?
+[1152] src=ENEGO/TEXTY.LZW key=2 max=*
+; I will agree to this alliance, but the Scythians? I cannot guarantee what they will do.~This alliance is acceptable to me, but the rest of Scythia may not agree.~Let us be allies, then, but I cannot speak for all my people.
+Я соглашусь на этот союз, но скифы? Я не могу поручиться за их действия.~Этот союз приемлем для меня, но остальная Скифия может не согласиться.~Тогда будем союзниками, но я не могу говорить за весь свой народ.
+[1153] src=ENEGO/TEXTY.LZW key=3 max=*
+; Unacceptable! Let the gods of war decide!
+Неприемлемо! Пусть боги войны решат!
+[1154] src=ENEGO/TEXTY.LZW key=4 max=*
+; An ally? Hear ye I will, trust ye I will not.
+Союзник? Выслушать тебя я выслушаю, а доверять — не буду.
+[1155] src=ENEGO/TEXTY.LZW key=5 max=*
+; Seek ye an ally, then? Romans seeking allies are wolves posing as shepherds.
+Значит, ищешь союзника? Римляне, ищущие союзников, — волки, притворяющиеся пастухами.
+[1156] src=ENEGO/TEXTY.LZW key=6 max=*
+; A diplomat would ye be, Roman trespasser?
+Дипломатом ты хочешь быть, римский захватчик?
+[1157] src=ENEGO/TEXTY.LZW key=7 max=*
+; Deceive us, would ye? Call out the warriors!
+Обмануть нас хочешь? Сзывайте воинов!
+[1158] src=ENEGO/TEXTY.LZW key=8 max=*
+; No meaning in these words.  Powerful are the Scythians, but honorable they are not.
+В этих словах нет смысла.  Скифы могущественны, но честь — не их черта.
+[1159] src=ENEGO/TEXTY.LZW key=9 max=*
+; Peace is best, but surrender? Fight ye, the Scythians will.  Surrender they will not.
+Мир лучше всего, но капитуляция? Сражаться скифы будут.  Сдаваться — не будут.
+[1160] src=ENEGO/TEXTY.LZW key=10 max=*
+; Protection? Scythians need not protection.  The Scythians are strong! Teach ye a lesson!
+Защита? Скифы не нуждаются в защите.  Скифы сильны! Мы проучим тебя!
+[1161] src=ENEGO/TEXTY.LZW key=11 max=*
+; Now my patience ends.  To battle must we go.  Never a choice for us, always battle.
+Теперь моё терпение кончилось.  Нам предстоит битва.  У нас никогда нет выбора, всегда битва.
+[1162] src=ENEGO/TEXTY.LZW key=12 max=*
+; How much tribute must we pay?
+Сколько дани мы должны платить?
+[1163] src=ENEGO/TEXTZ.LZW key=0 max=*
+; Sarmatia has no room for Romans.  You must leave.
+В Сарматии нет места римлянам.  Ты должен уйти.
+[1164] src=ENEGO/TEXTZ.LZW key=1 max=*
+; Rome sends a great warrior.  We have heard of you.~A great general arrives! Your fame precedes you.~Others have told us you would come.  They also told us what you would want.
+Рим прислал великого воина.  Мы слышали о тебе.~Прибыл великий полководец! Твоя слава опережает тебя.~Другие сказали нам, что ты придёшь.  Они также сказали, чего ты захочешь.
+[1165] src=ENEGO/TEXTZ.LZW key=2 max=*
+; 
+
+[1166] src=ENEGO/TEXTZ.LZW key=3 max=*
+; Ah yes, the peace of slavery.
+Ах да, мир рабства.
+[1167] src=ENEGO/TEXTZ.LZW key=4 max=*
+; There can be no peace between us.
+Между нами не может быть мира.
+[1168] src=ENEGO/TEXTZ.LZW key=5 max=*
+; We are not stupid.  Your weakness is apparent.
+Мы не глупы.  Твоя слабость очевидна.
+[1169] src=ENEGO/TEXTZ.LZW key=6 max=*
+; No, friend.  There will be no surrender.
+Нет, друг.  Капитуляции не будет.
+[1170] src=ENEGO/TEXTZ.LZW key=7 max=*
+; We trust no one.  It profits us not.
+Мы никому не доверяем.  Это нам невыгодно.
+[1171] src=ENEGO/TEXTZ.LZW key=8 max=*
+; This can never be, for we will not serve you.
+Этого никогда не будет, ибо мы не будем служить тебе.
+[1172] src=ENEGO/TEXTZ.LZW key=9 max=*
+; You are a windbag.  You bore me.
+Ты пустозвон.  Ты мне наскучил.
+[1173] src=ENEGO/TEXTZ.LZW key=10 max=*
+; Lay down your weapons and we will spare you.
+Сложи оружие, и мы пощадим тебя.
+[1174] src=ENEGO/TEXTZ.LZW key=11 max=*
+; Surrender and we can talk.  Or would you fight us?~No.  Unless you leave Sarmatia, we must fight.~No, Roman.  You may surrender now.
+Сдавайся, и мы поговорим.  Или хочешь сразиться с нами?~Нет.  Если ты не покинешь Сарматию, нам придётся сражаться.~Нет, римлянин.  Теперь ты можешь сдаться.
+[1175] src=ENEGO/TEXTZ.LZW key=12 max=*
+; Sarmatians make war, not peace.
+Сарматы ведут войны, а не мир.
+[1176] src=CENT/NEWGAME.LZW key=0x4 max=8
+; New Game
+Заново
+[1177] src=CENT/NEWGAME.LZW key=0x398 max=5
+;  Ital
+ Итал
+[1178] src=CENT/PLACES.LZW key=0 max=17
+; Rome
+Рим
+[1179] src=CENT/PLACES.LZW key=1 max=17
+; Pisae
+Пиза
+[1180] src=CENT/PLACES.LZW key=2 max=17
+; Brundisium
+Брундизий
+[1181] src=CENT/PLACES.LZW key=3 max=17
+; L. Trasimeno
+Тразимено
+[1182] src=CENT/PLACES.LZW key=4 max=17
+; Cannae
+Канны
+[1183] src=CENT/PLACES.LZW key=5 max=17
+; Eburacum
+Эбуракум
+[1184] src=CENT/PLACES.LZW key=6 max=17
+; Londinium
+Лондиний
+[1185] src=CENT/PLACES.LZW key=7 max=17
+; Colonia Agrippina
+Колония Агриппы
+[1186] src=CENT/PLACES.LZW key=8 max=17
+; Durocortorum
+Дурокорторум
+[1187] src=CENT/PLACES.LZW key=9 max=17
+; Veldidena
+Вельдидена
+[1188] src=CENT/PLACES.LZW key=10 max=17
+; Aquincum
+Аквинкум
+[1189] src=CENT/PLACES.LZW key=11 max=17
+; Coriallum
+Кориаллум
+[1190] src=CENT/PLACES.LZW key=12 max=17
+; Burdigala
+Бурдигала
+[1191] src=CENT/PLACES.LZW key=13 max=17
+; Camaradum
+Камарадум
+[1192] src=CENT/PLACES.LZW key=14 max=17
+; Alesia
+Алесия
+[1193] src=CENT/PLACES.LZW key=15 max=17
+; Axima
+Аксима
+[1194] src=CENT/PLACES.LZW key=16 max=17
+; Senia
+Сения
+[1195] src=CENT/PLACES.LZW key=17 max=17
+; Salonae
+Салоны
+[1196] src=CENT/PLACES.LZW key=18 max=17
+; Noreia
+Норея
+[1197] src=CENT/PLACES.LZW key=19 max=17
+; Sarmizegetusa
+Сармизегетуза
+[1198] src=CENT/PLACES.LZW key=20 max=17
+; Apulum
+Апулум
+[1199] src=CENT/PLACES.LZW key=21 max=17
+; Serdica
+Сердика
+[1200] src=CENT/PLACES.LZW key=22 max=17
+; Byzantium
+Византий
+[1201] src=CENT/PLACES.LZW key=23 max=17
+; Amastris
+Амастрис
+[1202] src=CENT/PLACES.LZW key=24 max=17
+; Amisus
+Амисус
+[1203] src=CENT/PLACES.LZW key=25 max=17
+; Ancyra
+Анкира
+[1204] src=CENT/PLACES.LZW key=26 max=17
+; Tandeia
+Тандея
+[1205] src=CENT/PLACES.LZW key=27 max=17
+; Artaxata
+Арташат
+[1206] src=CENT/PLACES.LZW key=28 max=17
+; Rhagae
+Раге
+[1207] src=CENT/PLACES.LZW key=29 max=17
+; Nisibis
+Нисибис
+[1208] src=CENT/PLACES.LZW key=30 max=17
+; Carrhae
+Карры
+[1209] src=CENT/PLACES.LZW key=31 max=17
+; Carthago Nova
+Новый Карфаген
+[1210] src=CENT/PLACES.LZW key=32 max=17
+; Saguntum
+Сагунт
+[1211] src=CENT/PLACES.LZW key=33 max=17
+; Numantia
+Нуманция
+[1212] src=CENT/PLACES.LZW key=34 max=17
+; Gades
+Гадес
+[1213] src=CENT/PLACES.LZW key=35 max=17
+; Llipa
+Ллипа
+[1214] src=CENT/PLACES.LZW key=36 max=17
+; Baecula
+Бекула
+[1215] src=CENT/PLACES.LZW key=37 max=17
+; Narbo
+Нарбон
+[1216] src=CENT/PLACES.LZW key=38 max=17
+; Massilia
+Массилия
+[1217] src=CENT/PLACES.LZW key=39 max=17
+; Arausio
+Араузион
+[1218] src=CENT/PLACES.LZW key=40 max=17
+; Sassari
+Сассари
+[1219] src=CENT/PLACES.LZW key=41 max=17
+; Cagliari
+Кальяри
+[1220] src=CENT/PLACES.LZW key=42 max=17
+; Lilybaeum
+Лилибей
+[1221] src=CENT/PLACES.LZW key=43 max=17
+; Syracuse
+Сиракузы
+[1222] src=CENT/PLACES.LZW key=44 max=17
+; Pella
+Пелла
+[1223] src=CENT/PLACES.LZW key=45 max=17
+; Sparta
+Спарта
+[1224] src=CENT/PLACES.LZW key=46 max=17
+; Athenae
+Афины
+[1225] src=CENT/PLACES.LZW key=47 max=17
+; Pharsalus
+Фарсал
+[1226] src=CENT/PLACES.LZW key=48 max=17
+; Actium
+Акций
+[1227] src=CENT/PLACES.LZW key=49 max=17
+; Pergamum
+Пергам
+[1228] src=CENT/PLACES.LZW key=50 max=17
+; Ephesus
+Эфес
+[1229] src=CENT/PLACES.LZW key=51 max=17
+; Tarsus
+Тарсус
+[1230] src=CENT/PLACES.LZW key=52 max=17
+; Selinus
+Селинус
+[1231] src=CENT/PLACES.LZW key=53 max=17
+; Antiochia
+Антиохия
+[1232] src=CENT/PLACES.LZW key=54 max=17
+; Tyre
+Тир
+[1233] src=CENT/PLACES.LZW key=55 max=17
+; Bostra
+Бостра
+[1234] src=CENT/PLACES.LZW key=56 max=17
+; Portus Magnus
+Портус Магнус
+[1235] src=CENT/PLACES.LZW key=57 max=17
+; Icosium
+Икосий
+[1236] src=CENT/PLACES.LZW key=58 max=17
+; Carthago
+Карфаген
+[1237] src=CENT/PLACES.LZW key=59 max=17
+; Oea
+Оея
+[1238] src=CENT/PLACES.LZW key=60 max=17
+; Zama
+Зама
+[1239] src=CENT/PLACES.LZW key=61 max=17
+; Thapsus
+Тапсус
+[1240] src=CENT/PLACES.LZW key=62 max=17
+; Cyrene
+Кирена
+[1241] src=CENT/PLACES.LZW key=63 max=17
+; Alexandria
+Александрия
+[1242] src=CENT/PLACES.LZW key=64 max=17
+; Memphis
+Мемфис
+[1243] src=CENT/PLACES.LZW key=65 max=17
+; Thebae
+Фивы

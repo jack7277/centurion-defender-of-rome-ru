@@ -1,0 +1,22 @@
+# Копирайт-материалы (не публиковать)
+Centurion_Defender_of_Rome/
+analysis/orig/
+analysis/CENTURIO.unpacked.bin
+analysis/CENTURIO.patched.bin
+analysis/CENTURIO.new.exe
+save/
+
+# Тяжёлое / регенерируемое
+analysis/dosbox/
+decoded/*
+!decoded/FONT_8x8.bin
+!decoded/FONT_8x8_ru.bin
+!decoded/FONT_8x8_ru.png
+mt32-roms/
+
+# IDE, кэш, темпы
+.idea/
+__pycache__/
+*.pyc
+*.i64
+*.asm
