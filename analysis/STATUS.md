@@ -111,3 +111,6 @@
 - Лимиты длины строк: analysis/PLAN_string_limits.md («Ромул и Рем» режется max=63).
 - Палитры заморожены (analysis/dac_palette.json, palettes_learned.json).
 - Удалить analysis/CENTURIO.EXE.asm, когда пользователь закроет IDA.
+
+## 2026-11-17
+- Проект причесан под GitHub: удалены IDA-базы/.asm/логи/кэш; добавлены .gitignore, .gitattributes, README.md; git init + первый коммит (40 файлов). Игра, orig/, unpacked-бинарники, сейвы, decoded-картинки и dosbox-дистрибутив в репо НЕ входят.
