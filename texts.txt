@@ -223,12 +223,12 @@ ovl0.ovl
 ; You discover Nero's fiddle in a junk shop
 ; and donate it to a museum.  The publicity
 ; will help you reach 
-Вы находите скрипку Нерона в лавке\nстарьёвщика и дарите её музею.  Известность\nпоможет вам достичь 
+Вы находите скрипку Нерона в лавке\nстарьёвщика и дарите её музею.\nИзвестность поможет вам достичь
 [0064] src=OVL0.OVL key=0xBC20 max=101
 ; The senate approves a new road-building
 ; program and the cost swallows up half of
 ; this year's tribute.
-Сенат одобряет программу дорожного\nстроительства, и расходы пожирают половину\nдани за этот год.
+Сенат одобряет программу дорожного\nстроительства, и расходы пожирают\nполовину дани за этот год.
 [0065] src=OVL0.OVL key=0xBC86 max=128
 ; Cilician pirates are on the loose!!
 ; The brigands plunder a tribute fleet returning
@@ -238,7 +238,7 @@ ovl0.ovl
 ; The senate passes a new tax on chariots
 ; to rebuild the Circus Maximus.  You must
 ; pay 20 talents.
-Сенат вводит новый налог на колесницы\nна ремонт Большого Цирка.  Вы должны\nплатите 20 талантов.
+Сенат вводит новый налог на\nколесницы на ремонт Большого Цирка.\nВы должны заплатить 20 талантов.
 [0067] src=OVL0.OVL key=0xBD68 max=79
 ; Your chariot loses a wheel on the Appian
 ; Way.  The repairs cost you 10 talents.
@@ -247,12 +247,12 @@ ovl0.ovl
 ; You organize an excursion to Mt. Vesuvius on the
 ; day of an eruption and the volcano swallows up a
 ; guest.  Your next promotion may be delayed.
-Вы устроили экскурсию на Везувий\nв день извержения, и вулкан поглотил одного\nгостя.  Ваше повышение может отложиться.
+Вы устроили экскурсию на Везувий в день\nизвержения, и вулкан поглотил одного\nгостя. Ваше повышение может отложиться.
 [0069] src=OVL0.OVL key=0xBE46 max=127
 ; You take a senator's daughter to the catacombs
 ; and get lost.  You are the laughingstock of Rome.
 ; Your next rank may be delayed.
-Вы повели дочь сенатора в катакомбы\nи заблудились.  Вы стали посмешищем Рима.\nПовышение может задержаться.
+Вы повели дочь сенатора в катакомбы\nи заблудились. Вы стали посмешищем\nРима. Повышение может задержаться.
 [0070] src=OVL0.OVL key=0xBEC6 max=127
 ; A prophet parts the Red Sea and one of your
 ; legations is caught in the backwash.  The
@@ -262,7 +262,7 @@ ovl0.ovl
 ; A gladiator named Spartacus leads a slave
 ; rebellion in Italia.  The Senate looks on
 ; you with disfavor.
-Гладиатор по имени Спартак ведёт мятеж\nрабов в Италии.  Сенат смотрит на вас\nнеодобрительно.
+Гладиатор по имени Спартак ведёт\nмятеж рабов в Италии. Сенат\nсмотрит на вас неодобрительно.
 [0072] src=OVL0.OVL key=0xBFAD max=106
 ; Romans burn the library at Alexandria
 ; and Cleopatra demands restitution.
@@ -273,7 +273,7 @@ ovl0.ovl
 ; expedition to Asia Minor, but your
 ; 'Buy a Piece of the Trojan Horse' idea
 ; is a dismal failure.  Lose 20 talents.
-Вы нашли большого деревянного коня\nв экспедиции в Малую Азию, но ваша идея\n"Купи кусочек Троянского коня"\nпровалилась.  Теряешь 20 талантов.
+Вы нашли большого деревянного коня\nв экспедиции в Малую Азию, но ваша\nидея "Купи кусочек Троянского коня"\nпровалилась. Теряешь 20 талантов.
 [0074] src=OVL0.OVL key=0xC0AD max=129
 ; You find a wooden ship on an expedition to
 ; Mt. Ararat and it resembles an ark.  Your
@@ -283,22 +283,22 @@ ovl0.ovl
 ; You support the winning candidate in this
 ; year's consular elections.  He promises to
 ; support your next promotion.
-Вы поддержали победившего кандидата на\nконсульских выборах этого года.  Он обещает\nподдержать ваше повышение.
+Вы поддержали победившего кандидата\nна консульских выборах этого года. Он\nобещает поддержать ваше повышение.
 [0076] src=OVL0.OVL key=0xC1A1 max=101
 ; You find a jeweled bird while on
 ; vacation in Malta, and sell it to
 ; an Egyptian trader for 35 talents.
-Вы находите украшенную птицу на отдыхе\nна Мальте и продаёте её\nегипетскому купцу за 35 талантов.
+Вы находите украшенную птицу на\nотдыхе на Мальте и продаёте её\nегипетскому купцу за 35 талантов.
 [0077] src=OVL0.OVL key=0xC207 max=109
 ; You sell your gladiator training school
 ; to a wealthy publican.  The profit swells
 ; your coffers by 25 talents.
-Вы продаёте свою школу гладиаторов\nбогатому откупщику.  Прибыль наполняет\nвашу казну на 25 талантов.
+Вы продаёте свою школу гладиаторов\nбогатому откупщику. Прибыль\nнаполняет вашу казну на 25 талантов.
 [0078] src=OVL0.OVL key=0xC275 max=91
 ; You sell a team of chariot ponies
 ; to an Arab chieftain, and get 15
 ; talents out of the deal.
-Вы продаёте упряжку гоночных пони\nарабскому вождю и получаете 15\nталантов со сделки.
+Вы продаёте упряжку гоночных\nпони арабскому вождю и\nполучаете 15 талантов со сделки.
 [0079] src=OVL0.OVL key=0xC36E max=67
 ; The people of Rome are bored.
 ; The citizens demand a gladiator show.
@@ -1246,7 +1246,7 @@ O"O%O'O*O.O3O6O7O9O<O@OCOEOHOLOQO
 ; Gaul was divided into three parts...
 ; No, four parts.  One indomitable village
 ; still held out against the Roman invaders.
-Галлия была разделена на три части...\nНет, на четыре.  Одна непокорная деревня\nещё держалась против римлян.
+Галлия была разделена на три части...\nНет, на четыре. Одна непокорная\nдеревня ещё держалась против римлян.
 [0379] src=OVL0.OVL key=0x10AEF max=13
 ; Province List
 Провинции
@@ -2265,13 +2265,13 @@ race2
 ; exotic herbs 'guaranteed' to make your
 ; horses win.  You doubt that this will
 ; work but pay the 30 talents he asks.
-Лекарь с Дальнего Востока предлагает\nэкзотические травы, "гарантированно"\nчтобы лошади победили.  Вы сомневаетесь,\nно платите 30 талантов.
+Лекарь с Дальнего Востока предлагает\nэкзотические травы, "гарантирующие"\nпобеду ваших лошадей. Вы\nсомневаетесь, но платите 30 талантов.
 [0693] src=OVL0.OVL key=0x139E1 max=158
 ; You send an emissary to the Temple of
 ; the Vestal Virgins where a squinty-eyed
 ; attendant promises the gods' favor in
 ; return for a small donation of 50 talents.
-Вы посылаете гонца в храм\nвесталок, где косоглазый\nслужитель обещает благосклонность богов\nв обмен на скромное пожертвование 50 талантов.
+Вы посылаете гонца в храм весталок,\nгде косоглазый служитель обещает\nблагосклонность богов в обмен на\nскромное пожертвование 50 талантов.
 [0694] src=OVL0.OVL key=0x13A80 max=25
 ; You can only do that once
 Это можно только раз
@@ -2358,7 +2358,7 @@ circus.cbm
 ; generations and recited by children whose parents
 ; are not yet born.  Remember, though, that empires
 ; rise and fall like tides, and nothing is forever.
-Известный мир лежит у ваших ног.  Ваши деяния,\nкак деяния Александра, будут помнить\nпоколения и повторять дети, чьи родители\nещё не родились.  Но помните: империи\nвзлетают и падают, как приливы, и ничто не вечно.
+Известный мир лежит у ваших ног. Ваши\nдеяния, как деяния Александра, будут помнить\nпоколения и повторять дети, чьи родители ещё\nне родились. Но помните: империи взлетают\nи падают, как приливы, и ничто не вечно.
 [0721] src=OVL0.OVL key=0x140D0 max=50
 ; THE MAKING OF A CONQUEROR
 ; In becoming Caesar, you 
@@ -2460,13 +2460,13 @@ circus.cbm
 ; flagship, sending your foes to a watery death.
 ; 
 ; 
-Нептун и Марс улыбаются, и вы уничтожаете\nфлагман врага, отправляя врагов на водяную смерть.\n\n
+Нептун и Марс улыбаются, и вы уничтожаете\nфлагман врага, отправляя врагов на дно.\n\n
 [0750] src=OVL0.OVL key=0x1439E max=66
 ; The Sea and War Gods frown, and your
 ; flagship sinks beneath you.
 ; 
 ; 
-Морские и воинские боги хмурятся, и ваш\nфлагман тонет под вами.\n\n
+Боги моря и войны хмурятся, и ваш\nфлагман идёт ко дну под вами.\n\n
 [0751] src=OVL0.OVL key=0x143E2 max=90
 ; Such commanders lead these fleets, that Neptune calls
 ; them both to his underwater realm.
@@ -2478,11 +2478,11 @@ circus.cbm
 ; flees for the safety of his home port.
 ; 
 ; 
-Вражеский адмирал, видя ваше превосходство,\nбежит в свой домашний порт.\n\n
+Вражеский адмирал, видя ваше\nпревосходство, бежит в свой домашний порт.\n\n
 [0753] src=OVL0.OVL key=0x14498 max=98
 ; Their leader's flight from battle disheartens
 ; the enemy, and your brave crews destroy them easily.
-Бегство их адмирала с битвы удручает\nврага, и ваши храбрые команды легко уничтожают его.
+Бегство их адмирала с битвы удручает врага,\nи ваши храбрые команды легко уничтожают его.
 [0754] src=OVL0.OVL key=0x144FC max=83
 ; In spite of their admiral's cowardly flight,
 ; the enemy fleet overwhelms your ships.
@@ -2490,16 +2490,16 @@ circus.cbm
 [0755] src=OVL0.OVL key=0x14550 max=54
 ; In spite of their admiral's bath,
 ; your fleet prevails.
-Несмотря на купание их адмирала,\nваш флот побеждает.
+Несмотря на купание их\nадмирала, ваш флот побеждает.
 [0756] src=OVL0.OVL key=0x14588 max=90
 ; With the sinking of the flagship, your sailors lose
 ; heart and the Roman fleet is defeated.
-С гибелью флагмана ваши моряки падают духом,\nи римский флот разгромлен.
+С гибелью флагмана ваши моряки падают\nдухом, и римский флот разгромлен.
 [0757] src=OVL0.OVL key=0x145E4 max=134
 ; The enemy force is disheartened when their leader
 ; is sent to Neptune's locker without a sword, and
 ; your ships make quick work of them.
-Вражеское войско удручено, когда их вождь\nотправлен к Нептуну без меча, и\nваши корабли быстро их уничтожают.
+Вражеское войско удручено, когда их\nвождь отправлен к Нептуну без меча,\nи ваши корабли быстро их уничтожают.
 [0758] src=OVL0.OVL key=0x1466C max=144
 ; Alas, your ship duel was with the witless commander
 ; of the enemy fleet, and his more competent mates
@@ -2508,7 +2508,7 @@ circus.cbm
 [0759] src=OVL0.OVL key=0x146FE max=100
 ; The fleets fight until sunset, when the last two
 ; vessels sink, together forever in a deadly embrace.
-Флоты сражаются до заката, когда последние два\nкорабля тонут в смертельных объятиях.
+Флоты сражаются до заката, когда последние\nдва корабля тонут в смертельных объятиях.
 [0760] src=OVL0.OVL key=0x14764 max=48
 ; You retreat to safety with your remaining ships.
 Вы отступаете с оставшимися кораблями.
@@ -2524,16 +2524,16 @@ circus.cbm
 [0763] src=OVL0.OVL key=0x1487E max=91
 ; the last of your men are thrown overboard,
 ; and the scurrilous enemy scuttles your flagship.
-последние из ваших людей сброшены за борт,\nи подлый враг топит ваш флагман.
+последние из ваших людей сброшены за\nборт, и подлый враг топит ваш флагман.
 [0764] src=OVL0.OVL key=0x148DA max=86
 ; your axemen chop gaping holes in the enemy
 ; vessel, allowing Neptune to claim the hulk.
-ваши секироносцы рубят дыры\nв корабле врага, и Нептун забирает остов.
+ваши секироносцы рубят дыры в корабле\nврага, и Нептун забирает остов.
 [0765] src=OVL0.OVL key=0x14931 max=119
 ; they are each too damaged to stay afloat,
 ; and the two flagships sink together, bound
 ; eternally in Neptune's playground.
-они оба слишком повреждены, чтобы держаться,\nи два флагмана тонут вместе, навеки\nво владениях Нептуна.
+они оба слишком повреждены, чтобы\nдержаться, и два флагмана тонут\nвместе, навеки во владениях Нептуна.
 [0766] src=OVL0.OVL key=0x149A9 max=39
 ; After fierce combat aboard both ships,
 ; 
