@@ -2861,7 +2861,7 @@ EGA не вкл.
 ТОГДА МЫ ПОКОРЯЕМСЯ ВАШИМ ТРЕБОВАНИЯМ.  С ЭТОГО ДНЯ МЫ ПОДЧИНЯЕМСЯ ВОЛЕ РИМА.  ДАЮ СЛОВО.~МЫ ВАШИ ПОДДАННЫЕ.~СПАСИБО, МОГУЧИЙ.  МЫ ПОВИНУЕМСЯ ВОЛЕ РИМА.
 [0874] src=ENEGO/TEXTD.LZW key=3 max=*
 ; I GROW TIRED OF YOU, ROMAN.  YOUR PITIFUL LEGIONS ARE NO MATCH FOR THE GAULS.~ROMAN, YOU FILL ME WITH DISGUST.  NOW YOU WILL DIE!!
-Я УСТАЛ ОТ ВАС, РИМЛЯНИН.  Ваши ЖАЛКИЕ ЛЕГИОНЫ НЕ ЧЕТА ГАЛЛАМ.~РИМЛЯНИН, ВЫ ВЫЗЫВАЕТЕ У МЕНЯ ОТВРАЩЕНИЕ.  ТЕПЕРЬ ВЫ УМРЁТЕ!!
+Я УСТАЛ ОТ ВАС, РИМЛЯНИН.  ВАШИ ЖАЛКИЕ ЛЕГИОНЫ НЕ ЧЕТА ГАЛЛАМ.~РИМЛЯНИН, ВЫ ВЫЗЫВАЕТЕ У МЕНЯ ОТВРАЩЕНИЕ.  ТЕПЕРЬ ВЫ УМРЁТЕ!!
 [0875] src=ENEGO/TEXTD.LZW key=4 max=*
 ; THEN WE GREET YOU AS FRIENDS.
 ТОГДА МЫ ПРИВЕТСТВУЕМ ВАС КАК ДРУЗЕЙ.
@@ -2882,7 +2882,7 @@ EGA не вкл.
 КАКИЕ УСЛОВИЯ ВЫ ПРЕДЛАГАЕТЕ?
 [0881] src=ENEGO/TEXTD.LZW key=10 max=*
 ; ROMAN DOG! YOU WILL PAY FOR THIS INSULT WITH YOUR LIFE!~THEN DIE LIKE A ROMAN!
-РИМСКИЙ ПЁС! ВЫ ЗАПЛАТИШЬ ЗА ЭТО ОСКОРБЛЕНИЕ ЖИЗНЬЮ!~ТОГДА умрите КАК РИМЛЯНИН!
+РИМСКИЙ ПЁС! ВЫ ЗАПЛАТИШЬ ЗА ЭТО ОСКОРБЛЕНИЕ ЖИЗНЬЮ!~ТОГДА УМРИТЕ КАК РИМЛЯНИН!
 [0882] src=ENEGO/TEXTD.LZW key=11 max=*
 ; LET THE GODS OF WAR DECIDE!
 Пусть решат боги войны!
@@ -3146,13 +3146,13 @@ EGA не вкл.
 ДОБРО ПОЖАЛОВАТЬ В ГОРЫ, ВЕЛИКИЙ ВОИН.
 [0969] src=ENEGO/TEXTK.LZW key=2 max=*
 ; WE WILL AGREE TO THIS, AT LEAST FOR NOW.~YOU HONOR US, GREAT WARRIOR.  THE GODS WILL FAVOR THIS TREATY.~WE JOIN YOUR TRIBE IN HOPE THERE IS BOOTY TO WIN!
-МЫ СОГЛАСИМСЯ НА ЭТО, ПОКРАЙНЕЙ МЕРЕ ПОКА.~ВЫ ЧТИШЬ НАС, ВЕЛИКИЙ ВОИН.  БОГИ ОДОБРЯТ ЭТО СОГЛАШЕНИЕ.~МЫ ПРИСОЕДИНЯЕМСЯ К Вашему ПЛЕМЕНИ В НАДЕЖДЕ НА ДОБЫЧУ!
+МЫ СОГЛАСИМСЯ НА ЭТО, ПОКРАЙНЕЙ МЕРЕ ПОКА.~ВЫ ЧТИШЬ НАС, ВЕЛИКИЙ ВОИН.  БОГИ ОДОБРЯТ ЭТО СОГЛАШЕНИЕ.~МЫ ПРИСОЕДИНЯЕМСЯ К ВАШЕМУ ПЛЕМЕНИ В НАДЕЖДЕ НА ДОБЫЧУ!
 [0970] src=ENEGO/TEXTK.LZW key=3 max=*
 ; YOU ANGER ME, WARRIOR.  WOULD YOU FIGHT US?
 ВЫ ГНЕВАЕТЕ МЕНЯ, ВОИН.  ХОЧЕТЕ СРАЖАТЬСЯ С НАМИ?
 [0971] src=ENEGO/TEXTK.LZW key=4 max=*
 ; GREAT WARRIOR, YOUR WORDS HAVE BEEN HEARD.
-ВЕЛИКИЙ ВОИН, Ваши СЛОВА УСЛЫШАНЫ.
+ВЕЛИКИЙ ВОИН, ВАШИ СЛОВА УСЛЫШАНЫ.
 [0972] src=ENEGO/TEXTK.LZW key=5 max=*
 ; TRUTH IS FLEETING, GREAT WARRIOR, AND WE KNOW YOU NOT.
 ПРАВДА МИМОЛЕТНА, ВЕЛИКИЙ ВОИН, И МЫ ЗНАЕМ, ЧТО ВЫ – НЕТ.
@@ -3185,7 +3185,7 @@ EGA не вкл.
 НАМ БОЛЬШЕ НЕЧЕГО СКАЗАТЬ ВАМ, ВОИН.
 [0982] src=ENEGO/TEXTL.LZW key=0 max=*
 ; THE TRIBES WILL NOT HEAR YOUR LIES.  TURN BACK OR PREPARE TO DIE.
-ПЛЕМЕНА НЕ СТАНУТ СЛУШАТЬ Вашу ЛОЖЬ. УБИРАЙТЕСЬ ИЛИ ПРИГОТОВЬТЕСЬ УМЕРЕТЬ.
+ПЛЕМЕНА НЕ СТАНУТ СЛУШАТЬ ВАШУ ЛОЖЬ. УБИРАЙТЕСЬ ИЛИ ПРИГОТОВЬТЕСЬ УМЕРЕТЬ.
 [0983] src=ENEGO/TEXTL.LZW key=1 max=*
 ; GO HOME, ROMAN.  YOU ARE NOT WELCOME IN OUR LAND.
 ИДИТЕ ДОМОЙ, РИМЛЯНИН.  В НАШЕЙ ЗЕМЛЕ ВАМ НЕ РАДЫ.
@@ -3200,7 +3200,7 @@ EGA не вкл.
 ЭТО ЕЩЁ ПОСМОТРИМ, РИМЛЯНИН.
 [0987] src=ENEGO/TEXTL.LZW key=5 max=*
 ; YOUR WORDS HAVE NOT THE RING OF TRUTH.
-В Ваших СЛОВАХ НЕТ ЗВОНА ПРАВДЫ.
+В ВАШИХ СЛОВАХ НЕТ ЗВОНА ПРАВДЫ.
 [0988] src=ENEGO/TEXTL.LZW key=6 max=*
 ; THE TRIBES ARE STRONG.  WE HAVE NO NEED OF ROME.
 ПЛЕМЕНА СИЛЬНЫ.  МЫ НЕ НУЖДАЕМСЯ В РИМЕ.
@@ -3653,7 +3653,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Я НЕ ГОВОРЮ С ЧЕЛОВЕКОМ С ЮГА!
 [1138] src=ENEGO/TEXTX.LZW key=1 max=*
 ; YOU TRIBE WEAR CLOTHES.  NOT RIGHT!~TRIBE FROM SOUTH WANT TALK?~ATTACK HERE YOU TRIBE NOT SMART!
-Ваше ПЛЕМЯ НОСИТ ОДЕЖДУ.  НЕ ПРАВДА!~~ Племя С ЮГА ХОЧЕТ ПОГОВОРИТЬ?~АТАКОВАТЬ ЗДЕСЬ ВАШЕ ПЛЕМЯ НЕ УМНО!
+ВАШЕ ПЛЕМЯ НОСИТ ОДЕЖДУ.  НЕ ПРАВДА!~~ ПЛЕМЯ С ЮГА ХОЧЕТ ПОГОВОРИТЬ?~АТАКОВАТЬ ЗДЕСЬ ВАШЕ ПЛЕМЯ НЕ УМНО!
 [1139] src=ENEGO/TEXTX.LZW key=2 max=*
 ; 
 
@@ -3662,7 +3662,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Я НЕ ЗНАЮ ЭТИХ СЛОВ.  ВЫ СМЕЁШСЯ НАД НАМИ?
 [1141] src=ENEGO/TEXTX.LZW key=4 max=*
 ; MAYBE YOU SPEAK TRUTH.  MAYBE NOT.  NOT MATTER US.
-ВОЗМОЖНО, ВЫ ГОВОРИШЬ ПРАВДУ.  Может и нет.  НАС НЕ ВОЛНУЕТ.
+ВОЗМОЖНО, ВЫ ГОВОРИШЬ ПРАВДУ.  МОЖЕТ И НЕТ.  НАС НЕ ВОЛНУЕТ.
 [1142] src=ENEGO/TEXTX.LZW key=5 max=*
 ; HA! YOU WEAK! US STRONG!
 ХА! ВЫ СЛАБЫЙ! МЫ СИЛЬНЫЕ!
