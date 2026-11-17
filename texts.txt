@@ -397,7 +397,7 @@ ovl0.ovl
 Enter купить    ESC отмена
 [0107] src=OVL0.OVL key=0xC714 max=50
 ; Triremes  Quinqueremes  Galleons   Legion   Status
-Триремы   Квинкверемы   Галеоны   Легион  Статус
+Триремы   Квинкверемы   Галеоны   Легион Статус
 [0108] src=OVL0.OVL key=0xC748 max=33
 ; Fleet has already
 ; acted this turn
@@ -738,8 +738,8 @@ Enter купить    ESC отмена
 ; Infantry   Cavalry     Location      Status
 Пехота     Кавалерия   Расположение Статус
 [0213] src=OVL0.OVL key=0xD2FA max=42
-; Infantry   Cavalry     Courage      Status
-Пехота     Кавалерия   Доблесть     Статус
+; Infantry   Cavalry     Courage     Status
+Пехота    Кавалерия   Доблесть   Статус
 [0214] src=OVL0.OVL key=0xD328 max=52
 ;  Legionnaires must be left behind.
 ; Board the Legion?
