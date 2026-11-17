@@ -1022,7 +1022,7 @@ C.DСдайся или умри!
 Надо доверять друг другу, царица.
 [0304] src=OVL0.OVL key=0xFF02 max=94
 ; My feelings for you are genuine.  Your beauty, Cleopatra, is unsurpassed throughout the world.
-Мои чувства искренни.  Твоя красота, Клеопатра, не имеет равных во всём мире.
+Мои чувства искренни.  Ваша красота, Клеопатра, не имеет равных во всём мире.
 [0305] src=OVL0.OVL key=0xFF62 max=38
 ; How you flatter yourself, great Queen.
 Как ты себе льстишь, великая царица.
@@ -2669,7 +2669,7 @@ EGA не вкл.
 Перед вами лежат густые леса Германии, где живут бесчисленные варварские племена, чьи воины прославились своим неистовством в бою.
 [0810] src=ENEGO/SCOUT.LZW key=13 max=*
 ; Your scouts report that Dalmatia will not be an easy conquest.  Laced with forested mountain ranges, this rugged land seldom falls to invaders and is difficult to rule effectively.
-Твои\Ваши разведчики сообщают, что Далмецию будет трудно завоевать.
+Ваши\Ваши разведчики сообщают, что Далмецию будет трудно завоевать.
 [0811] src=ENEGO/SCOUT.LZW key=14 max=*
 ; Your troops cross into Dacia.  The warriors of Dacia are among the fiercest in the known world and the land is unfriendly to any intruder, especially the emissaries of Rome.
 Ваши войска перешли в Дакию.
@@ -2678,34 +2678,34 @@ EGA не вкл.
 Сухой и пыльный, регион, называемый Испания является частью Империи Карфагена и армии Карфагена готовы к бою.
 [0813] src=ENEGO/SCOUT.LZW key=16 max=*
 ; Your scouts report that Mauretania is a rocky, desert region.  The cities are confined to the coastal areas, and the leaders may not be friendly.
-Твои\Ваши разведчики сообщают, что Мавретания является скалистым, пустынным регионом.
+Ваши\Ваши разведчики сообщают, что Мавретания является скалистым, пустынным регионом.
 [0814] src=ENEGO/SCOUT.LZW key=17 max=*
 ; Your legion arrives in Cyrenaica, a desert region to the west of Aegyptus.  While it remains under the influence of the Aegyptian Empire, Cyrenaica may be hostile to Rome.
-Твой\Ваш легион прибыл в Киренаику, пустынный район к западу от Египта.
+Ваш\Ваш легион прибыл в Киренаику, пустынный район к западу от Египта.
 [0815] src=ENEGO/SCOUT.LZW key=18 max=*
 ; The deserts of Arabia stretch before you, dotted only occasionally with an oasis or waterhole.  This land has little to offer Romans save death and despair.
 Перед тобой\вами простирнулись пустыни Аравии, с видимым лишь изредка оазисом или водопоем.
 [0816] src=ENEGO/SCOUT.LZW key=19 max=*
 ; Before your troops spreads the ancient valley of the Tigris and Euphrates, twin rivers that embrace the cradle of civilization.
-Перед твоими\вашими войсками простирнулась древняя долина Тигра и Евфрата, две реки, которые охватывают колыбель цивилизации.
+Перед вашими\вашими войсками простирнулась древняя долина Тигра и Евфрата, две реки, которые охватывают колыбель цивилизации.
 [0817] src=ENEGO/SCOUT.LZW key=20 max=*
 ; Your scouts return from the rugged mountains of Armenia to report that the region is largely unpopulated.  But Armenian forces meet your troops soon after penetrating the border.
-Твои\Ваши разведчики, вернувщись из скалистых гор Армении, сообщают, что регион заселен незначительно.
+Ваши\Ваши разведчики, вернувщись из скалистых гор Армении, сообщают, что регион заселен незначительно.
 [0818] src=ENEGO/SCOUT.LZW key=21 max=*
 ; Your forces arrive in Sicilia, and the scouts report that the island will not be easily conquered.  Its natural defenses include rugged countryside and the surrounding ocean.
-Твои\Ваши войска прибыли в Сицилию, а разведчики сообщают, что остров будет сложно завоевать.
+Ваши\Ваши войска прибыли в Сицилию, а разведчики сообщают, что остров будет сложно завоевать.
 [0819] src=ENEGO/SCOUT.LZW key=22 max=*
 ; Your fleet approaches the maritime nation of Sardinia, a center of trade in Mare Nostrum.  Your aides tell you the island has great strategic importance.
-Твой\Ваш флот приплыл к морскому государству Сардинии, центру торговли в Нашем Море.
+Ваш\Ваш флот приплыл к морскому государству Сардинии, центру торговли в Нашем Море.
 [0820] src=ENEGO/SCOUT.LZW key=23 max=*
 ; You and your men cross the channel safely to Britannia, an island of green trees and fields, unpredictable weather and warlike barbarian tribes.
-Ты\Вы и твои\ваши люди безопасно пересекли канал в Британию, остров зеленых деревьев и полей, непредсказуемой погоды и воинственных варварских племен.
+Ты\Вы и ваши\ваши люди безопасно пересекли канал в Британию, остров зеленых деревьев и полей, непредсказуемой погоды и воинственных варварских племен.
 [0821] src=ENEGO/SCOUT.LZW key=24 max=*
 ; Along the coast of Mare Nostrum, ten days' march from Rome, you enter the region known as Narbonensis.  Your soldiers are tense with anticipation and eager for a fight.
-Маршируя десять дней из Рима вдоль побережья Нашего Моря, ты\вы входишь\входите в регион, известный как Нарбоненсис. Твои\Ваши солдаты напряжены и с нетерпением ожидают сражения\боя.
+Маршируя десять дней из Рима вдоль побережья Нашего Моря, ты\вы входишь\входите в регион, известный как Нарбоненсис. Ваши\Ваши солдаты напряжены и с нетерпением ожидают сражения\боя.
 [0822] src=ENEGO/SCOUT.LZW key=25 max=*
 ; Your troops march into Scythia.  In the wilds of Scythia are scattered tribes with warlike traditions and many courageous fighters.  The days ahead may be costly to Romans and Scythians alike.
-Твои\Ваши войска пришли в Скифию.
+Ваши\Ваши войска пришли в Скифию.
 [0823] src=ENEGO/SCOUT.LZW key=26 max=*
 ; The legions of Rome enter Sarmatia and the scouts return with descriptions of a vast region with many tribes and few leaders.  Still, a Sarmatian force soon gathers to meet your army.
 Легионы Рима вошли в Сарматию и разведчики возвращаются с описанием огромного региона со множеством племён и несколькими лидерами.
@@ -2723,7 +2723,7 @@ EGA не вкл.
 Эй! Ты решил, что это шутка?
 [0828] src=ENEGO/TEXTA.LZW key=4 max=*
 ; As long as your legions are in Carthage, there can be no peace.
-До тех пор, пока твои легионы находятся в Карфагене, мир невозможен.
+До тех пор, пока ваши легионы находятся в Карфагене, мир невозможен.
 [0829] src=ENEGO/TEXTA.LZW key=5 max=*
 ; In the face of a weaker foe? Oh, I think not.
 Перед более слабым врагом? О, не думаю.
@@ -2738,7 +2738,7 @@ EGA не вкл.
 Я не политик, но уверяю тебя: Карфаген не будет послушным слугой Рима.
 [0833] src=ENEGO/TEXTA.LZW key=9 max=*
 ; Your bravado is most entertaining.
-Твоя бравада весьма забавна.
+Ваша бравада весьма забавна.
 [0834] src=ENEGO/TEXTA.LZW key=10 max=*
 ; Leave Carthage now, or fight us.
 Уходите из Карфагена сейчас, или сражайтесь с нами.
@@ -2765,7 +2765,7 @@ EGA не вкл.
 Ха! Что Рим может предложить нужного Клеопатре?
 [0842] src=ENEGO/TEXTB.LZW key=5 max=*
 ; Your deeds reveal the truth, Roman, and the truth is that you are a terrible liar.
-Твои поступки указывают на правду, римлянин, а правда такова, что ты – ужасный лжец.
+Ваши поступки указывают на правду, римлянин, а правда такова, что ты – ужасный лжец.
 [0843] src=ENEGO/TEXTB.LZW key=6 max=*
 ; Ha! To negotiate with Cleopatra requires more wits than you have, Roman!
 Ха! Чтобы вести переговоры с Клеопатрой, необходимо больше ума, чем есть у тебя, римлянин!
@@ -2822,7 +2822,7 @@ EGA не вкл.
 Пусть будет так.  С сего дня Македония и Рим — союзники.~Решено.  Наследники Ромула и Александра отныне союзники.~Пусть мир узнает, что Рим и Македония отныне вместе.
 [0861] src=ENEGO/TEXTC.LZW key=3 max=*
 ; Your demands are an insult.  Prepare for battle!
-Твои запросы оскорбительны. Готовься к битве!
+Ваши запросы оскорбительны. Готовься к битве!
 [0862] src=ENEGO/TEXTC.LZW key=4 max=*
 ; We accept your compliment.
 Мы принимаем ваш комплимент.
@@ -2861,7 +2861,7 @@ EGA не вкл.
 ТОГДА МЫ ПОКОРЯЕМСЯ ВАШИМ ТРЕБОВАНИЯМ.  С ЭТОГО ДНЯ МЫ ПОДЧИНЯЕМСЯ ВОЛЕ РИМА.  ДАЮ СЛОВО.~МЫ ВАШИ ПОДДАННЫЕ.~СПАСИБО, МОГУЧИЙ.  МЫ ПОВИНУЕМСЯ ВОЛЕ РИМА.
 [0874] src=ENEGO/TEXTD.LZW key=3 max=*
 ; I GROW TIRED OF YOU, ROMAN.  YOUR PITIFUL LEGIONS ARE NO MATCH FOR THE GAULS.~ROMAN, YOU FILL ME WITH DISGUST.  NOW YOU WILL DIE!!
-Я УСТАЛ ОТ ВАС, РИМЛЯНИН.  ТВОИ ЖАЛКИЕ ЛЕГИОНЫ НЕ ЧЕТА ГАЛЛАМ.~РИМЛЯНИН, ВЫ ВЫЗЫВАЕТЕ У МЕНЯ ОТВРАЩЕНИЕ.  ТЕПЕРЬ ВЫ УМРЁТЕ!!
+Я УСТАЛ ОТ ВАС, РИМЛЯНИН.  Ваши ЖАЛКИЕ ЛЕГИОНЫ НЕ ЧЕТА ГАЛЛАМ.~РИМЛЯНИН, ВЫ ВЫЗЫВАЕТЕ У МЕНЯ ОТВРАЩЕНИЕ.  ТЕПЕРЬ ВЫ УМРЁТЕ!!
 [0875] src=ENEGO/TEXTD.LZW key=4 max=*
 ; THEN WE GREET YOU AS FRIENDS.
 ТОГДА МЫ ПРИВЕТСТВУЕМ ВАС КАК ДРУЗЕЙ.
@@ -2924,10 +2924,10 @@ EGA не вкл.
 Парфянский лев никогда не будет служить римскому шакалу!
 [0895] src=ENEGO/TEXTE.LZW key=9 max=*
 ; Your posturing amuses us.
-Твое поведение забавляет нас.
+Ваше поведение забавляет нас.
 [0896] src=ENEGO/TEXTE.LZW key=10 max=*
 ; Withdraw at once or the king will have your head on a pike!
-Уходи немедленно или король получит твою голову на пике!
+Уходи немедленно или король получит вашу голову на пике!
 [0897] src=ENEGO/TEXTE.LZW key=11 max=*
 ; You are mad! Begin the the attack!~Never, son of a pig! Attack them now!~Out of the question.  Prepare to die.
 Ты безумен! Начинаем наступление!~Никогда, сын свиньи! Нападаем на них сейчас же!~Об этом не может быть речи.  Готовьтесь к смерти.
@@ -3035,10 +3035,10 @@ EGA не вкл.
 Невозможно.  Рим говорит 'союзник' когда имеет в виду 'раб'.
 [0932] src=ENEGO/TEXTH.LZW key=6 max=*
 ; Your high-flown language is meaningless.  Be gone.
-Твои высокие слова бессмысленны. Уходи.
+Ваши высокие слова бессмысленны. Уходи.
 [0933] src=ENEGO/TEXTH.LZW key=7 max=*
 ; Your words ring true.  What tribute will suffice?
-Твои слова звучат справедливо. Каков размер дани?
+Ваши слова звучат справедливо. Каков размер дани?
 [0934] src=ENEGO/TEXTH.LZW key=8 max=*
 ; Rome would 'protect' us into chains and bondage.  Go now!
 Рим будет 'защищать' нас цепями и узами. Уходи сейчас же!
@@ -3047,7 +3047,7 @@ EGA не вкл.
 Говори четко, римлянин, чего ты хочешь?
 [0936] src=ENEGO/TEXTH.LZW key=10 max=*
 ; We laugh at your bluffs.  Go or die!
-Мы смеемся над твоим блефом. Уходи или умри!
+Мы смеемся над вашим блефом. Уходи или умри!
 [0937] src=ENEGO/TEXTH.LZW key=11 max=*
 ; We will fight if you attack.  We are not cowards.
 Мы будем сражаться, если ты нападешь. Мы не трусы.
@@ -3098,7 +3098,7 @@ EGA не вкл.
 Простите, но мы считаем вас лжецом.
 [0953] src=ENEGO/TEXTI.LZW key=13 max=*
 ; Your bravery is proven.
-Твоя отвага доказана.
+Ваша отвага доказана.
 [0954] src=ENEGO/TEXTJ.LZW key=0 max=*
 ; The king of Cilicia will not parley with an underling.
 Царь Киликии не ведёт переговоров с подчинённым.
@@ -3146,13 +3146,13 @@ EGA не вкл.
 ДОБРО ПОЖАЛОВАТЬ В ГОРЫ, ВЕЛИКИЙ ВОИН.
 [0969] src=ENEGO/TEXTK.LZW key=2 max=*
 ; WE WILL AGREE TO THIS, AT LEAST FOR NOW.~YOU HONOR US, GREAT WARRIOR.  THE GODS WILL FAVOR THIS TREATY.~WE JOIN YOUR TRIBE IN HOPE THERE IS BOOTY TO WIN!
-МЫ СОГЛАСИМСЯ НА ЭТО, ПОКРАЙНЕЙ МЕРЕ ПОКА.~ТЫ ЧТИШЬ НАС, ВЕЛИКИЙ ВОИН.  БОГИ ОДОБРЯТ ЭТО СОГЛАШЕНИЕ.~МЫ ПРИСОЕДИНЯЕМСЯ К ТВОЕМУ ПЛЕМЕНИ В НАДЕЖДЕ НА ДОБЫЧУ!
+МЫ СОГЛАСИМСЯ НА ЭТО, ПОКРАЙНЕЙ МЕРЕ ПОКА.~ТЫ ЧТИШЬ НАС, ВЕЛИКИЙ ВОИН.  БОГИ ОДОБРЯТ ЭТО СОГЛАШЕНИЕ.~МЫ ПРИСОЕДИНЯЕМСЯ К Вашему ПЛЕМЕНИ В НАДЕЖДЕ НА ДОБЫЧУ!
 [0970] src=ENEGO/TEXTK.LZW key=3 max=*
 ; YOU ANGER ME, WARRIOR.  WOULD YOU FIGHT US?
 ТЫ ГНЕВАЕШЬ МЕНЯ, ВОИН.  ХОЧЕШЬ СРАЖАТЬСЯ С НАМИ?
 [0971] src=ENEGO/TEXTK.LZW key=4 max=*
 ; GREAT WARRIOR, YOUR WORDS HAVE BEEN HEARD.
-ВЕЛИКИЙ ВОИН, ТВОИ СЛОВА УСЛЫШАНЫ.
+ВЕЛИКИЙ ВОИН, Ваши СЛОВА УСЛЫШАНЫ.
 [0972] src=ENEGO/TEXTK.LZW key=5 max=*
 ; TRUTH IS FLEETING, GREAT WARRIOR, AND WE KNOW YOU NOT.
 ПРАВДА МИМОЛЕТНА, ВЕЛИКИЙ ВОИН, И МЫ ЗНАЕМ, ЧТО ТЫ – НЕТ.
@@ -3185,7 +3185,7 @@ EGA не вкл.
 НАМ БОЛЬШЕ НЕЧЕГО СКАЗАТЬ ТЕБЕ, ВОИН.
 [0982] src=ENEGO/TEXTL.LZW key=0 max=*
 ; THE TRIBES WILL NOT HEAR YOUR LIES.  TURN BACK OR PREPARE TO DIE.
-ПЛЕМЕНА НЕ СТАНУТ СЛУШАТЬ ТВОЮ ЛОЖЬ. УБИРАЙСЯ ИЛИ ПРИГОТОВЬСЯ УМЕРЕТЬ.
+ПЛЕМЕНА НЕ СТАНУТ СЛУШАТЬ Вашу ЛОЖЬ. УБИРАЙСЯ ИЛИ ПРИГОТОВЬСЯ УМЕРЕТЬ.
 [0983] src=ENEGO/TEXTL.LZW key=1 max=*
 ; GO HOME, ROMAN.  YOU ARE NOT WELCOME IN OUR LAND.
 ИДИ ДОМОЙ, РИМЛЯНИН.  В НАШЕЙ ЗЕМЛЕ ТЕБЕ НЕ РАДЫ.
@@ -3200,7 +3200,7 @@ EGA не вкл.
 ЭТО ЕЩЁ ПОСМОТРИМ, РИМЛЯНИН.
 [0987] src=ENEGO/TEXTL.LZW key=5 max=*
 ; YOUR WORDS HAVE NOT THE RING OF TRUTH.
-В ТВОИХ СЛОВАХ НЕТ ЗВОНА ПРАВДЫ.
+В Ваших СЛОВАХ НЕТ ЗВОНА ПРАВДЫ.
 [0988] src=ENEGO/TEXTL.LZW key=6 max=*
 ; THE TRIBES ARE STRONG.  WE HAVE NO NEED OF ROME.
 ПЛЕМЕНА СИЛЬНЫ.  МЫ НЕ НУЖДАЕМСЯ В РИМЕ.
@@ -3308,13 +3308,13 @@ EGA не вкл.
 Этого никогда не будет, Римлянин!
 [1023] src=ENEGO/TEXTO.LZW key=0 max=*
 ; Dog of Rome! We shall rip out your lying tongue!~Invader! We shall cut out your black heart!~Pig! I'll have your head on a pike at my gate!
-Собака Рима! Мы должны вырвать твой лживый язык!~Захватчик! Мы должны вырезать твое черное сердце!~Свинья! Я повешу твою голову на пику на своих воротах!
+Собака Рима! Мы должны вырвать ваш лживый язык!~Захватчик! Мы должны вырезать ваше черное сердце!~Свинья! Я повешу вашу голову на пику на своих воротах!
 [1024] src=ENEGO/TEXTO.LZW key=1 max=*
 ; You may address us, envoy.  But be brief.
 Ты можешь обратиться к нам, посланник.  Но будь краток.
 [1025] src=ENEGO/TEXTO.LZW key=2 max=*
 ; Our alliance is forged.  We are exposed on four coasts, and need your protection.~Then Hispania is Rome's ally.  May your power protect us from a host of foes.~This alliance is acceptable.  We had grown weary of Carthaginian rule.
-Наш союз распался.  Мы окружены с четырёх сторон, и нуждаемся в твоей защите.~Тогда Испания становится союзником Рима.  Пусть твоя сила защитит нас от множества врагов.~Этот союз приемлен.  Мы устали от правления Карфагена.
+Наш союз распался.  Мы окружены с четырёх сторон, и нуждаемся в вашей защите.~Тогда Испания становится союзником Рима.  Пусть ваша сила защитит нас от множества врагов.~Этот союз приемлен.  Мы устали от правления Карфагена.
 [1026] src=ENEGO/TEXTO.LZW key=3 max=*
 ; We will not suffer such thievery!
 Мы не будем страдать таким воровством!
@@ -3323,10 +3323,10 @@ EGA не вкл.
 Вымогатель! Раз уж вы так жаждете крови, будете пить собственную, когда мы пустим её!
 [1028] src=ENEGO/TEXTO.LZW key=5 max=*
 ; Your career as a diplomat has come to an end.  Leave us.
-Твоя карьера как дипломата подошла к концу.  Оставьте нас.
+Ваша карьера как дипломата подошла к концу.  Оставьте нас.
 [1029] src=ENEGO/TEXTO.LZW key=6 max=*
 ; Your diplomat's tongue turns to threats!
-Твой язык дипломата превращается в угрозы!
+Ваш язык дипломата превращается в угрозы!
 [1030] src=ENEGO/TEXTO.LZW key=7 max=*
 ; It is unwise to make such demands so far from home.  Return there or die.
 Неразумно предлагать такие требования так далеко от дома.  Вернись туда или умри.
@@ -3344,13 +3344,13 @@ EGA не вкл.
 Пробуешь себя в дипломатии? Ха! Продолжай, продолжай.
 [1035] src=ENEGO/TEXTP.LZW key=0 max=*
 ; Serpent! Your bones shall bleach in the wilderness!~Your death shall come quickly as the cold of night!~Devil! The desert shall drink deeply of your blood!
-Змея! Твои кости должны блистать в пустыне!~Твоя смерть должна быстро придти как холод в ночи!~Дьявол! Пустыня должна глубоко впитать твою кровь!
+Змея! Ваши кости должны блистать в пустыне!~Ваша смерть должна быстро придти как холод в ночи!~Дьявол! Пустыня должна глубоко впитать вашу кровь!
 [1036] src=ENEGO/TEXTP.LZW key=1 max=*
 ; Speak, but try not our patience.
 Говори, но не испытывай наше терпение.
 [1037] src=ENEGO/TEXTP.LZW key=2 max=*
 ; We accept you as an ally.  The desert vastness is full of peril, we need your protection.~So is our alliance sealed.  Your might combined with ours assures our safety.~With your strength on our side, our enemies will fear us.  We agree to this alliance.
-Мы принимаем тебя как союзника.  Пустыня полна опасностей, мы нуждаемся в твоей защите.~Итак наш союз\альянс закреплен.  Ваша мощь\сила объединенная с нами обеспечит\гарантирует нам безопасность.~С вашей силой на нашей стороне, наши враги будут бояться нас.  Мы согласны на этот союз.
+Мы принимаем тебя как союзника.  Пустыня полна опасностей, мы нуждаемся в вашей защите.~Итак наш союз\альянс закреплен.  Ваша мощь\сила объединенная с нами обеспечит\гарантирует нам безопасность.~С вашей силой на нашей стороне, наши враги будут бояться нас.  Мы согласны на этот союз.
 [1038] src=ENEGO/TEXTP.LZW key=3 max=*
 ; Extortion! We'd sooner die than pay!
 Вымогательство! Мы скорее умрём, чем заплатим!
@@ -3383,7 +3383,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Король Киреники не заключает сделок с лжецами\прислужниками.~Цари не ведут переговоров с крестьянами.~Царь ведёт переговоры с рабом? Об этом не может быть и речи!
 [1048] src=ENEGO/TEXTQ.LZW key=1 max=*
 ; What are your true goals, noble Roman?
-Каковы твои истинные цели, благородный римлянин?
+Каковы ваши истинные цели, благородный римлянин?
 [1049] src=ENEGO/TEXTQ.LZW key=2 max=*
 ; We will join you, for wolves belong in packs.~Rome lives by greed and violence.  We are meant to be allies!~If we are to swim together, Roman shark, let it be as allies.
 Мы будем верны вам как волк - стае.~Рим живет в жадности и жестокости.  Мы предназначены быть союзниками!~Если уж нам предстоит плавать вместе, римская акула, пусть мы будем союзниками.
@@ -3419,7 +3419,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Добро пожаловать, коллега разбойник.  Мы как братья.
 [1060] src=ENEGO/TEXTR.LZW key=0 max=*
 ; Foul intruder! We will paint the desert with your blood!~Your blood will seep into the desert sands ere sundown!~Swine! Vultures shall feast upon your bloated corpse!
-Грязный нарушитель! Мы раскрасим пустыню с твоей кровью!~Ваша кровь будет просматриваться в закате до песков пустыни!~нахал\Свинья! Стервятники должны насытиться твоим распухшым трупом!
+Грязный нарушитель! Мы раскрасим пустыню с вашей кровью!~Ваша кровь будет просматриваться в закате до песков пустыни!~нахал\Свинья! Стервятники должны насытиться вашим распухшым трупом!
 [1061] src=ENEGO/TEXTR.LZW key=1 max=*
 ; We will admit this envoy of Rome to our presence.  But only for a moment.
 Мы согласны принять у себя посланника Рима. Но ненадолго.
@@ -3440,7 +3440,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Ах, развлечение закончилось.  Дипломатия окончена.
 [1067] src=ENEGO/TEXTR.LZW key=7 max=*
 ; You are too weak to make such demands.  Leave Arabia, or your pitiful legion will be destroyed!
-Ты слишком слаб, чтобы предлагать\выдвигать такие требования.  Оставьте Аравию, или твои жалкие легиона будут уничтожены!
+Ты слишком слаб, чтобы предлагать\выдвигать такие требования.  Оставьте Аравию, или ваши жалкие легиона будут уничтожены!
 [1068] src=ENEGO/TEXTR.LZW key=8 max=*
 ; You take us for fools? Leave us, Roman!
 Вы принимаете нас за дураков? Оставь нас, Римлянин.
@@ -3482,10 +3482,10 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Какая бы дань удовлетворила?
 [1081] src=ENEGO/TEXTS.LZW key=9 max=*
 ; Your meagre force needs protection more than we.
-Твоё скудное войско нуждается в защите больше, чем мы.
+Ваше скудное войско нуждается в защите больше, чем мы.
 [1082] src=ENEGO/TEXTS.LZW key=10 max=*
 ; Then we grant your wish for war!
-Тогда мы удовлетворим твоё желание повоевать!
+Тогда мы удовлетворим ваше желание повоевать!
 [1083] src=ENEGO/TEXTS.LZW key=11 max=*
 ; You are not so skilled a liar as you think.
 Ты не столь искусный лжец, как думаешь.
@@ -3506,7 +3506,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Вы вымогаете как Киликия.  Приготовся к смерти!
 [1089] src=ENEGO/TEXTT.LZW key=4 max=*
 ; Your words are gracious.
-Твои слова милостливы.
+Ваши слова милостливы.
 [1090] src=ENEGO/TEXTT.LZW key=5 max=*
 ; That may be hard to achieve.  What are your ideas?
 Достичь этого может быть трудно.  Какие у вас идеи?
@@ -3515,7 +3515,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Ваши слова такие же безблагодатные, как и сирийские.  Оставьте нас!
 [1092] src=ENEGO/TEXTT.LZW key=7 max=*
 ; You are worse than a Greek! We will seal your fate in blood!
-Ты хуже грека! Мы запечатаем твою судьбу кровью!
+Ты хуже грека! Мы запечатаем вашу судьбу кровью!
 [1093] src=ENEGO/TEXTT.LZW key=8 max=*
 ; State the tribute you require.
 Назови дань, которую требуешь.
@@ -3530,10 +3530,10 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Вы лжете даже лучше парфян.
 [1097] src=ENEGO/TEXTT.LZW key=12 max=*
 ; A man does not find his death, his death finds him.  Count yourself found!~It is said a short life is a happy one.  We are glad to grant you such happiness!~Your lies sicken us.  A curse on Romans everywhere!
-Человек не находит своей смерти, своя смерть находит его.  Предлог сам нашелся! (по-моему, искажение смысла)~Говорят, короткая жизнь — счастливая.  Мы рады даровать тебе такое счастье!~~Твоя ложь прельстит нам.  Везде проклятые римляне!
+Человек не находит своей смерти, своя смерть находит его.  Предлог сам нашелся! (по-моему, искажение смысла)~Говорят, короткая жизнь — счастливая.  Мы рады даровать тебе такое счастье!~~Ваша ложь прельстит нам.  Везде проклятые римляне!
 [1098] src=ENEGO/TEXTU.LZW key=0 max=*
 ; Scabrous one! We will drive you into the sea!~Roman thief! You will sleep with the fishes!~Dog! Ravens shall peck at your eyes this day!
-Шероховатые один! Мы отвезем вас в море!~~ Римского вор! Ты будешь спать с рыбами!~Собака! Вороны заклюют твои глаза в этот день!
+Шероховатые один! Мы отвезем вас в море!~~ Римского вор! Ты будешь спать с рыбами!~Собака! Вороны заклюют ваши глаза в этот день!
 [1099] src=ENEGO/TEXTU.LZW key=1 max=*
 ; Speak, Roman, but know this audience will be brief.
 Говори, римлянин, но знай, эта аудиенция будет короткой.
@@ -3569,7 +3569,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Дипломат в одежде воина.  Удивительно! Продолжай.
 [1110] src=ENEGO/TEXTV.LZW key=0 max=*
 ; On your guard, invader.  We defy you!~We give you fair warning; go or fight!~This is no mere threat: Go or die!
-На твою гвардию, захватчик.  Мы бросаем тебе вызов!~~Мы даем вам честное предупреждение, уходить или сражаться!~Это не пустая угроза: Уходи или умри!
+На вашу гвардию, захватчик.  Мы бросаем тебе вызов!~~Мы даем вам честное предупреждение, уходить или сражаться!~Это не пустая угроза: Уходи или умри!
 [1111] src=ENEGO/TEXTV.LZW key=1 max=*
 ; Speak, Roman, but be brief.
 Говори, римлянин, но будь краток.
@@ -3584,10 +3584,10 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Делает ли Рим различие между друзьями и рабами?.  (фразу, по-моему, нужно перестроить иначе)
 [1115] src=ENEGO/TEXTV.LZW key=5 max=*
 ; Never.  The badge of your ally is a slave's yoke.
-Никогда.  Знак твоего союзника - ярлык раба.
+Никогда.  Знак вашего союзника - ярлык раба.
 [1116] src=ENEGO/TEXTV.LZW key=6 max=*
 ; Your words are luster without substance.  Be gone!
-Твои слова - блеск без сущности.  Уходите!
+Ваши слова - блеск без сущности.  Уходите!
 [1117] src=ENEGO/TEXTV.LZW key=7 max=*
 ; What you say rings true.  What tribute would be adequate?
 То что ты говоришь, звучит правдоподобно.  Какая дань была бы адекватной?
@@ -3599,7 +3599,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Ласковые слова! Просто скажи, что ты хочешь.
 [1120] src=ENEGO/TEXTV.LZW key=10 max=*
 ; We spit at your bluster! Can you fight as well as you talk?
-Мы плюём на твою браваду! Сражаешься ли ты так же хорошо, как говоришь?
+Мы плюём на вашу браваду! Сражаешься ли ты так же хорошо, как говоришь?
 [1121] src=ENEGO/TEXTV.LZW key=11 max=*
 ; Do Romans think they alone know the arts of war?
 Римляне думают, что они одни знают искусство войны?
@@ -3608,7 +3608,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Римляне всегда так лгут?
 [1123] src=ENEGO/TEXTV.LZW key=13 max=*
 ; We honor your valor.
-Мы чтим твою доблесть.
+Мы чтим вашу доблесть.
 [1124] src=ENEGO/TEXTW.LZW key=0 max=*
 ; Away with you, outlander, unless you crave death.~Leave, interloper! Quit our lands or fight.~Leave our island, wretch, or meet your fate.
 Долой тебя, Иноземец, если вы жаждете смерти.~~ Уйди, нарушитель! Выйди из наших земель или сражайся.~Оставь наш остров, негодяй, или встреть свою судьбу.
@@ -3629,10 +3629,10 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Союз с вами? Говорят, союзник Рима на заре — его раб к сумеркам.
 [1130] src=ENEGO/TEXTW.LZW key=6 max=*
 ; You, a diplomat? Most odd for your breed.
-Ты — дипломат? Странно для твоей породы.
+Ты — дипломат? Странно для вашей породы.
 [1131] src=ENEGO/TEXTW.LZW key=7 max=*
 ; Your lies betray you.  Slay them, Britons!
-Твоя ложь предала тебя.  Убейте их, британцы!
+Ваша ложь предала тебя.  Убейте их, британцы!
 [1132] src=ENEGO/TEXTW.LZW key=8 max=*
 ; Speech is fleeting as dew.  A battle can endure longer than a man's promise.
 Речь мимолетна, как роса.  Битва может длиться дольше, чем обещание человека.
@@ -3644,7 +3644,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Защита? От кого? Защити СЕБЯ, римлянин!
 [1135] src=ENEGO/TEXTW.LZW key=11 max=*
 ; Enough! The council ends, the battle begins.  It is the only way we know.~Old lies freshly told.  Retreat or fight!~We wait no longer.  Your silence insults us, your death is at hand!
-Хватит! Совещание заканчивается, начинается битва.  Это единственный способ, который мы знаем.~~ Старая ложь, только что сказанная.  Отступи или сражайся!~~Мы больше не ждем.  Твое молчание оскорбляет нас, твоя смерть не за горами!
+Хватит! Совещание заканчивается, начинается битва.  Это единственный способ, который мы знаем.~~ Старая ложь, только что сказанная.  Отступи или сражайся!~~Мы больше не ждем.  Ваше молчание оскорбляет нас, ваша смерть не за горами!
 [1136] src=ENEGO/TEXTW.LZW key=12 max=*
 ; What tribute would suffice?
 Какой хватило бы дани?
@@ -3653,7 +3653,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Я НЕ ГОВОРЮ С ЧЕЛОВЕКОМ С ЮГА!
 [1138] src=ENEGO/TEXTX.LZW key=1 max=*
 ; YOU TRIBE WEAR CLOTHES.  NOT RIGHT!~TRIBE FROM SOUTH WANT TALK?~ATTACK HERE YOU TRIBE NOT SMART!
-ТВОЁ ПЛЕМЯ НОСИТ ОДЕЖДУ.  НЕ ПРАВДА!~~ Племя С ЮГА ХОЧЕТ ПОГОВОРИТЬ?~АТАКОВАТЬ ЗДЕСЬ ВАШЕ ПЛЕМЯ НЕ УМНО!
+Ваше ПЛЕМЯ НОСИТ ОДЕЖДУ.  НЕ ПРАВДА!~~ Племя С ЮГА ХОЧЕТ ПОГОВОРИТЬ?~АТАКОВАТЬ ЗДЕСЬ ВАШЕ ПЛЕМЯ НЕ УМНО!
 [1139] src=ENEGO/TEXTX.LZW key=2 max=*
 ; 
 
@@ -3731,7 +3731,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 В Сарматии нет места для римлян.  Ты должен уйти.
 [1164] src=ENEGO/TEXTZ.LZW key=1 max=*
 ; Rome sends a great warrior.  We have heard of you.~A great general arrives! Your fame precedes you.~Others have told us you would come.  They also told us what you would want.
-Рим послал великого война.  Мы слышали о тебе.~~ Прибыл великий полководец! Твоя слава обгоняет тебя.~~ Другие говорили нам, что ты придешь.  Они также сказали нам, что ты хотел.
+Рим послал великого война.  Мы слышали о тебе.~~ Прибыл великий полководец! Ваша слава обгоняет тебя.~~ Другие говорили нам, что ты придешь.  Они также сказали нам, что ты хотел.
 [1165] src=ENEGO/TEXTZ.LZW key=2 max=*
 ; 
 
@@ -3743,7 +3743,7 @@ Honorless гадюка! Ясно, что ты хочешь нас нас зав�
 Между нами здесь не может быть мира.
 [1168] src=ENEGO/TEXTZ.LZW key=5 max=*
 ; We are not stupid.  Your weakness is apparent.
-Мы не глупы.  Твоя слабость очевидна ..
+Мы не глупы.  Ваша слабость очевидна ..
 [1169] src=ENEGO/TEXTZ.LZW key=6 max=*
 ; No, friend.  There will be no surrender.
 Нет, друг.  Здесь не будут сдаваться.
