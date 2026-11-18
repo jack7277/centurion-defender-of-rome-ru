@@ -23,3 +23,8 @@ __pycache__/
 .centurion_translate_thread/
 centurion_translate_thread/
 analysis/merge_base_report.txt
+
+# Мануал: сканы и результат не коммитим (копирайт EA)
+manual/assets/
+manual/toc_pages.json
+Centurion_manual_RU.docx
