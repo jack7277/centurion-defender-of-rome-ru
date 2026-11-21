@@ -3268,7 +3268,7 @@ EGA не вкл.
 ; What tribute do you require?
 Какую дань вы требуете?
 [1010] src=ENEGO/TEXTN.LZW key=0 max=*
-; We won't deal with women.  Go bid your menfolk farewell.~They send a eunuch to parlay with warriors.  Prepare to die!~Pray you're a better man than you appear.  Now we attack!
+Мы не ведём дел с женщинами.  Попрощайтесь со своими мужчинами.~К воинам прислали евнуха для переговоров.  Готовьтесь к смерти!~Молитесь, чтобы вы оказались лучше, чем кажетесь.  Теперь мы атакуем!
 мы не можем договорится с женщиной  Идут прощальные ставки на вашего menfolk. (непонятно значение).~они прислали евнуха поговорить с воинами.  Приготовся к смерти!~Молюсь вы лучший человек чем вам кажется.  Теперь атакуем мы!
 [1011] src=ENEGO/TEXTN.LZW key=1 max=*
 ; Hail, Roman.  You desire a meeting before you die?
@@ -3356,7 +3356,7 @@ EGA не вкл.
 Вымогательство! Мы скорее умрём, чем заплатим!
 [1039] src=ENEGO/TEXTP.LZW key=4 max=*
 ; Honorless viper! Your yen to conquer us is plain.  Attack when ye will!
-Honorless гадюка! Ясно, что вы хочете нас нас завоевать.  Атакуйте когда будете!
+Бесчестная гадюка! Ваше желание завоевать нас очевидно.  Атакуйте, когда пожелаете!
 [1040] src=ENEGO/TEXTP.LZW key=5 max=*
 ; There is too much virtue in this tent for your seductions to work.  Be gone.
 В этом шатре слишком много достойных, чтобы согласиться работать на вас.  Проваливайте.
@@ -3470,7 +3470,7 @@ Honorless гадюка! Ясно, что вы хочете нас нас зав�
 Наша честь вам, Римлянин.
 [1077] src=ENEGO/TEXTS.LZW key=5 max=*
 ; I see problems with this.  What course do you suggest?
-Я вижу проблемы с этим.  Какой курс вы предлагаете? (главное в этой фразе - понять значение слова course)
+Я вижу здесь проблемы.  Что вы предлагаете?
 [1078] src=ENEGO/TEXTS.LZW key=6 max=*
 ; You are insolent.  Take your barbaric rabble and go!
 Наглец.  Возьмите свой варварский сброд и уходите!
